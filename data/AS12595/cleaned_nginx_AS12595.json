@@ -1,0 +1,258 @@
+[
+  {
+    "ip": "188.116.45.41",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.101",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.173",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "188.116.45.140",
+    "nginx_version": "nginx/1.14.1"
+  },
+  {
+    "ip": "185.133.88.168",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.80",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.207",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.156",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.124",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.94",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.104",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.7",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.233",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.242",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "188.116.45.104",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.34",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.218",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "188.116.45.102",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "188.116.45.103",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.201",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.252",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.28",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.44",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.214",
+    "nginx_version": "nginx/1.26.2"
+  },
+  {
+    "ip": "185.133.88.65",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.4",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.33",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.163",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.200",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.89",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.68",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.219",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.217",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.39",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.32",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.141",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.18",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "91.216.34.40",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.134",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.147",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.21",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.13",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.180",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "188.116.45.116",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.27",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.8",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.75",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.221",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.139",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.172",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.199",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.96",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.251",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "188.116.45.43",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.126",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.153",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.143",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.38",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.117.226.201",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.203",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.25",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.11",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "91.216.34.13",
+    "nginx_version": "nginx"
+  },
+  {
+    "ip": "185.133.88.150",
+    "nginx_version": "nginx"
+  }
+]

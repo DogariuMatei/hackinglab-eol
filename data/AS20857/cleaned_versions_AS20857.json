@@ -1,0 +1,308 @@
+[
+  {
+    "server": "Microsoft-HTTPAPI/2.0"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/7.2.10"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "Microsoft-IIS/10.0"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Microsoft-HTTPAPI/2.0"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "Apache/2.4.55 (Ubuntu)"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache/2.4.7 (Ubuntu)"
+  },
+  {
+    "server": "Apache/2.4.63 (Ubuntu)"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache/2.2.22 (Debian)"
+  },
+  {
+    "server": "Microsoft-IIS/10.0"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Caddy"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache/2.4.41 (Ubuntu)"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "nginx/1.20.1"
+  },
+  {
+    "server": "Apache/2.4.52 (Ubuntu)"
+  },
+  {
+    "server": "Microsoft-IIS/10.0"
+  },
+  {
+    "server": "Apache/2.4.52 (Ubuntu)"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "nginx/1.16.1"
+  },
+  {
+    "server": "Microsoft-IIS/10.0"
+  },
+  {
+    "server": "Apache/2.4.7 (Ubuntu)"
+  },
+  {
+    "server": "nginx/1.18.0"
+  },
+  {
+    "server": "Apache/2.4.6"
+  },
+  {
+    "server": "Apache/2.4.58 (Ubuntu)"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "Microsoft-HTTPAPI/2.0"
+  },
+  {
+    "server": "nginx/1.17.6"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Microsoft-HTTPAPI/2.0"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "nginx/1.18.0 (Ubuntu)"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "Apache/2.4.57 (Debian)"
+  },
+  {
+    "server": "Microsoft-IIS/10.0"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "Apache/2.4.7 (Ubuntu)"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "Apache/2.4.58"
+  },
+  {
+    "server": "Apache/2.4.52 (Ubuntu)"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "Apache/2.4.41 (Ubuntu)"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "nginx/1.18.0 (Ubuntu)"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "Apache/2.4.29 (Ubuntu)"
+  },
+  {
+    "server": "Apache/2.4.63 (Ubuntu)"
+  },
+  {
+    "server": "nginx/1.10.3 (Ubuntu)"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "Apache/2.4.29 (Ubuntu)"
+  },
+  {
+    "server": "Caddy"
+  },
+  {
+    "server": "Apache/2.4.62 (Ubuntu)"
+  },
+  {
+    "server": "Apache/2.4.37 (AlmaLinux) OpenSSL/1.1.1k"
+  },
+  {
+    "server": "nginx/1.20.1"
+  },
+  {
+    "server": ""
+  },
+  {
+    "server": "Apache/2"
+  },
+  {
+    "server": "Apache"
+  },
+  {
+    "server": "nginx"
+  },
+  {
+    "server": "Apache/2.4.29 (Ubuntu)"
+  },
+  {
+    "server": "LinQhost HPW"
+  }
+]

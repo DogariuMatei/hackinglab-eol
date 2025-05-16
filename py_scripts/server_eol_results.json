@@ -1,0 +1,72 @@
+[
+  {
+    "server": "nginx",
+    "version": "1.20",
+    "is_eol": true,
+    "eol_from": "2022-05-24",
+    "status": "EOL: True, EOL Date: 2022-05-24"
+  },
+  {
+    "server": "apache-http-server",
+    "version": "2.4",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "server": "apache-http-server",
+    "version": "2.2",
+    "is_eol": true,
+    "eol_from": "2017-07-11",
+    "status": "EOL: True, EOL Date: 2017-07-11"
+  },
+  {
+    "server": "nginx",
+    "version": "1.16",
+    "is_eol": true,
+    "eol_from": "2020-04-20",
+    "status": "EOL: True, EOL Date: 2020-04-20"
+  },
+  {
+    "server": "Microsoft-HTTPAPI",
+    "version": "2.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "Error: FAILED: 404"
+  },
+  {
+    "server": "nginx",
+    "version": "1.17",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "Error: FAILED: 404"
+  },
+  {
+    "server": "apache-http-server",
+    "version": "2",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "Error: FAILED: 404"
+  },
+  {
+    "server": "nginx",
+    "version": "1.18",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "server": "nginx",
+    "version": "1.10",
+    "is_eol": true,
+    "eol_from": "2017-04-12",
+    "status": "EOL: True, EOL Date: 2017-04-12"
+  },
+  {
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "Error: FAILED: 404"
+  }
+]
