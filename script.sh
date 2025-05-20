@@ -1,14 +1,9 @@
 
-sudo zmap -p 80 -o "zmap_output.csv" -r 1024 -w TRANSIP-IPs.txt
+sudo zmap -p 80 -o "zmap_output.csv" -r 128 -w zgrab_targets.csv
 
+# i canot get this damn zgrab to be callable from anywhere on my machine => you all have to suffer bc of my incompetence
 
-cat /home/doga/Desktop/HackingLab/Proj/output.csv | ./zgrab2 http --user-agent "Mozilla/5.0" --endpoint "/" --output-file /home/doga/Desktop/HackingLab/Proj/zgrab_results.json
-
-cat results.json | jq '[select(.data.http.status == "success")
-| select(.data.http.result.response.headers.server != null)
-| select(.data.http.result.response.headers.server[]
-| ascii_downcase | contains("oracle"))
-| {ip: .ip, oracle_version: .data.http.result.response.headers.server[]}]' | jq -s 'flatten | map(select(. != null))' > clean_versions.json
+cat /home/doga/Desktop/HackingLab/hackinglab-eol/zgrab_targets.csv | ./zgrab2 http --user-agent "Mozilla/5.0" --endpoint "/" --output-file /home/doga/Desktop/HackingLab/hackinglab-eol/zgrab_results.json
 
 
 cat results.json | jq -c 'select(.data.http.result.response.headers.server != null and .data.http.result.response.headers.server[0] != null)
