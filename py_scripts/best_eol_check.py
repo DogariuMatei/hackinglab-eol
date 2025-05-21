@@ -89,12 +89,11 @@ def process_json_file(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
+    total_eol_hosts = 0
     successful_results: list[dict] = []
     failed_results: list[dict] = []
-    i = 0
+    print("Processing please stand by... \n\n")
     for entry in data:
-        print(f"{i}")
-        i = i+1
         server_string = entry.get("server", "")
         ip           = entry.get("ip", "")
 
@@ -121,7 +120,6 @@ def process_json_file(file_path):
             }
 
             if api_result.get("success"):
-                # full data from the API
                 record.update(
                     is_eol   = api_result.get("isEol"),
                     eol_from = api_result.get("eolFrom"),
@@ -129,6 +127,8 @@ def process_json_file(file_path):
                                f"EOL Date: {api_result.get('eolFrom') or 'N/A'}",
                 )
                 successful_results.append(record)
+                if api_result.get("isEol"):
+                    total_eol_hosts += 1
             else:
                 # mirror the same keys, but flag the error
                 record.update(
@@ -144,27 +144,28 @@ def process_json_file(file_path):
     failed_results.sort(key=lambda x: (x["api_name"].lower(),
                                        x["version"], x["ip"]))
 
-    return successful_results, failed_results
+    return successful_results, failed_results, total_eol_hosts
 
 
 def main():
     # Input file path
-    file_path = '../data_matei/clean_versions_for_konstantin_zgrab_targets.json'
-    print("test0")
-    # Process file and get results with EOL information
-    successful_results, failed_results = process_json_file(file_path)
-    print("test1")
+    file_path = '../data_matei/clean_versions_for_transip.json'
+
+
+    successful_results, failed_results, number_eol_hosts = process_json_file(file_path)
+
     # Save results to separate files
-    success_file = "../data_matei/TEST-server_eol_success_for_konstantin_zgrab_targets.json"
+    success_file = "../data_matei/server_eol_success_for_transip.json"
     with open(success_file, 'w', encoding='utf-8') as f:
         json.dump(successful_results, f, indent=2)
 
-    failure_file = "../data_matei/TEST-server_eol_failure_for_konstantin_zgrab_targets.json"
+    failure_file = "../data_matei/server_eol_failure_for_transip.json"
     with open(failure_file, 'w', encoding='utf-8') as f:
         json.dump(failed_results, f, indent=2)
 
     print(f"\nSuccessful EOL checks: {len(successful_results)}")
     print(f"Failed EOL checks: {len(failed_results)} unique server name/version pairs")
+    print(f"Total EOL hosts: {number_eol_hosts}")
 
 
 if __name__ == "__main__":
