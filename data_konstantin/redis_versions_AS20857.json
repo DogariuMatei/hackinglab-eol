@@ -1,0 +1,242 @@
+[
+  {
+    "ip": "136.144.165.234",
+    "version": "Redis Error: Timeout reading from socket"
+  },
+  {
+    "ip": "87.253.137.69",
+    "version": "Redis Error: DENIED Redis is running in protected mode because protected mode is enabled and no password is set for the default user. In this mode connections are only accepted from the loopback interface. If you want to connect from external computers to Redis you may adopt one of the following solutions: 1) Just disable protected mode sending the command 'CONFIG SET protected-mode no' from the loopback interface by connecting to Redis from the same host the server is running, however MAKE SURE Redis is not publicly accessible from internet if you do so. Use CONFIG REWRITE to make this change permanent. 2) Alternatively you can just disable the protected mode by editing the Redis configuration file, and setting the protected mode option to 'no', and then restarting the server. 3) If you started the server manually just for testing, restart it with the '--protected-mode no' option. 4) Setup a an authentication password for the default user. NOTE: You only need to do one of the above things in order for the server to start accepting connections from the outside."
+  },
+  {
+    "ip": "37.97.133.198",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "37.97.162.102",
+    "version": "Redis Error: DENIED Redis is running in protected mode because protected mode is enabled and no password is set for the default user. In this mode connections are only accepted from the loopback interface. If you want to connect from external computers to Redis you may adopt one of the following solutions: 1) Just disable protected mode sending the command 'CONFIG SET protected-mode no' from the loopback interface by connecting to Redis from the same host the server is running, however MAKE SURE Redis is not publicly accessible from internet if you do so. Use CONFIG REWRITE to make this change permanent. 2) Alternatively you can just disable the protected mode by editing the Redis configuration file, and setting the protected mode option to 'no', and then restarting the server. 3) If you started the server manually just for testing, restart it with the '--protected-mode no' option. 4) Setup a an authentication password for the default user. NOTE: You only need to do one of the above things in order for the server to start accepting connections from the outside."
+  },
+  {
+    "ip": "37.97.131.224",
+    "version": "Redis 7.4.2"
+  },
+  {
+    "ip": "136.144.160.213",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "136.144.169.44",
+    "version": "Redis 7.0.15"
+  },
+  {
+    "ip": "37.97.146.89",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "85.10.128.240",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "136.144.183.84",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "85.10.147.145",
+    "version": "Redis 6.0.16"
+  },
+  {
+    "ip": "84.247.11.189",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "149.210.249.100",
+    "version": "Redis Error: DENIED Redis is running in protected mode because protected mode is enabled, no bind address was specified, no authentication password is requested to clients. In this mode connections are only accepted from the loopback interface. If you want to connect from external computers to Redis you may adopt one of the following solutions: 1) Just disable protected mode sending the command 'CONFIG SET protected-mode no' from the loopback interface by connecting to Redis from the same host the server is running, however MAKE SURE Redis is not publicly accessible from internet if you do so. Use CONFIG REWRITE to make this change permanent. 2) Alternatively you can just disable the protected mode by editing the Redis configuration file, and setting the protected mode option to 'no', and then restarting the server. 3) If you started the server manually just for testing, restart it with the '--protected-mode no' option. 4) Setup a bind address or an authentication password. NOTE: You only need to do one of the above things in order for the server to start accepting connections from the outside."
+  },
+  {
+    "ip": "37.97.162.182",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "136.144.238.234",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "87.253.137.68",
+    "version": "Redis Error: DENIED Redis is running in protected mode because protected mode is enabled and no password is set for the default user. In this mode connections are only accepted from the loopback interface. If you want to connect from external computers to Redis you may adopt one of the following solutions: 1) Just disable protected mode sending the command 'CONFIG SET protected-mode no' from the loopback interface by connecting to Redis from the same host the server is running, however MAKE SURE Redis is not publicly accessible from internet if you do so. Use CONFIG REWRITE to make this change permanent. 2) Alternatively you can just disable the protected mode by editing the Redis configuration file, and setting the protected mode option to 'no', and then restarting the server. 3) If you started the server manually just for testing, restart it with the '--protected-mode no' option. 4) Setup a an authentication password for the default user. NOTE: You only need to do one of the above things in order for the server to start accepting connections from the outside."
+  },
+  {
+    "ip": "136.144.212.223",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "37.97.150.20",
+    "version": "Redis 6.0.10"
+  },
+  {
+    "ip": "136.144.230.109",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "136.144.185.126",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "136.144.142.109",
+    "version": "Redis 7.4.0"
+  },
+  {
+    "ip": "37.97.228.179",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "37.97.202.114",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "37.97.245.142",
+    "version": "Redis Error: DENIED Redis is running in protected mode because protected mode is enabled and no password is set for the default user. In this mode connections are only accepted from the loopback interface. If you want to connect from external computers to Redis you may adopt one of the following solutions: 1) Just disable protected mode sending the command 'CONFIG SET protected-mode no' from the loopback interface by connecting to Redis from the same host the server is running, however MAKE SURE Redis is not publicly accessible from internet if you do so. Use CONFIG REWRITE to make this change permanent. 2) Alternatively you can just disable the protected mode by editing the Redis configuration file, and setting the protected mode option to 'no', and then restarting the server. 3) If you started the server manually just for testing, restart it with the '--protected-mode no' option. 4) Set up an authentication password for the default user. NOTE: You only need to do one of the above things in order for the server to start accepting connections from the outside."
+  },
+  {
+    "ip": "149.210.174.249",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "136.144.249.58",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "93.119.7.8",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "136.144.245.158",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "136.144.160.203",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "37.97.136.4",
+    "version": "Redis 7.4.1"
+  },
+  {
+    "ip": "149.210.154.59",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "141.138.141.234",
+    "version": "Redis 6.0.16"
+  },
+  {
+    "ip": "37.34.56.196",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "31.14.97.249",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "37.97.226.116",
+    "version": "Redis 7.4.2"
+  },
+  {
+    "ip": "136.144.236.165",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "136.144.202.14",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "136.144.175.17",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "136.144.254.234",
+    "version": "Redis 7.4.0"
+  },
+  {
+    "ip": "149.210.191.208",
+    "version": "Redis 5.0.3"
+  },
+  {
+    "ip": "85.10.130.248",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "37.97.231.152",
+    "version": "Redis 7.2.2"
+  },
+  {
+    "ip": "136.144.163.122",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "37.97.176.173",
+    "version": "Redis 7.4.1"
+  },
+  {
+    "ip": "149.210.169.189",
+    "version": "Redis 4.0.9"
+  },
+  {
+    "ip": "37.97.190.41",
+    "version": "Redis Error: Error while reading from socket: (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)"
+  },
+  {
+    "ip": "85.10.153.73",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "93.119.15.97",
+    "version": "Redis Error: DENIED Redis is running in protected mode because protected mode is enabled and no password is set for the default user. In this mode connections are only accepted from the loopback interface. If you want to connect from external computers to Redis you may adopt one of the following solutions: 1) Just disable protected mode sending the command 'CONFIG SET protected-mode no' from the loopback interface by connecting to Redis from the same host the server is running, however MAKE SURE Redis is not publicly accessible from internet if you do so. Use CONFIG REWRITE to make this change permanent. 2) Alternatively you can just disable the protected mode by editing the Redis configuration file, and setting the protected mode option to 'no', and then restarting the server. 3) If you started the server manually just for testing, restart it with the '--protected-mode no' option. 4) Set up an authentication password for the default user. NOTE: You only need to do one of the above things in order for the server to start accepting connections from the outside."
+  },
+  {
+    "ip": "85.10.145.155",
+    "version": "Redis 7.0.11"
+  },
+  {
+    "ip": "37.34.63.254",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "37.97.173.41",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "93.119.1.121",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "157.97.171.21",
+    "version": "Redis Error: Timeout connecting to server"
+  },
+  {
+    "ip": "85.10.153.44",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "136.144.129.34",
+    "version": "Redis 8.0.1"
+  },
+  {
+    "ip": "93.119.0.53",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "37.97.205.213",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "37.97.206.251",
+    "version": "Redis Error: Authentication required."
+  },
+  {
+    "ip": "149.210.215.177",
+    "version": "Redis 6.0.16"
+  },
+  {
+    "ip": "37.97.144.54",
+    "version": "Redis Error: Authentication required."
+  }
+]
