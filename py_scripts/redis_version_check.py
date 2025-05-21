@@ -17,15 +17,13 @@ def get_redis_version(ip, port=6379, timeout=3):
         return f"Error: {str(e)}"
 
 
-# Read IPs from CSV and collect results
 results = []
 with open('output_AS20857_redis.csv', 'r') as file:
     reader = csv.reader(file)
     for row in reader:
-        ip = row[0]  # Assuming IP is in the first column
+        ip = row[0]
         version = get_redis_version(ip)
 
-        # Create entry in the requested format
         entry = {
             "ip": ip,
             "version": f"Redis {version}"
@@ -34,7 +32,6 @@ with open('output_AS20857_redis.csv', 'r') as file:
         results.append(entry)
         print(f"Checked {ip}: Redis {version}")
 
-# Save results to JSON file
 output_filename = "redis_versions_AS20857.json"
 with open(output_filename, 'w') as json_file:
     json.dump(results, json_file, indent=2)
