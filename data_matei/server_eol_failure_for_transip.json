@@ -1,0 +1,126 @@
+[
+  {
+    "server_name": "Apache-Coyote",
+    "version": "1.1"
+  },
+  {
+    "server_name": "IceWarp",
+    "version": "14.1"
+  },
+  {
+    "server_name": "LightTPD",
+    "version": "1.4"
+  },
+  {
+    "server_name": "MiBida_Portal_Server",
+    "version": "1.0"
+  },
+  {
+    "server_name": "MistServer",
+    "version": "3.0"
+  },
+  {
+    "server_name": "NSS",
+    "version": "3.28"
+  },
+  {
+    "server_name": "SVN",
+    "version": "1.10"
+  },
+  {
+    "server_name": "h2o",
+    "version": "2.3"
+  },
+  {
+    "server_name": "lighttpd",
+    "version": "1.4"
+  },
+  {
+    "server_name": "mod_auth_gssapi",
+    "version": "1.5"
+  },
+  {
+    "server_name": "mod_auth_kerb",
+    "version": "5.4"
+  },
+  {
+    "server_name": "mod_bwlimited",
+    "version": "1.4"
+  },
+  {
+    "server_name": "mod_fcgid",
+    "version": "2.3"
+  },
+  {
+    "server_name": "mod_nss",
+    "version": "1.0"
+  },
+  {
+    "server_name": "mod_perl",
+    "version": "2.0"
+  },
+  {
+    "server_name": "mod_wsgi",
+    "version": "3.4"
+  },
+  {
+    "server_name": "mod_wsgi",
+    "version": "4.5"
+  },
+  {
+    "server_name": "nginx",
+    "version": "1.13"
+  },
+  {
+    "server_name": "nginx",
+    "version": "1.15"
+  },
+  {
+    "server_name": "nginx",
+    "version": "1.17"
+  },
+  {
+    "server_name": "openssl",
+    "version": "2.2.27"
+  },
+  {
+    "server_name": "openssl",
+    "version": "3.0.16"
+  },
+  {
+    "server_name": "openssl",
+    "version": "3.0.9"
+  },
+  {
+    "server_name": "openssl",
+    "version": "3.1.5"
+  },
+  {
+    "server_name": "openssl",
+    "version": "3.2.2"
+  },
+  {
+    "server_name": "openssl",
+    "version": "3.5.0"
+  },
+  {
+    "server_name": "php",
+    "version": "4.3"
+  },
+  {
+    "server_name": "windows-server",
+    "version": "10.0"
+  },
+  {
+    "server_name": "windows-server",
+    "version": "2.0"
+  },
+  {
+    "server_name": "windows-server",
+    "version": "7.5"
+  },
+  {
+    "server_name": "windows-server",
+    "version": "8.5"
+  }
+]
