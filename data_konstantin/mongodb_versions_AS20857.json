@@ -1,0 +1,298 @@
+[
+  {
+    "ip": "149.210.136.183",
+    "version": "Error: Server at 149.210.136.183:27017 reports wire version 0, but this version of PyMongo requires at least 6 (MongoDB 3.6)."
+  },
+  {
+    "ip": "141.138.142.234",
+    "version": "4.4.10"
+  },
+  {
+    "ip": "84.247.11.67",
+    "version": "8.0.9"
+  },
+  {
+    "ip": "37.97.238.160",
+    "version": "Error: Server at 37.97.238.160:27017 reports wire version 5, but this version of PyMongo requires at least 6 (MongoDB 3.6)."
+  },
+  {
+    "ip": "136.144.175.225",
+    "version": "4.2.23"
+  },
+  {
+    "ip": "37.97.206.164",
+    "version": "4.4.29"
+  },
+  {
+    "ip": "136.144.156.100",
+    "version": "4.4.23"
+  },
+  {
+    "ip": "80.69.89.232",
+    "version": "Error: 80.69.89.232:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.0s, Topology Description: <TopologyDescription id: 682da5dc25da72076470cea0, topology_type: Unknown, servers: [<ServerDescription ('80.69.89.232', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('80.69.89.232:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>"
+  },
+  {
+    "ip": "185.108.112.103",
+    "version": "6.0.20"
+  },
+  {
+    "ip": "37.97.225.190",
+    "version": "4.2.1"
+  },
+  {
+    "ip": "136.144.189.153",
+    "version": "4.4.8"
+  },
+  {
+    "ip": "136.144.203.164",
+    "version": "Error: there are no users authenticated, full error: {'ok': 0.0, 'errmsg': 'there are no users authenticated', 'code': 13, 'codeName': 'Unauthorized'}"
+  },
+  {
+    "ip": "37.34.57.90",
+    "version": "4.4.1"
+  },
+  {
+    "ip": "136.144.160.43",
+    "version": "Error: 136.144.160.43:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.0s, Topology Description: <TopologyDescription id: 682da5df25da72076470cea6, topology_type: Unknown, servers: [<ServerDescription ('136.144.160.43', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('136.144.160.43:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>"
+  },
+  {
+    "ip": "37.97.214.106",
+    "version": "6.0.6"
+  },
+  {
+    "ip": "136.144.158.165",
+    "version": "8.0.4"
+  },
+  {
+    "ip": "37.97.158.74",
+    "version": "6.0.7"
+  },
+  {
+    "ip": "37.97.227.227",
+    "version": "Error: Server at 37.97.227.227:27017 reports wire version 5, but this version of PyMongo requires at least 6 (MongoDB 3.6)."
+  },
+  {
+    "ip": "37.34.63.121",
+    "version": "7.0.12"
+  },
+  {
+    "ip": "136.144.189.134",
+    "version": "8.0.4"
+  },
+  {
+    "ip": "85.10.155.114",
+    "version": "4.4.6"
+  },
+  {
+    "ip": "136.144.249.217",
+    "version": "Error: 136.144.249.217:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.0s, Topology Description: <TopologyDescription id: 682da5e225da72076470ceae, topology_type: Unknown, servers: [<ServerDescription ('136.144.249.217', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('136.144.249.217:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>"
+  },
+  {
+    "ip": "37.34.56.196",
+    "version": "4.2.8"
+  },
+  {
+    "ip": "85.10.136.136",
+    "version": "4.4.19"
+  },
+  {
+    "ip": "136.144.206.55",
+    "version": "4.0.28"
+  },
+  {
+    "ip": "149.210.166.177",
+    "version": "Error: Server at 149.210.166.177:27017 reports wire version 0, but this version of PyMongo requires at least 6 (MongoDB 3.6)."
+  },
+  {
+    "ip": "141.138.138.174",
+    "version": "Error: 141.138.138.174:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.0s, Topology Description: <TopologyDescription id: 682da5e525da72076470ceb3, topology_type: Unknown, servers: [<ServerDescription ('141.138.138.174', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('141.138.138.174:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>"
+  },
+  {
+    "ip": "149.210.250.236",
+    "version": "4.2.17"
+  },
+  {
+    "ip": "95.170.68.26",
+    "version": "4.4.13"
+  },
+  {
+    "ip": "136.144.247.77",
+    "version": "7.0.2"
+  },
+  {
+    "ip": "37.34.59.200",
+    "version": "Error: Server at 37.34.59.200:27017 reports wire version 0, but this version of PyMongo requires at least 6 (MongoDB 3.6)."
+  },
+  {
+    "ip": "136.144.247.251",
+    "version": "4.4.15"
+  },
+  {
+    "ip": "136.144.146.226",
+    "version": "4.4.29"
+  },
+  {
+    "ip": "136.144.238.24",
+    "version": "4.2.8"
+  },
+  {
+    "ip": "37.97.220.98",
+    "version": "4.4.5"
+  },
+  {
+    "ip": "136.144.250.159",
+    "version": "4.4.8"
+  },
+  {
+    "ip": "136.144.239.159",
+    "version": "8.0.5"
+  },
+  {
+    "ip": "31.14.97.156",
+    "version": "Error: 31.14.97.156:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.0s, Topology Description: <TopologyDescription id: 682da5e825da72076470cebe, topology_type: Unknown, servers: [<ServerDescription ('31.14.97.156', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('31.14.97.156:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>"
+  },
+  {
+    "ip": "85.10.149.169",
+    "version": "4.4.28"
+  },
+  {
+    "ip": "93.119.3.132",
+    "version": "7.0.16"
+  },
+  {
+    "ip": "37.97.136.4",
+    "version": "8.0.4"
+  },
+  {
+    "ip": "136.144.237.64",
+    "version": "8.0.3"
+  },
+  {
+    "ip": "149.210.131.193",
+    "version": "Error: Server at 149.210.131.193:27017 reports wire version 3, but this version of PyMongo requires at least 6 (MongoDB 3.6)."
+  },
+  {
+    "ip": "136.144.129.128",
+    "version": "8.0.3"
+  },
+  {
+    "ip": "136.144.209.152",
+    "version": "7.0.4"
+  },
+  {
+    "ip": "136.144.222.244",
+    "version": "4.4.19"
+  },
+  {
+    "ip": "93.119.11.86",
+    "version": "Error: 93.119.11.86:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.0s, Topology Description: <TopologyDescription id: 682da5eb25da72076470cec7, topology_type: Unknown, servers: [<ServerDescription ('93.119.11.86', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('93.119.11.86:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>"
+  },
+  {
+    "ip": "136.144.159.14",
+    "version": "8.0.4"
+  },
+  {
+    "ip": "37.97.132.240",
+    "version": "7.0.20"
+  },
+  {
+    "ip": "149.210.200.55",
+    "version": "4.0.12"
+  },
+  {
+    "ip": "85.10.143.158",
+    "version": "Error: 85.10.143.158:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.0s, Topology Description: <TopologyDescription id: 682da5ed25da72076470cecb, topology_type: Unknown, servers: [<ServerDescription ('85.10.143.158', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('85.10.143.158:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>"
+  },
+  {
+    "ip": "136.144.146.82",
+    "version": "5.0.23"
+  },
+  {
+    "ip": "149.210.166.139",
+    "version": "Error: Server at 149.210.166.139:27017 reports wire version 5, but this version of PyMongo requires at least 6 (MongoDB 3.6)."
+  },
+  {
+    "ip": "136.144.188.117",
+    "version": "4.4.29"
+  },
+  {
+    "ip": "84.247.14.28",
+    "version": "4.4.18"
+  },
+  {
+    "ip": "136.144.177.5",
+    "version": "8.0.3"
+  },
+  {
+    "ip": "37.97.150.20",
+    "version": "Error: Server at 37.97.150.20:27017 reports wire version 5, but this version of PyMongo requires at least 6 (MongoDB 3.6)."
+  },
+  {
+    "ip": "136.144.205.129",
+    "version": "8.0.5"
+  },
+  {
+    "ip": "136.144.142.122",
+    "version": "Error: there are no users authenticated, full error: {'ok': 0.0, 'errmsg': 'there are no users authenticated', 'code': 13, 'codeName': 'Unauthorized'}"
+  },
+  {
+    "ip": "136.144.220.120",
+    "version": "4.4.29"
+  },
+  {
+    "ip": "37.97.245.132",
+    "version": "Error: Server at 37.97.245.132:27017 reports wire version 2, but this version of PyMongo requires at least 6 (MongoDB 3.6)."
+  },
+  {
+    "ip": "136.144.189.183",
+    "version": "4.0.4"
+  },
+  {
+    "ip": "31.14.97.148",
+    "version": "6.0.20"
+  },
+  {
+    "ip": "37.97.207.10",
+    "version": "6.0.22"
+  },
+  {
+    "ip": "85.10.136.112",
+    "version": "6.0.5"
+  },
+  {
+    "ip": "136.144.185.143",
+    "version": "7.0.19"
+  },
+  {
+    "ip": "37.97.159.222",
+    "version": "Error: Server at 37.97.159.222:27017 reports wire version 4, but this version of PyMongo requires at least 6 (MongoDB 3.6)."
+  },
+  {
+    "ip": "37.97.220.176",
+    "version": "4.4.18"
+  },
+  {
+    "ip": "136.144.239.239",
+    "version": "8.0.4"
+  },
+  {
+    "ip": "136.144.250.52",
+    "version": "7.0.6"
+  },
+  {
+    "ip": "37.97.223.60",
+    "version": "Error: No replica set members found yet, Timeout: 2.0s, Topology Description: <TopologyDescription id: 682da5f225da72076470cedf, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('mongo-db', 27017) server_type: Unknown, rtt: None>]>"
+  },
+  {
+    "ip": "141.138.138.74",
+    "version": "4.4.24"
+  },
+  {
+    "ip": "37.34.63.21",
+    "version": "7.0.18"
+  },
+  {
+    "ip": "136.144.160.134",
+    "version": "Error: 136.144.160.134:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.0s, Topology Description: <TopologyDescription id: 682da5f425da72076470cee2, topology_type: Unknown, servers: [<ServerDescription ('136.144.160.134', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('136.144.160.134:27017: connection closed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>"
+  }
+]
