@@ -1,5 +1,7 @@
 import json
 import re
+import sys
+
 import requests
 from urllib.parse import quote
 
@@ -149,17 +151,17 @@ def process_json_file(file_path):
 
 def main():
     # Input file path
-    file_path = '../data_filip/AS57043/80/clean_versionsAS57043.json'
-
+    file_path = sys.argv[1]
+    base_path = sys.argv[2]
 
     successful_results, failed_results, number_eol_hosts = process_json_file(file_path)
 
     # Save results to separate files
-    success_file = "../data_filip/AS57043/80/server_eol_success_AS57043.json"
+    success_file = f"{base_path}/server_eol_success.json"
     with open(success_file, 'w', encoding='utf-8') as f:
         json.dump(successful_results, f, indent=2)
 
-    failure_file = "../data_filip/AS57043/80/server_eol_failure_AS57043.json"
+    failure_file = f"{base_path}/server_eol_failure.json"
     with open(failure_file, 'w', encoding='utf-8') as f:
         json.dump(failed_results, f, indent=2)
 
