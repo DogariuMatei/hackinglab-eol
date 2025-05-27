@@ -1,0 +1,32 @@
+[
+  {
+    "ip": "145.220.78.23",
+    "server": "cc-web",
+    "version": "1.6",
+    "api_name": "cc-web",
+    "original_server": "cc-web/1.6.3",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "145.220.52.251",
+    "server": "OpenSSL",
+    "version": "3.2.4",
+    "api_name": "openssl",
+    "original_server": "Apache/2.4.63 (Fedora Linux) OpenSSL/3.2.4",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "44.137.1.162",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]

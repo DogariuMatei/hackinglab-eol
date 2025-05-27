@@ -1,0 +1,22 @@
+[
+  {
+    "ip": "193.109.73.47",
+    "server": "Apache-Coyote",
+    "version": "1.1",
+    "api_name": "Apache-Coyote",
+    "original_server": "Apache-Coyote/1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "212.159.196.170",
+    "server": "Microsoft-HTTPAPI",
+    "version": "2.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-HTTPAPI/2.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]

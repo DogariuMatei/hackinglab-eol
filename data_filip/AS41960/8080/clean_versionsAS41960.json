@@ -1,0 +1,38 @@
+[
+  {
+    "server": "nginx",
+    "ip": "185.199.188.42"
+  },
+  {
+    "server": "Apache",
+    "ip": "77.73.228.205"
+  },
+  {
+    "server": "LiteSpeed",
+    "ip": "45.140.157.79"
+  },
+  {
+    "server": "Microsoft-IIS/7.0",
+    "ip": "5.183.132.163"
+  },
+  {
+    "server": "Microsoft-IIS/8.5",
+    "ip": "185.199.188.136"
+  },
+  {
+    "server": "Microsoft-IIS/10.0",
+    "ip": "185.160.7.198"
+  },
+  {
+    "server": "openresty",
+    "ip": "151.248.16.143"
+  },
+  {
+    "server": "nginx",
+    "ip": "212.57.60.83"
+  },
+  {
+    "server": "Microsoft-IIS/10.0",
+    "ip": "212.57.55.117"
+  }
+]

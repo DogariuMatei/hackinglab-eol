@@ -1,0 +1,12 @@
+[
+  {
+    "ip": "151.248.16.111",
+    "server": "Boa",
+    "version": "0.94",
+    "api_name": "Boa",
+    "original_server": "Boa/0.94.14rc21",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]

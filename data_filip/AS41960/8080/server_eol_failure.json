@@ -1,0 +1,42 @@
+[
+  {
+    "ip": "185.160.7.198",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "212.57.55.117",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "5.183.132.163",
+    "server": "Microsoft-IIS",
+    "version": "7.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/7.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.199.188.136",
+    "server": "Microsoft-IIS",
+    "version": "8.5",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/8.5",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]

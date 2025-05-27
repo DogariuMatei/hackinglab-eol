@@ -1,0 +1,12 @@
+[
+  {
+    "ip": "62.177.249.142",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.58 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  }
+]

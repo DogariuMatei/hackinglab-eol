@@ -1,0 +1,66 @@
+[
+  {
+    "server": "Apache",
+    "ip": "185.238.53.59"
+  },
+  {
+    "server": "Apache",
+    "ip": "185.238.55.96"
+  },
+  {
+    "server": "Apache/2",
+    "ip": "195.238.86.241"
+  },
+  {
+    "server": "Apache",
+    "ip": "185.238.55.105"
+  },
+  {
+    "server": "Apache",
+    "ip": "185.238.55.57"
+  },
+  {
+    "server": "Apache",
+    "ip": "185.238.55.110"
+  },
+  {
+    "server": "Apache",
+    "ip": "185.238.55.170"
+  },
+  {
+    "server": "Apache",
+    "ip": "195.140.240.99"
+  },
+  {
+    "server": "Apache",
+    "ip": "185.238.55.114"
+  },
+  {
+    "server": "Apache",
+    "ip": "185.238.55.68"
+  },
+  {
+    "server": "Apache",
+    "ip": "185.238.55.83"
+  },
+  {
+    "server": "mbCONNECT24",
+    "ip": "5.183.132.243"
+  },
+  {
+    "server": "Apache/2",
+    "ip": "212.57.57.230"
+  },
+  {
+    "server": "Apache/2",
+    "ip": "195.238.86.240"
+  },
+  {
+    "server": "Apache",
+    "ip": "185.238.55.87"
+  },
+  {
+    "server": "Python/3.11 aiohttp/3.8.6",
+    "ip": "5.183.135.155"
+  }
+]

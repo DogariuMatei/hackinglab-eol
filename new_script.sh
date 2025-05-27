@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # === CONFIGURATION ===
-SUFFIX="AS1101"
-PORTS=("80" "443" "8080" "6379" "5432" "3306" "27017") # List of ports 3 http, Redis, postgre, mariadb mysql, mongo
+SUFFIX="AS41960"
+PORTS=("80" "443" "8080" "6379" "5432" "3306" "27017") # List of ports 3 http, Redis, postgre, mariadb mysql, mongo  "443" "8080" "6379" "5432" "3306" "27017"
 RATE="1024"
 
 # === PATH SETUP ===
@@ -23,7 +23,7 @@ for PORT in "${PORTS[@]}"; do
   sudo zmap -p "$PORT" -o "$ZMAP_OUTPUT" -r "$RATE" -w "$IP_LIST"
 
   # === ZGRAB2 ===
-  cat "$ZMAP_OUTPUT" | ../zgrab2/zgrab2  http \
+  cat "$ZMAP_OUTPUT" | ../zgrab2/zgrab2 --senders 20 http \
     --user-agent "Mozilla/5.0" \
     --endpoint "/" \
     --output-file "$ZGRAB_OUTPUT"

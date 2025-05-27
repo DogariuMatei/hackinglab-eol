@@ -1,0 +1,72 @@
+[
+  {
+    "ip": "82.204.36.78",
+    "server": "Nimble",
+    "version": "3.7",
+    "api_name": "Nimble",
+    "original_server": "Nimble/3.7.10-7",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "82.204.45.73",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "82.204.47.132",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.177.187.45",
+    "server": "Microsoft-HTTPAPI",
+    "version": "2.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-HTTPAPI/2.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "82.204.43.217",
+    "server": "Microsoft-HTTPAPI",
+    "version": "2.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-HTTPAPI/2.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "82.204.45.104",
+    "server": "Microsoft-HTTPAPI",
+    "version": "2.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-HTTPAPI/2.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "82.204.45.80",
+    "server": "Microsoft-HTTPAPI",
+    "version": "2.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-HTTPAPI/2.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "server": "nginx/1.20.1",
+    "ip": "62.177.153.23"
+  },
+  {
+    "server": "BigIP",
+    "ip": "62.177.169.164"
+  },
+  {
+    "server": "Nimble/3.7.10-7",
+    "ip": "82.204.36.78"
+  },
+  {
+    "server": "Apache",
+    "ip": "82.204.67.245"
+  },
+  {
+    "server": "Microsoft-IIS/10.0",
+    "ip": "82.204.47.132"
+  },
+  {
+    "server": "Apache/2.4.58 (Ubuntu)",
+    "ip": "62.177.249.138"
+  },
+  {
+    "server": "Microsoft-IIS/10.0",
+    "ip": "82.204.45.73"
+  },
+  {
+    "server": "Microsoft-HTTPAPI/2.0",
+    "ip": "82.204.43.217"
+  },
+  {
+    "server": "Microsoft-HTTPAPI/2.0",
+    "ip": "82.204.45.80"
+  },
+  {
+    "server": "Apache",
+    "ip": "82.204.67.244"
+  },
+  {
+    "server": "Microsoft-HTTPAPI/2.0",
+    "ip": "82.204.45.104"
+  },
+  {
+    "server": "Apache",
+    "ip": "82.204.67.235"
+  },
+  {
+    "server": "Microsoft-HTTPAPI/2.0",
+    "ip": "62.177.187.45"
+  },
+  {
+    "server": "Apache",
+    "ip": "82.204.67.233"
+  }
+]

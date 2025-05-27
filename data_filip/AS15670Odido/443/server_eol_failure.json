@@ -1,0 +1,22 @@
+[
+  {
+    "ip": "82.204.45.104",
+    "server": "Microsoft-HTTPAPI",
+    "version": "2.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-HTTPAPI/2.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: Exception: HTTPSConnectionPool(host='endoflife.date', port=443): Max retries exceeded with url: /api/v1/products/windows-server/releases/2.0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f76b3cb3a10>, 'Connection to endoflife.date timed out. (connect timeout=5)'))"
+  },
+  {
+    "ip": "82.204.79.227",
+    "server": "Microsoft-IIS",
+    "version": "7.5",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/7.5",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]

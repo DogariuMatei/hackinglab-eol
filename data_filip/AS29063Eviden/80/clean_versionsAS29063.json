@@ -1,0 +1,62 @@
+[
+  {
+    "server": "BigIP",
+    "ip": "212.159.201.235"
+  },
+  {
+    "server": "Apache",
+    "ip": "212.159.214.126"
+  },
+  {
+    "server": "Apache",
+    "ip": "212.159.194.125"
+  },
+  {
+    "server": "Microsoft-HTTPAPI/2.0",
+    "ip": "212.159.196.170"
+  },
+  {
+    "server": "Apache",
+    "ip": "212.159.196.156"
+  },
+  {
+    "server": "BigIP",
+    "ip": "212.159.196.168"
+  },
+  {
+    "server": "Apache",
+    "ip": "212.159.196.150"
+  },
+  {
+    "server": "Apache",
+    "ip": "212.159.219.73"
+  },
+  {
+    "server": "Apache",
+    "ip": "193.109.72.59"
+  },
+  {
+    "server": "Apache/2.4.37 (Red Hat Enterprise Linux)",
+    "ip": "193.109.72.76"
+  },
+  {
+    "server": "BigIP",
+    "ip": "212.159.207.21"
+  },
+  {
+    "server": "Apache",
+    "ip": "212.159.219.103"
+  },
+  {
+    "server": "BigIP",
+    "ip": "212.159.196.164"
+  },
+  {
+    "server": "",
+    "ip": "212.159.213.14"
+  },
+  {
+    "server": "Apache-Coyote/1.1",
+    "ip": "193.109.73.47"
+  }
+]
