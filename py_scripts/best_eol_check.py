@@ -144,17 +144,23 @@ def process_json_file(file_path):
     failed_results.sort(key=lambda x: (x["api_name"].lower(),
                                        x["version"], x["ip"]))
 
-    return successful_results, failed_results, total_eol_hosts
+    all_results = successful_results.copy()
+    all_results.extend(failed_results)
+
+    return successful_results, failed_results, all_results, total_eol_hosts
 
 
 def main():
     # Input file path
     file_path = '../data_matei/clean_versions_for_transip.json'
 
-
-    successful_results, failed_results, number_eol_hosts = process_json_file(file_path)
+    successful_results, failed_results, all_results, number_eol_hosts = process_json_file(file_path)
 
     # Save results to separate files
+    all_results_file = "../data_matei/server_eol_all_for_transip.json"
+    with open(all_results_file, 'w', encoding='utf-8') as f:
+        json.dump(all_results, f, indent=2)
+
     success_file = "../data_matei/server_eol_success_for_transip.json"
     with open(success_file, 'w', encoding='utf-8') as f:
         json.dump(successful_results, f, indent=2)
