@@ -17,11 +17,13 @@ def check_and_replace_known_labels(server_name):
         "mod_python": "python",
         "mod_ssl": "openssl",
         "Exim": "exim",
+        "ProFTPD": "proftpd",
     }
     return mapping.get(server_name, server_name)
 
 keep_full_version = [
     "openssl",
+    "proftpd",
 ]
 
 def extract_valid_components(server_string):
@@ -37,6 +39,12 @@ def extract_valid_components(server_string):
 
             if api_name.lower() == "exim":
                 match = re.match(r'^(\d+\.\d+)', version)
+                if match:
+                    valid_components.append((name, match.group(1)))
+                continue
+
+            if api_name.lower() == "proftpd":
+                match = re.match(r'^(\d+\.\d+\.\d+)', version)
                 if match:
                     valid_components.append((name, match.group(1)))
                 continue
@@ -144,15 +152,15 @@ def process_json_file(file_path):
 
 def main():
     # Input file path
-    file_path = 'AAS20857/clean_version_ip/clean_versions_with_ip_AS20857_587.json'
+    file_path = 'AAS20857/clean_version_ip/clean_versions_with_ip_AS20857_21.json'
 
     successful_results, failed_results = process_json_file(file_path)
 
-    success_file = "AAS20857/EOL_results/clean_results_27may_587_success.json"
+    success_file = "AAS20857/EOL_results/clean_results_27may_21_success.json"
     with open(success_file, 'w', encoding='utf-8') as f:
         json.dump(successful_results, f, indent=2)
 
-    failure_file = "AAS20857/EOL_results/clean_results_27may_587_failure.json"
+    failure_file = "AAS20857/EOL_results/clean_results_27may_21_failure.json"
     with open(failure_file, 'w', encoding='utf-8') as f:
         json.dump(failed_results, f, indent=2)
 
