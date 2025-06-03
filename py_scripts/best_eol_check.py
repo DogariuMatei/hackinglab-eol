@@ -146,7 +146,10 @@ def process_json_file(file_path):
     failed_results.sort(key=lambda x: (x["api_name"].lower(),
                                        x["version"], x["ip"]))
 
-    return successful_results, failed_results, total_eol_hosts
+    all_results = successful_results.copy()
+    all_results.extend(failed_results)
+
+    return successful_results, failed_results, all_results, total_eol_hosts
 
 
 def main():
