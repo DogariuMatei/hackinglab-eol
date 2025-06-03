@@ -1,0 +1,1902 @@
+[
+  {
+    "ip": "136.144.130.192",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.132.65",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.133.28",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.133.81",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.138.30",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.155.248",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.155.49",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.168.82",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.169.211",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.170.38",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.173.59",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.178.72",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.179.152",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.181.197",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.182.146",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.200.10",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.204.93",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.208.24",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.209.7",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.209.99",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.211.73",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.214.72",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.217.131",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.228.210",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.231.119",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.231.225",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.233.99",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.234.163",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.244.89",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.247.181",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.247.44",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.251.15",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "136.144.254.229",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "141.138.136.169",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "141.138.138.133",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "141.138.138.26",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "141.138.139.37",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "141.138.141.139",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "141.138.142.214",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.129.78",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.139.103",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.139.162",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.139.229",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.147.101",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.150.7",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.151.152",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.151.218",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.153.69",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.156.76",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.158.63",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.160.173",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.161.168",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.162.30",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.162.74",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.163.189",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.164.219",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.165.162",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.166.13",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.166.139",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.166.15",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.168.242",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.168.34",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.169.244",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.171.21",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.171.231",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.171.48",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.172.83",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.173.15",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.173.205",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.173.5",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.174.210",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.181.34",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.186.214",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.189.186",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.189.33",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.200.171",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.204.22",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.205.20",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.206.156",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.206.36",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.214.204",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.215.17",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.215.175",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.215.182",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.215.229",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.215.45",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.215.48",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.215.50",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.216.23",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.219.187",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.219.191",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.221.100",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.221.81",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.223.18",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.225.58",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.227.184",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5d",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.228.144",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.229.9",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.230.184",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.230.61",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.233.218",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.235.204",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.235.252",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.235.89",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.236.98",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.244.107",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "157.97.171.69",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "185.10.50.72",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "185.108.115.155",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.34.59.210",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.128.120",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.128.49",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.134.121",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.134.2",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.134.219",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.135.147",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.136.97",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.140.203",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.141.7",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.149.203",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.149.251",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.150.173",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.152.141",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.152.50",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.153.60",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.156.208",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.164.158",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.165.216",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.169.130",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.169.66",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.172.102",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.172.189",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.172.25",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.172.51",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.173.61",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.173.71",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.177.20",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.180.103",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.182.48",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.184.103",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.187.187",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.190.232",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.191.7",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.192.46",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.193.60",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.193.72",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.195.160",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.195.170",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.195.231",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.195.34",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.195.37",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.195.5",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.201.251",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.202.127",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.202.170",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.203.100",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.203.81",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.204.198",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.205.141",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.205.65",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.207.110",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.207.33",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.208.100",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.208.19",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.208.23",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.208.29",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.209.161",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.225.190",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.233.188",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.238.160",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.241.193",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.245.135",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "37.97.250.124",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "5.61.249.151",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "77.72.144.29",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "77.72.147.174",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "77.72.149.128",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "77.72.150.135",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "77.72.150.190",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "77.72.150.72",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "77.72.150.73",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5rc3",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "84.247.13.163",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "84.247.15.155",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "84.247.8.92",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "85.10.132.88",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5a",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "95.170.71.92",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5e",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "95.170.88.59",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  },
+  {
+    "ip": "149.210.143.181",
+    "server": "ProFTPD",
+    "version": "1.3.6",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.6rc2",
+    "is_eol": true,
+    "eol_from": "2022-12-04",
+    "status": "EOL: True, EOL Date: 2022-12-04"
+  },
+  {
+    "ip": "149.210.143.202",
+    "server": "ProFTPD",
+    "version": "1.3.6",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.6rc2",
+    "is_eol": true,
+    "eol_from": "2022-12-04",
+    "status": "EOL: True, EOL Date: 2022-12-04"
+  },
+  {
+    "ip": "77.72.150.168",
+    "server": "ProFTPD",
+    "version": "1.3.6",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.6rc2",
+    "is_eol": true,
+    "eol_from": "2022-12-04",
+    "status": "EOL: True, EOL Date: 2022-12-04"
+  }
+]
