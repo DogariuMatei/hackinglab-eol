@@ -1,0 +1,12 @@
+[
+  {
+    "ip": "80.69.89.26",
+    "server": "Exim",
+    "version": "20250527.1000",
+    "api_name": "exim",
+    "original_server": "Exim/20250527.1000",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]

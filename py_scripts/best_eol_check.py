@@ -15,44 +15,44 @@ def check_and_replace_known_labels(server_name):
         "nginx": "nginx",
         "mod_python": "python",
         "mod_ssl": "openssl",
-
+        "Exim": "exim",
+        "ProFTPD": "proftpd",
+        "RabbitMQ": "rabbitmq",
     }
     return mapping.get(server_name, server_name)
 
-
 keep_full_version = [
     "openssl",
-
+    "proftpd",
 ]
 
-
 def extract_valid_components(server_string):
-    """Extract components that have at least major.minor version format (x.y)"""
     valid_components = []
-
-    # Find all name/version patterns in the string
     components = re.findall(r'(\w+(?:-\w+)?)\/(\d+(?:\.\d+)+(?:-\w+)?)', server_string)
-
-    # Only keep components with at least major.minor version format
-    # Only keep components with at least major.minor version format
     for name, version in components:
         name = name.strip()
-        # Check if version has at least one dot (x.y format)
         if '.' in version:
-            # Map name to API name for checking against keep_full_version list
             api_name = check_and_replace_known_labels(name)
-
-            # Keep the full version string for specific software
             if api_name.lower() in keep_full_version:
                 valid_components.append((name, version))
                 continue
 
-            # For others, extract just the major.minor part (x.y)
+            if api_name.lower() == "exim":
+                match = re.match(r'^(\d+\.\d+)', version)
+                if match:
+                    valid_components.append((name, match.group(1)))
+                continue
+
+            if api_name.lower() == "proftpd":
+                match = re.match(r'^(\d+\.\d+\.\d+)', version)
+                if match:
+                    valid_components.append((name, match.group(1)))
+                continue
+
             version_parts = version.split('.')
             if len(version_parts) >= 2:
                 simplified_version = f"{version_parts[0]}.{version_parts[1]}"
                 valid_components.append((name, simplified_version))
-
     return valid_components
 
 
@@ -151,24 +151,27 @@ def process_json_file(file_path):
 
 
 def main():
+    port = '993'
+
     # Input file path
-    file_path = '../data_matei/clean_versions_for_transip.json'
+    file_path = f'../data_matei/Port{port}/versions_transip_{port}.json'
 
     successful_results, failed_results, all_results, number_eol_hosts = process_json_file(file_path)
 
     # Save results to separate files
-    all_results_file = "../data_matei/server_eol_all_for_transip.json"
+    all_results_file = f"../data_matei/Port{port}/all_eol_transip_{port}.json"
     with open(all_results_file, 'w', encoding='utf-8') as f:
         json.dump(all_results, f, indent=2)
 
-    success_file = "../data_matei/server_eol_success_for_transip.json"
+    success_file = f"../data_matei/Port{port}/eol_success_transip_{port}.json"
     with open(success_file, 'w', encoding='utf-8') as f:
         json.dump(successful_results, f, indent=2)
 
-    failure_file = "../data_matei/server_eol_failure_for_transip.json"
+    failure_file = f"../data_matei/Port{port}/eol_fail_transip_{port}.json"
     with open(failure_file, 'w', encoding='utf-8') as f:
         json.dump(failed_results, f, indent=2)
 
+    print(f"\nTotal Checked hosts: {len(all_results)}")
     print(f"\nSuccessful EOL checks: {len(successful_results)}")
     print(f"Failed EOL checks: {len(failed_results)} unique server name/version pairs")
     print(f"Total EOL hosts: {number_eol_hosts}")

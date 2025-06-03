@@ -1,0 +1,9 @@
+zgrab module: IMAP
+
+responses port 993 and 995: 2413 out of 154,624
+
+responses with a version:
+
+responses with meaningful version (success + failures):  +  = 945
+
+EOL hosts:

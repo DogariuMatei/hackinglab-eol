@@ -1,0 +1,11 @@
+80,443,8080 - HTTP stuff - DONE!
+25 - SMTP - SHIT 0.0 - DONE!
+21 - proftpd FTP - DONE!
+465, 587 - Exim SMTPS - DONE!
+993, 995 - TLS use IMAP
+1433 - TCP to SQL DB Instances
+5671, 5672 - Kubernetes and RabbitMQ (i think)
+3306 - MySQL/MariaDB - custom script
+27017 - Mongodb - custom script
+6379 - Redis - custom script
+

@@ -1,0 +1,9 @@
+zgrab module: smtp
+
+responses port 587 and 465: 2193 out of 154,624
+
+responses with a version: 945
+
+responses with meaningful version (success + failures): 944 + 1 = 945
+
+EOL hosts: 481

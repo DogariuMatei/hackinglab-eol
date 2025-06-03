@@ -1,0 +1,11 @@
+zgrab module: http
+
+responses port 443: 3861
+
+responses with a version: 2141
+
+responses with meaningful versions: 621 + 261
+
+EOL hosts: 319
+
+Out of total responses  were eol

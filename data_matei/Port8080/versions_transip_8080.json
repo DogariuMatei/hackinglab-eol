@@ -1,0 +1,362 @@
+[
+  {
+    "server": "nginx/1.24.0 (Ubuntu)",
+    "ip": "37.97.148.90"
+  },
+  {
+    "server": "nginx/1.24.0 (Ubuntu)",
+    "ip": "93.119.4.31"
+  },
+  {
+    "server": "openresty",
+    "ip": "136.144.155.64"
+  },
+  {
+    "server": "Apache/2.4.52 (Ubuntu)",
+    "ip": "87.253.131.141"
+  },
+  {
+    "server": "openresty",
+    "ip": "136.144.147.31"
+  },
+  {
+    "server": "nginx/1.19.10",
+    "ip": "136.144.173.77"
+  },
+  {
+    "server": "Apache/2.4.25 (Debian)",
+    "ip": "77.72.144.128"
+  },
+  {
+    "server": "Microsoft-IIS/10.0",
+    "ip": "136.144.190.119"
+  },
+  {
+    "server": "nginx",
+    "ip": "141.138.138.250"
+  },
+  {
+    "server": "Apache/2.4.41 (Ubuntu)",
+    "ip": "37.97.204.233"
+  },
+  {
+    "server": "nginx/1.14.0 (Ubuntu)",
+    "ip": "136.144.212.193"
+  },
+  {
+    "server": "openresty",
+    "ip": "149.210.150.233"
+  },
+  {
+    "server": "Apache/2.4.38 (Debian)",
+    "ip": "188.241.150.47"
+  },
+  {
+    "server": "nginx/1.14.1",
+    "ip": "37.97.173.41"
+  },
+  {
+    "server": "nginx/1.25.5",
+    "ip": "37.97.146.68"
+  },
+  {
+    "server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips",
+    "ip": "149.210.166.211"
+  },
+  {
+    "server": "Microsoft-HTTPAPI/2.0",
+    "ip": "37.97.180.65"
+  },
+  {
+    "server": "nginx/1.18.0 (Ubuntu)",
+    "ip": "149.210.172.8"
+  },
+  {
+    "server": "Apache/2.4.52 (Ubuntu)",
+    "ip": "136.144.181.81"
+  },
+  {
+    "server": "openresty",
+    "ip": "149.210.194.228"
+  },
+  {
+    "server": "nginx",
+    "ip": "136.144.233.39"
+  },
+  {
+    "server": "Microsoft-HTTPAPI/2.0",
+    "ip": "149.210.200.33"
+  },
+  {
+    "server": "Apache/2.4.29 (Ubuntu)",
+    "ip": "136.144.211.194"
+  },
+  {
+    "server": "nginx/1.24.0",
+    "ip": "136.144.249.217"
+  },
+  {
+    "server": "nginx",
+    "ip": "136.144.171.246"
+  },
+  {
+    "server": "nginx",
+    "ip": "141.138.136.161"
+  },
+  {
+    "server": "nginx",
+    "ip": "149.210.187.92"
+  },
+  {
+    "server": "Apache/2.4.41 (Ubuntu)",
+    "ip": "136.144.236.77"
+  },
+  {
+    "server": "Apache",
+    "ip": "136.144.167.141"
+  },
+  {
+    "server": "nginx/1.10.3 (Ubuntu)",
+    "ip": "37.97.152.63"
+  },
+  {
+    "server": "Apache",
+    "ip": "85.10.133.127"
+  },
+  {
+    "server": "Apache",
+    "ip": "85.10.138.245"
+  },
+  {
+    "server": "Apache/2",
+    "ip": "37.97.216.146"
+  },
+  {
+    "server": "Apache/2.4.58 (Ubuntu)",
+    "ip": "37.97.131.3"
+  },
+  {
+    "server": "nginx",
+    "ip": "136.144.245.143"
+  },
+  {
+    "server": "nginx",
+    "ip": "37.97.184.62"
+  },
+  {
+    "server": "nginx/1.28.0",
+    "ip": "136.144.172.139"
+  },
+  {
+    "server": "Apache/2.4.25 (Debian)",
+    "ip": "136.144.186.153"
+  },
+  {
+    "server": "nginx/1.22.1",
+    "ip": "136.144.244.95"
+  },
+  {
+    "server": "Microsoft-IIS/8.5",
+    "ip": "149.210.164.230"
+  },
+  {
+    "server": "nginx/1.22.1",
+    "ip": "85.10.133.169"
+  },
+  {
+    "server": "nginx",
+    "ip": "149.210.250.245"
+  },
+  {
+    "server": "Werkzeug/2.2.2 Python/3.11.2",
+    "ip": "37.97.217.25"
+  },
+  {
+    "server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16",
+    "ip": "149.210.175.6"
+  },
+  {
+    "server": "Apache/2.4.29 (Ubuntu)",
+    "ip": "136.144.245.185"
+  },
+  {
+    "server": "Icecast 2.4.3",
+    "ip": "37.34.60.28"
+  },
+  {
+    "server": "nginx/1.18.0 (Ubuntu)",
+    "ip": "136.144.163.137"
+  },
+  {
+    "server": "Apache/2.4.52 (Ubuntu)",
+    "ip": "136.144.173.6"
+  },
+  {
+    "server": "nginx/1.25.4",
+    "ip": "37.97.162.144"
+  },
+  {
+    "server": "nginx",
+    "ip": "141.138.142.245"
+  },
+  {
+    "server": "Apache",
+    "ip": "89.41.169.197"
+  },
+  {
+    "server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips",
+    "ip": "149.210.182.130"
+  },
+  {
+    "server": "Apache",
+    "ip": "136.144.186.174"
+  },
+  {
+    "server": "nginx/1.18.0 (Ubuntu)",
+    "ip": "136.144.251.25"
+  },
+  {
+    "server": "Indy/10.0.52",
+    "ip": "136.144.240.60"
+  },
+  {
+    "server": "Apache/2.4.29 (Ubuntu)",
+    "ip": "136.144.220.76"
+  },
+  {
+    "server": "nginx/1.19.3",
+    "ip": "37.97.133.109"
+  },
+  {
+    "server": "Apache/2.4.52 (Ubuntu)",
+    "ip": "136.144.146.45"
+  },
+  {
+    "server": "Varnish",
+    "ip": "136.144.191.9"
+  },
+  {
+    "server": "nginx",
+    "ip": "85.10.151.176"
+  },
+  {
+    "server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.1.33",
+    "ip": "31.14.96.195"
+  },
+  {
+    "server": "Apache",
+    "ip": "136.144.159.35"
+  },
+  {
+    "server": "LinQhost HPW",
+    "ip": "136.144.222.92"
+  },
+  {
+    "server": "nginx/1.18.0 (Ubuntu)",
+    "ip": "149.210.159.58"
+  },
+  {
+    "server": "nginx/1.14.0 (Ubuntu)",
+    "ip": "136.144.209.237"
+  },
+  {
+    "server": "Apache/2.4.52 (Ubuntu)",
+    "ip": "93.119.11.199"
+  },
+  {
+    "server": "LinQhost HPW",
+    "ip": "136.144.170.233"
+  },
+  {
+    "server": "Apache",
+    "ip": "136.144.169.248"
+  },
+  {
+    "server": "Apache/2.4.41 (Ubuntu)",
+    "ip": "136.144.191.68"
+  },
+  {
+    "server": "Microsoft-IIS/8.5",
+    "ip": "77.72.147.195"
+  },
+  {
+    "server": "Apache/2.4.29 (Ubuntu)",
+    "ip": "141.138.138.147"
+  },
+  {
+    "server": "Apache",
+    "ip": "37.97.139.52"
+  },
+  {
+    "server": "Apache/2.4.61 (Ubuntu)",
+    "ip": "149.210.194.202"
+  },
+  {
+    "server": "Apache/2.4.52 (Ubuntu)",
+    "ip": "93.119.10.244"
+  },
+  {
+    "server": "nginx/1.17.6",
+    "ip": "37.97.231.105"
+  },
+  {
+    "server": "Apache",
+    "ip": "149.210.157.235"
+  },
+  {
+    "server": "Apache/2.4.29 (Ubuntu)",
+    "ip": "136.144.212.86"
+  },
+  {
+    "server": "nginx/1.24.0",
+    "ip": "136.144.160.134"
+  },
+  {
+    "server": "Apache/2.4.52 (Ubuntu)",
+    "ip": "37.97.128.58"
+  },
+  {
+    "server": "Apache",
+    "ip": "136.144.253.245"
+  },
+  {
+    "server": "nginx",
+    "ip": "93.119.12.250"
+  },
+  {
+    "server": "Apache",
+    "ip": "37.97.253.9"
+  },
+  {
+    "server": "Apache/2.4.52 (Ubuntu)",
+    "ip": "37.97.238.152"
+  },
+  {
+    "server": "nginx/1.6.2",
+    "ip": "149.210.227.54"
+  },
+  {
+    "server": "nginx",
+    "ip": "136.144.213.245"
+  },
+  {
+    "server": "Apache/2.4.57 (Ubuntu)",
+    "ip": "37.97.227.213"
+  },
+  {
+    "server": "nginx/1.27.5",
+    "ip": "95.170.85.237"
+  },
+  {
+    "server": "nginx",
+    "ip": "84.247.14.249"
+  },
+  {
+    "server": "nginx",
+    "ip": "86.105.245.161"
+  },
+  {
+    "server": "nginx",
+    "ip": "136.144.233.150"
+  }
+]

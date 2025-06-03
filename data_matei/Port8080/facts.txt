@@ -1,0 +1,11 @@
+zgrab module: http
+
+responses port 8080: 120
+
+responses with a version: 90
+
+responses with meaningful versions: 54 + 9 = 63
+
+EOL hosts: 25
+
+Out of total responses  were eol
