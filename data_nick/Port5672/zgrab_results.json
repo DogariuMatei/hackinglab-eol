@@ -1,4 +1,0 @@
-{"ip":"185.95.13.229","data":{"banner":{"status":"io-timeout","protocol":"banner","timestamp":"2025-06-03T16:19:19+02:00","error":"read tcp 192.168.18.73:34388-\u003e185.95.13.229:5672: read: connection reset by peer"}}}
-{"ip":"185.107.88.87","data":{"banner":{"status":"io-timeout","protocol":"banner","timestamp":"2025-06-03T16:19:19+02:00","error":"read tcp 192.168.18.73:47850-\u003e185.107.88.87:5672: read: connection reset by peer"}}}
-{"ip":"185.95.14.226","data":{"banner":{"status":"io-timeout","protocol":"banner","timestamp":"2025-06-03T16:19:19+02:00","error":"read tcp 192.168.18.73:50224-\u003e185.95.14.226:5672: read: connection reset by peer"}}}
-{"ip":"185.107.88.194","data":{"banner":{"status":"connection-timeout","protocol":"banner","timestamp":"2025-06-03T16:19:19+02:00","error":"dial tcp 185.107.88.194:5672: i/o timeout"}}}
