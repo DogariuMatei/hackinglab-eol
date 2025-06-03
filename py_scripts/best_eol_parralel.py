@@ -18,6 +18,7 @@ def check_and_replace_known_labels(server_name):
         "mod_ssl": "openssl",
         "Exim": "exim",
         "ProFTPD": "proftpd",
+        "RabbitMQ": "rabbitmq",
     }
     return mapping.get(server_name, server_name)
 
