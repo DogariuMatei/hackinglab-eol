@@ -23,6 +23,7 @@ def check_and_replace_known_labels(server_name):
         "MySQL": "mysql",
         "MariaDB": "mariadb",
         "MSSQL": "mssqlserver",
+        "RabbitMQ": "rabbitmq",
     }
     return mapping.get(server_name, server_name)
 
