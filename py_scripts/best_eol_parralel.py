@@ -19,6 +19,7 @@ def check_and_replace_known_labels(server_name):
         "Exim": "exim",
         "ProFTPD": "proftpd",
         "Redis": "redis",
+        "MongoDB": "mongodb",
     }
     return mapping.get(server_name, server_name)
 
@@ -153,15 +154,15 @@ def process_json_file(file_path):
 
 def main():
     # Input file path
-    file_path = 'AAS20857/clean_version_ip/redis_versions_AS20857_3june.json'
+    file_path = 'AAS20857/clean_version_ip/mongodb_versions_AS20857_june3.json'
 
     successful_results, failed_results = process_json_file(file_path)
 
-    success_file = "AAS20857/EOL_results/clean_results_3june_redis_success.json"
+    success_file = "AAS20857/EOL_results/clean_results_3june_mongodb_success.json"
     with open(success_file, 'w', encoding='utf-8') as f:
         json.dump(successful_results, f, indent=2)
 
-    failure_file = "AAS20857/EOL_results/clean_results_3june_redis_failure.json"
+    failure_file = "AAS20857/EOL_results/clean_results_3june_mongodb_failure.json"
     with open(failure_file, 'w', encoding='utf-8') as f:
         json.dump(failed_results, f, indent=2)
 
