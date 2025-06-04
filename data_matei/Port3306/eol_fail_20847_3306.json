@@ -1,0 +1,12 @@
+[
+  {
+    "ip": "84.241.180.168",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]

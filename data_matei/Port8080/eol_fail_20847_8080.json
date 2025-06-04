@@ -1,0 +1,162 @@
+[
+  {
+    "ip": "80.65.118.133",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "80.65.119.12",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "80.65.119.14",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "80.65.120.109",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "80.65.121.53",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "80.65.121.7",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "80.65.121.85",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "84.241.132.113",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "84.241.133.36",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "84.241.144.209",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "84.241.144.60",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "84.241.146.182",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "84.241.146.244",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "84.241.146.247",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "84.241.146.35",
+    "server": "Microsoft-IIS",
+    "version": "10.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/10.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "84.241.185.139",
+    "server": "Microsoft-HTTPAPI",
+    "version": "2.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-HTTPAPI/2.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]

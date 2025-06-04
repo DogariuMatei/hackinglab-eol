@@ -1,0 +1,32 @@
+[
+  {
+    "ip": "185.158.202.12",
+    "server": "Exim",
+    "version": "20250527.1000",
+    "api_name": "exim",
+    "original_server": "Exim/20250527.1000",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "195.60.213.35",
+    "server": "Exim",
+    "version": "20250527.1000",
+    "api_name": "exim",
+    "original_server": "Exim/20250527.1000",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "195.60.213.37",
+    "server": "Exim",
+    "version": "20250527.1000",
+    "api_name": "exim",
+    "original_server": "Exim/20250527.1000",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]
