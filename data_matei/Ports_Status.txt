@@ -1,0 +1,10 @@
+80,443,8080 - use http module zgrab - DONE
+25, 587, 465 - use smtp module zgrab - DONE
+21 - use ftp module zgrab - DONE
+993 - use nmap module zgrab - DONE
+995 - use pop3 module zgrab - DONE
+3306 - MySQL/MariaDB - use the MySQL_version script on my branch - DONE
+1433 - use mssql module zgrab, then parser from my branch - NOTHING THERE
+6379 - use redis version script from my branch - NOTHING
+5671, 5672 - use amqp091 then RabbitMQ parser from my branch - NOTHING
+27017 - use mongodb version script from my branch
