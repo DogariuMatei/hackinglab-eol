@@ -1,0 +1,82 @@
+[
+  {
+    "ip": "136.144.178.251",
+    "server": "RabbitMQ",
+    "version": "3.11",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.11.15",
+    "is_eol": true,
+    "eol_from": "2023-06-01",
+    "status": "EOL: True, EOL Date: 2023-06-01"
+  },
+  {
+    "ip": "136.144.250.200",
+    "server": "RabbitMQ",
+    "version": "3.11",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.11.13",
+    "is_eol": true,
+    "eol_from": "2023-06-01",
+    "status": "EOL: True, EOL Date: 2023-06-01"
+  },
+  {
+    "ip": "37.97.150.238",
+    "server": "RabbitMQ",
+    "version": "3.11",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.11.6",
+    "is_eol": true,
+    "eol_from": "2023-06-01",
+    "status": "EOL: True, EOL Date: 2023-06-01"
+  },
+  {
+    "ip": "93.119.4.64",
+    "server": "RabbitMQ",
+    "version": "3.12",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.12.2",
+    "is_eol": true,
+    "eol_from": "2024-02-21",
+    "status": "EOL: True, EOL Date: 2024-02-21"
+  },
+  {
+    "ip": "85.10.129.4",
+    "server": "RabbitMQ",
+    "version": "3.13",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.13.6",
+    "is_eol": true,
+    "eol_from": "2024-09-17",
+    "status": "EOL: True, EOL Date: 2024-09-17"
+  },
+  {
+    "ip": "37.97.232.63",
+    "server": "RabbitMQ",
+    "version": "3.8",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.8.3",
+    "is_eol": true,
+    "eol_from": "2022-07-31",
+    "status": "EOL: True, EOL Date: 2022-07-31"
+  },
+  {
+    "ip": "84.247.15.248",
+    "server": "RabbitMQ",
+    "version": "3.8",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.8.18",
+    "is_eol": true,
+    "eol_from": "2022-07-31",
+    "status": "EOL: True, EOL Date: 2022-07-31"
+  },
+  {
+    "ip": "93.119.5.127",
+    "server": "RabbitMQ",
+    "version": "3.8",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.8.3",
+    "is_eol": true,
+    "eol_from": "2022-07-31",
+    "status": "EOL: True, EOL Date: 2022-07-31"
+  }
+]

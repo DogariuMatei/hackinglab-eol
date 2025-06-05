@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # === CONFIGURATION ===
-SUFFIX="AS41960"
-PORTS=("80" "443" "8080" "6379" "5432" "3306" "27017") # List of ports 3 http, Redis, postgre, mariadb mysql, mongo  "443" "8080" "6379" "5432" "3306" "27017"
+SUFFIX="AS57043"
+PORTS=("21" "587" "8080" "6379" "5432" "3306" "27017" "25" "5672" "1433") # List of ports 3 http, Redis, postgre, mariadb mysql, mongo  "443" "8080" "6379" "5432" "3306" "27017"
 RATE="1024"
 
 # === PATH SETUP ===

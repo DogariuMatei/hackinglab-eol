@@ -6,6 +6,7 @@ import requests
 from urllib.parse import quote
 
 
+
 def check_and_replace_known_labels(server_name):
     mapping = {
         "Apache": "apache-http-server",
@@ -157,7 +158,7 @@ def main():
     file_path = sys.argv[1]
     base_path = sys.argv[2]
 
-    successful_results, failed_results, number_eol_hosts = process_json_file(file_path)
+    successful_results, failed_results, all_results, number_eol_hosts = process_json_file(file_path)
 
     # Save results to separate files
     success_file = f"{base_path}/server_eol_success.json"
