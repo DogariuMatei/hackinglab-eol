@@ -1,0 +1,42 @@
+[
+  {
+    "server": "nginx/1.18.0 (Ubuntu)",
+    "ip": "176.222.53.8"
+  },
+  {
+    "server": "nginx/1.26.2",
+    "ip": "46.161.40.192"
+  },
+  {
+    "server": "openresty",
+    "ip": "194.164.217.212"
+  },
+  {
+    "server": "nginx/1.18.0 (Ubuntu)",
+    "ip": "212.108.82.91"
+  },
+  {
+    "server": "nginx/1.18.0 (Ubuntu)",
+    "ip": "46.17.100.38"
+  },
+  {
+    "server": "nginx",
+    "ip": "46.17.103.7"
+  },
+  {
+    "server": "openresty",
+    "ip": "176.119.141.239"
+  },
+  {
+    "server": "nginx/1.24.0 (Ubuntu)",
+    "ip": "77.83.87.230"
+  },
+  {
+    "server": "nginx",
+    "ip": "79.133.180.158"
+  },
+  {
+    "server": "openresty",
+    "ip": "66.151.42.73"
+  }
+]

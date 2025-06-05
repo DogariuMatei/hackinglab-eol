@@ -235,12 +235,12 @@ def plot_eol_ports_by_server_type1(folder_path):
     plt.grid(axis='y', linestyle='--', alpha=0.7)
     plt.tight_layout()
     plt.show()
+
 if __name__ == "__main__":
-    folder = r"D:\Uni\Y4Q4\HackingLab\hackinglab-eol\data_konstantin\All_port_data"
-    #analyze_eol_from_files(folder)
-    #analyze_top_port_combinations(folder, top_n=10)
-    #visualize_port_combinations_heatmap(folder, top_n=10)
-    #plot_eol_ports_by_server_type(folder)
-    plot_eol_ports_by_server_type1(folder)
+    folder = r"D:\Uni\Y4Q4\HackingLab\hackinglab-eol\data_filip\AS57043\All_port_data"
+    analyze_eol_from_files(folder)
+    analyze_top_port_combinations(folder, top_n=10)
+    visualize_port_combinations_heatmap(folder, top_n=10)
+    plot_eol_ports_by_server_type(folder)
 
 

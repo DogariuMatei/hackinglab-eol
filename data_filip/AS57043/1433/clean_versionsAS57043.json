@@ -1,0 +1,38 @@
+[
+  {
+    "server": "Microsoft-IIS/10.0",
+    "ip": "141.11.0.108"
+  },
+  {
+    "server": "Microsoft-IIS/10.0",
+    "ip": "66.248.205.245"
+  },
+  {
+    "server": "Microsoft-IIS/10.0",
+    "ip": "185.130.226.118"
+  },
+  {
+    "server": "Microsoft-IIS/10.0",
+    "ip": "146.0.74.175"
+  },
+  {
+    "server": "nginx/1.22.1",
+    "ip": "176.222.53.160"
+  },
+  {
+    "server": "Microsoft-IIS/10.0",
+    "ip": "146.0.74.200"
+  },
+  {
+    "server": "Microsoft-IIS/10.0",
+    "ip": "81.22.134.146"
+  },
+  {
+    "server": "Microsoft-HTTPAPI/2.0",
+    "ip": "185.167.63.14"
+  },
+  {
+    "server": "Microsoft-IIS/10.0",
+    "ip": "212.237.217.254"
+  }
+]
