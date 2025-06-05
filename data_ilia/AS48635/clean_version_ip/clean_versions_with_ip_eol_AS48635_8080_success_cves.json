@@ -1,0 +1,2169 @@
+[
+  {
+    "ip": "195.20.8.252",
+    "server": "Apache",
+    "version": "2.2",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.2.17 (Unix) mod_ssl/2.2.17 OpenSSL/0.9.8e-fips-rhel5 DAV/2 PHP/5.3.17",
+    "is_eol": true,
+    "eol_from": "2017-07-11",
+    "status": "EOL: True, EOL Date: 2017-07-11",
+    "cves": []
+  },
+  {
+    "ip": "185.224.88.61",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.25 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.224.89.140",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.29 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.224.89.187",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.25 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.224.89.28",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.25 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.224.91.214",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.29 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.27.175.89",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.29 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.56.146.242",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.52 (cPanel) OpenSSL/1.1.1m mod_bwlimited/1.4",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.56.146.244",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.52 (cPanel) OpenSSL/1.1.1m mod_bwlimited/1.4",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.56.146.57",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.52 (cPanel) OpenSSL/1.1.1m mod_bwlimited/1.4",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.66.250.214",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.25 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.66.250.72",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.29 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.87.185.84",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.18 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.87.248.71",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.63 (cPanel) OpenSSL/1.1.1w mod_bwlimited/1.4",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.87.251.204",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.57 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "31.186.173.40",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.63 (cPanel) OpenSSL/1.1.1w mod_bwlimited/1.4",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "31.186.173.9",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.63 (cPanel) OpenSSL/1.1.1w mod_bwlimited/1.4",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "31.25.98.208",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.62 (Unix)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "5.157.85.201",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.29 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "5.157.85.27",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.29 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "62.221.255.55",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.29 (Ubuntu) mod_fcgid/2.3.9 OpenSSL/1.1.1",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "92.63.169.152",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.58 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "92.63.173.197",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.58 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "185.109.217.142",
+    "server": "nginx",
+    "version": "1.14",
+    "api_name": "nginx",
+    "original_server": "nginx/1.14.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2019-04-23",
+    "status": "EOL: True, EOL Date: 2019-04-23",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-41741",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2022-41742",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2019-20372",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2019-9513",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-9516",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2018-16843",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-9511",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-16845",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-16844",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2023-44487",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2021-23017",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2021-3618",
+        "exploitability_score": 8.6
+      }
+    ]
+  },
+  {
+    "ip": "62.221.254.203",
+    "server": "nginx",
+    "version": "1.14",
+    "api_name": "nginx",
+    "original_server": "nginx/1.14.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2019-04-23",
+    "status": "EOL: True, EOL Date: 2019-04-23",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-41741",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2022-41742",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2019-20372",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2019-9513",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-9516",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2018-16843",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-9511",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-16845",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-16844",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2023-44487",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2021-23017",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2021-3618",
+        "exploitability_score": 8.6
+      }
+    ]
+  },
+  {
+    "ip": "185.182.56.26",
+    "server": "nginx",
+    "version": "1.16",
+    "api_name": "nginx",
+    "original_server": "nginx/1.16.1",
+    "is_eol": true,
+    "eol_from": "2020-04-20",
+    "status": "EOL: True, EOL Date: 2020-04-20",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-41742",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2022-41741",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2019-20372",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2019-9513",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-9516",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2019-9511",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2023-44487",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2021-23017",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2021-3618",
+        "exploitability_score": 8.6
+      }
+    ]
+  },
+  {
+    "ip": "185.109.216.68",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-41742",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2022-41741",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2023-44487",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2021-23017",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2021-3618",
+        "exploitability_score": 8.6
+      }
+    ]
+  },
+  {
+    "ip": "92.63.173.159",
+    "server": "nginx",
+    "version": "1.19",
+    "api_name": "nginx",
+    "original_server": "nginx/1.19.6",
+    "is_eol": true,
+    "eol_from": "2021-05-25",
+    "status": "EOL: True, EOL Date: 2021-05-25",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-41742",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2022-41741",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2023-44487",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2021-23017",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2021-3618",
+        "exploitability_score": 8.6
+      }
+    ]
+  },
+  {
+    "ip": "185.56.146.218",
+    "server": "nginx",
+    "version": "1.23",
+    "api_name": "nginx",
+    "original_server": "nginx/1.23.2",
+    "is_eol": true,
+    "eol_from": "2023-05-23",
+    "status": "EOL: True, EOL Date: 2023-05-23",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-44487",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2022-41742",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2022-41741",
+        "exploitability_score": 1.8
+      }
+    ]
+  },
+  {
+    "ip": "109.70.2.168",
+    "server": "nginx",
+    "version": "1.24",
+    "api_name": "nginx",
+    "original_server": "nginx/1.24.0",
+    "is_eol": true,
+    "eol_from": "2024-04-23",
+    "status": "EOL: True, EOL Date: 2024-04-23",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-44487",
+        "exploitability_score": 3.9
+      }
+    ]
+  },
+  {
+    "ip": "185.109.216.6",
+    "server": "nginx",
+    "version": "1.24",
+    "api_name": "nginx",
+    "original_server": "nginx/1.24.0",
+    "is_eol": true,
+    "eol_from": "2024-04-23",
+    "status": "EOL: True, EOL Date: 2024-04-23",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-44487",
+        "exploitability_score": 3.9
+      }
+    ]
+  },
+  {
+    "ip": "31.25.102.6",
+    "server": "nginx",
+    "version": "1.27",
+    "api_name": "nginx",
+    "original_server": "nginx/1.27.1",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "31.25.98.192",
+    "server": "nginx",
+    "version": "1.27",
+    "api_name": "nginx",
+    "original_server": "nginx/1.27.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "195.20.8.252",
+    "server": "OpenSSL",
+    "version": "0.9.8",
+    "api_name": "openssl",
+    "original_server": "Apache/2.2.17 (Unix) mod_ssl/2.2.17 OpenSSL/0.9.8e-fips-rhel5 DAV/2 PHP/5.3.17",
+    "is_eol": true,
+    "eol_from": "2015-12-31",
+    "status": "EOL: True, EOL Date: 2015-12-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2009-0789",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-4619",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2006-2940",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-2939",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2006-4339",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2012-2333",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-3508",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2011-4577",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2007-5135",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2011-3210",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-3506",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2012-1165",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2007-4995",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2010-0742",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-0166",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-0433",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2006-2937",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-4252",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2006-7250",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2005-2969",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-4108",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2016-2108",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2008-7270",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2011-4354",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2012-0884",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-4576",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-3505",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2021-4044",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2012-0027",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2006-4343",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-3566",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-0076",
+        "exploitability_score": 3.4
+      },
+      {
+        "cve_id": "CVE-2008-5077",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2016-8610",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-6449",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2011-1945",
+        "exploitability_score": 4.9
+      },
+      {
+        "cve_id": "CVE-2016-2106",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-2109",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-5298",
+        "exploitability_score": 4.9
+      },
+      {
+        "cve_id": "CVE-2016-2176",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-2107",
+        "exploitability_score": 4.9
+      },
+      {
+        "cve_id": "CVE-2016-7056",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2015-4000",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2006-3738",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2012-2110",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-5095",
+        "exploitability_score": 4.9
+      },
+      {
+        "cve_id": "CVE-2009-4355",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-3510",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2017-3735",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-4109",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2009-3245",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-3507",
+        "exploitability_score": 10.0
+      }
+    ]
+  },
+  {
+    "ip": "185.56.146.242",
+    "server": "OpenSSL",
+    "version": "1.1.1",
+    "api_name": "openssl",
+    "original_server": "Apache/2.4.52 (cPanel) OpenSSL/1.1.1m mod_bwlimited/1.4",
+    "is_eol": true,
+    "eol_from": "2023-09-11",
+    "status": "EOL: True, EOL Date: 2023-09-11",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-3817",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2018-0734",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-0735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2023-3446",
+        "exploitability_score": 3.9
+      }
+    ]
+  },
+  {
+    "ip": "185.56.146.244",
+    "server": "OpenSSL",
+    "version": "1.1.1",
+    "api_name": "openssl",
+    "original_server": "Apache/2.4.52 (cPanel) OpenSSL/1.1.1m mod_bwlimited/1.4",
+    "is_eol": true,
+    "eol_from": "2023-09-11",
+    "status": "EOL: True, EOL Date: 2023-09-11",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-3817",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2018-0734",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-0735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2023-3446",
+        "exploitability_score": 3.9
+      }
+    ]
+  },
+  {
+    "ip": "185.56.146.57",
+    "server": "OpenSSL",
+    "version": "1.1.1",
+    "api_name": "openssl",
+    "original_server": "Apache/2.4.52 (cPanel) OpenSSL/1.1.1m mod_bwlimited/1.4",
+    "is_eol": true,
+    "eol_from": "2023-09-11",
+    "status": "EOL: True, EOL Date: 2023-09-11",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-3817",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2018-0734",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-0735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2023-3446",
+        "exploitability_score": 3.9
+      }
+    ]
+  },
+  {
+    "ip": "185.87.248.71",
+    "server": "OpenSSL",
+    "version": "1.1.1",
+    "api_name": "openssl",
+    "original_server": "Apache/2.4.63 (cPanel) OpenSSL/1.1.1w mod_bwlimited/1.4",
+    "is_eol": true,
+    "eol_from": "2023-09-11",
+    "status": "EOL: True, EOL Date: 2023-09-11",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-3817",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2018-0734",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-0735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2023-3446",
+        "exploitability_score": 3.9
+      }
+    ]
+  },
+  {
+    "ip": "31.186.173.40",
+    "server": "OpenSSL",
+    "version": "1.1.1",
+    "api_name": "openssl",
+    "original_server": "Apache/2.4.63 (cPanel) OpenSSL/1.1.1w mod_bwlimited/1.4",
+    "is_eol": true,
+    "eol_from": "2023-09-11",
+    "status": "EOL: True, EOL Date: 2023-09-11",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-3817",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2018-0734",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-0735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2023-3446",
+        "exploitability_score": 3.9
+      }
+    ]
+  },
+  {
+    "ip": "31.186.173.9",
+    "server": "OpenSSL",
+    "version": "1.1.1",
+    "api_name": "openssl",
+    "original_server": "Apache/2.4.63 (cPanel) OpenSSL/1.1.1w mod_bwlimited/1.4",
+    "is_eol": true,
+    "eol_from": "2023-09-11",
+    "status": "EOL: True, EOL Date: 2023-09-11",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-3817",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2018-0734",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-0735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2023-3446",
+        "exploitability_score": 3.9
+      }
+    ]
+  },
+  {
+    "ip": "62.221.255.55",
+    "server": "OpenSSL",
+    "version": "1.1.1",
+    "api_name": "openssl",
+    "original_server": "Apache/2.4.29 (Ubuntu) mod_fcgid/2.3.9 OpenSSL/1.1.1",
+    "is_eol": true,
+    "eol_from": "2023-09-11",
+    "status": "EOL: True, EOL Date: 2023-09-11",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-3817",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2018-0734",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-0735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2023-3446",
+        "exploitability_score": 3.9
+      }
+    ]
+  },
+  {
+    "ip": "195.20.8.252",
+    "server": "PHP",
+    "version": "5.3",
+    "api_name": "php",
+    "original_server": "Apache/2.2.17 (Unix) mod_ssl/2.2.17 OpenSSL/0.9.8e-fips-rhel5 DAV/2 PHP/5.3.17",
+    "is_eol": true,
+    "eol_from": "2014-08-14",
+    "status": "EOL: True, EOL Date: 2014-08-14",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-31628",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2022-31629",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2016-10712",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-2554",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-4342",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-0237",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-17082",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2016-7127",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7132",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7130",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7126",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-9253",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2013-7327",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-2020",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4116",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2012-3365",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2009-3546",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2011-1466",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-6420",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-3064",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2010-3065",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2007-1581",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2011-3267",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2009-2626",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2012-0789",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-5711",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-5712",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2017-9225",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-9229",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-10397",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-9138",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-9934",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-15132",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-14851",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-14883",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2012-2336",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2012-2311",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-1635",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-1643",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-1824",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-9767",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2017-16642",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-7963",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-4635",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-2110",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4022",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4025",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-8923",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-9137",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4026",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4024",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4021",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-10546",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-10549",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-10548",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-10547",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2012-4388",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2011-3336",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-4049",
+        "exploitability_score": 4.9
+      },
+      {
+        "cve_id": "CVE-2014-4721",
+        "exploitability_score": 4.9
+      },
+      {
+        "cve_id": "CVE-2012-1823",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2012-0057",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-1092",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-2190",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-8142",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7478",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-4699",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2006-7243",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-4698",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-6836",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-7890",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2017-11144",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-12933",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-9226",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-11628",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2017-11142",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-9224",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-11143",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-11145",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-1471",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2011-3268",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-2202",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-3182",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-1148",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-2483",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-2225",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-1917",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2009-4017",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-0708",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-9427",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-1861",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-6501",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2015-4600",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-4248",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2010-2100",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-2950",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2010-1914",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-0421",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2009-4018",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-1864",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-3063",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-2270",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2015-8835",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-6831",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-8873",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-3185",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-6833",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-6832",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-3478",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-5095",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-5093",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-4343",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2007-3205",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-0236",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-5096",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-0753",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2011-0754",
+        "exploitability_score": 3.4
+      },
+      {
+        "cve_id": "CVE-2012-3450",
+        "exploitability_score": 4.9
+      },
+      {
+        "cve_id": "CVE-2009-3559",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-1467",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-3735",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2009-3558",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2010-3710",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2010-4645",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-1862",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-4150",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-1469",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2012-2376",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-1915",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-8994",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2018-19520",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2016-5114",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-1903",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2009-3557",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-1470",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2011-1468",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2010-2191",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-2101",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-2094",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2012-0788",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-1153",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-1398",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2012-1171",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-4539",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-4541",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-4543",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-4537",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-4540",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-4542",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-19396",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-19395",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-9425",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-7803",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2015-7804",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2015-4602",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4605",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-9641",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-9637",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-9639",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-9638",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-4070",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-4538",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-8865",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-9021",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-6977",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2019-9023",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-9024",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-9020",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-7272",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2011-4718",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2016-6292",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2016-7412",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2016-7417",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7411",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7418",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7414",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7416",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7413",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-10545",
+        "exploitability_score": 3.4
+      },
+      {
+        "cve_id": "CVE-2016-5768",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-5773",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-5094",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-5771",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-5769",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-5770",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-0185",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2011-0755",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2012-2688",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-4697",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2009-3294",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-1868",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-3062",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2012-1172",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2012-0831",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-9912",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-6712",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-3515",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-3479",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-0238",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-3487",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-3480",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-0207",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-4670",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2014-3981",
+        "exploitability_score": 3.4
+      },
+      {
+        "cve_id": "CVE-2015-8877",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-8874",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2022-4900",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2017-11147",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-10159",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-10161",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-10158",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-20783",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-1939",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-1464",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2015-3411",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-2783",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2015-4599",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-3330",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2015-3412",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-3329",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-3307",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4603",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4604",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-1352",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4601",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-2348",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4147",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-2787",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4148",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-2331",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7128",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7124",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7131",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7125",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-7129",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2018-7584",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-4566",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2013-4113",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2009-4418",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-3670",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-3669",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-3668",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-5590",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-9935",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-8838",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2015-5589",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-3870",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2010-3709",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2010-3436",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-4657",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2012-2386",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2012-2143",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2015-0273",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-9705",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-8935",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2010-2097",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2011-4885",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-2093",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-1860",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-4409",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-5459",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2016-6174",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2015-4642",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4598",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4643",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-4644",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-1866",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2010-2531",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-9426",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-9652",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-0232",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-9653",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-0231",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-2497",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-3597",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2014-3587",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2016-6296",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-6295",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-6288",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-6289",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2016-6291",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-6294",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-5399",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2016-6297",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2015-8879",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-6290",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-6837",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-6838",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-6835",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-6834",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2015-1351",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-3142",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-3141",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-5772",
+        "exploitability_score": 10.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "ip": "109.237.211.182",
+    "server": "Apache-Coyote",
+    "version": "1.1",
+    "api_name": "Apache-Coyote",
+    "original_server": "Apache-Coyote/1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.219.202",
+    "server": "Apache-Coyote",
+    "version": "1.1",
+    "api_name": "Apache-Coyote",
+    "original_server": "Apache-Coyote/1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.221.223",
+    "server": "Apache-Coyote",
+    "version": "1.1",
+    "api_name": "Apache-Coyote",
+    "original_server": "Apache-Coyote/1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.216.32",
+    "server": "Apache-Coyote",
+    "version": "1.1",
+    "api_name": "Apache-Coyote",
+    "original_server": "Apache-Coyote/1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.107.224.130",
+    "server": "Apache-Coyote",
+    "version": "1.1",
+    "api_name": "Apache-Coyote",
+    "original_server": "Apache-Coyote/1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.142.9",
+    "server": "Apache-Coyote",
+    "version": "1.1",
+    "api_name": "Apache-Coyote",
+    "original_server": "Apache-Coyote/1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.3.236",
+    "server": "Apache-Coyote",
+    "version": "1.1",
+    "api_name": "Apache-Coyote",
+    "original_server": "Apache-Coyote/1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "5.157.80.160",
+    "server": "Apache-Coyote",
+    "version": "1.1",
+    "api_name": "Apache-Coyote",
+    "original_server": "Apache-Coyote/1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.221.197.82",
+    "server": "Apache-Coyote",
+    "version": "1.1",
+    "api_name": "Apache-Coyote",
+    "original_server": "Apache-Coyote/1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "79.99.129.4",
+    "server": "Apache-Coyote",
+    "version": "1.1",
+    "api_name": "Apache-Coyote",
+    "original_server": "Apache-Coyote/1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "79.99.129.5",
+    "server": "Apache-Coyote",
+    "version": "1.1",
+    "api_name": "Apache-Coyote",
+    "original_server": "Apache-Coyote/1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.87.186.208",
+    "server": "mmonit",
+    "version": "3.4",
+    "api_name": "mmonit",
+    "original_server": "mmonit/3.4.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.56.146.242",
+    "server": "mod_bwlimited",
+    "version": "1.4",
+    "api_name": "mod_bwlimited",
+    "original_server": "Apache/2.4.52 (cPanel) OpenSSL/1.1.1m mod_bwlimited/1.4",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.56.146.244",
+    "server": "mod_bwlimited",
+    "version": "1.4",
+    "api_name": "mod_bwlimited",
+    "original_server": "Apache/2.4.52 (cPanel) OpenSSL/1.1.1m mod_bwlimited/1.4",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.56.146.57",
+    "server": "mod_bwlimited",
+    "version": "1.4",
+    "api_name": "mod_bwlimited",
+    "original_server": "Apache/2.4.52 (cPanel) OpenSSL/1.1.1m mod_bwlimited/1.4",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.87.248.71",
+    "server": "mod_bwlimited",
+    "version": "1.4",
+    "api_name": "mod_bwlimited",
+    "original_server": "Apache/2.4.63 (cPanel) OpenSSL/1.1.1w mod_bwlimited/1.4",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "31.186.173.40",
+    "server": "mod_bwlimited",
+    "version": "1.4",
+    "api_name": "mod_bwlimited",
+    "original_server": "Apache/2.4.63 (cPanel) OpenSSL/1.1.1w mod_bwlimited/1.4",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "31.186.173.9",
+    "server": "mod_bwlimited",
+    "version": "1.4",
+    "api_name": "mod_bwlimited",
+    "original_server": "Apache/2.4.63 (cPanel) OpenSSL/1.1.1w mod_bwlimited/1.4",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.221.255.55",
+    "server": "mod_fcgid",
+    "version": "2.3",
+    "api_name": "mod_fcgid",
+    "original_server": "Apache/2.4.29 (Ubuntu) mod_fcgid/2.3.9 OpenSSL/1.1.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.224.89.113",
+    "server": "nginx",
+    "version": "1.17",
+    "api_name": "nginx",
+    "original_server": "nginx/1.17.5",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "195.20.8.252",
+    "server": "mod_ssl",
+    "version": "2.2.17",
+    "api_name": "openssl",
+    "original_server": "Apache/2.2.17 (Unix) mod_ssl/2.2.17 OpenSSL/0.9.8e-fips-rhel5 DAV/2 PHP/5.3.17",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.72.89.142",
+    "server": "Microsoft-HTTPAPI",
+    "version": "2.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-HTTPAPI/2.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.72.89.184",
+    "server": "Microsoft-HTTPAPI",
+    "version": "2.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-HTTPAPI/2.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.72.89.190",
+    "server": "Microsoft-HTTPAPI",
+    "version": "2.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-HTTPAPI/2.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.72.89.87",
+    "server": "Microsoft-HTTPAPI",
+    "version": "2.0",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-HTTPAPI/2.0",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.72.89.186",
+    "server": "Microsoft-IIS",
+    "version": "8.5",
+    "api_name": "windows-server",
+    "original_server": "Microsoft-IIS/8.5",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]

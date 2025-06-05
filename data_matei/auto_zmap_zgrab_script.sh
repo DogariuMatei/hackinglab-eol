@@ -1,0 +1,60 @@
+#!/bin/bash
+
+# Simple automated port scanner
+set -e
+
+IP_LIST="previder-ips.txt"
+PORTS_FILE="ports.txt"
+
+# Get ports from file
+get_ports() {
+    cat "$PORTS_FILE" | tr ',' '\n'
+}
+
+# Get zgrab2 command for port
+get_zgrab_command() {
+    local port=$1
+    local output_file="Port${port}/zgrab_results.json"
+
+    case $port in
+        80|443|8080)
+            echo "zgrab2 http -p $port --user-agent \"Mozilla/5.0\" --senders=20 --endpoint \"/\" --output-file $output_file"
+            ;;
+        587|465)
+            echo "zgrab2 smtp -p $port -t 20 --senders=20 --output-file $output_file"
+            ;;
+        21)
+            echo "zgrab2 ftp -p $port --senders=20 --output-file $output_file"
+            ;;
+        993)
+            echo "zgrab2 imap -p $port --imaps -t 20 --senders=20 --output-file $output_file"
+            ;;
+        995)
+            echo "zgrab2 pop3 -p $port --pop3s -t 20 --senders=20 --output-file $output_file"
+            ;;
+        1433)
+            echo "zgrab2 mssql -p $port -t 20 --senders=20 --output-file $output_file"
+            ;;
+    esac
+}
+
+# Process each port
+for port in $(get_ports); do
+    echo "Processing port $port"
+
+    # Create directory
+    mkdir -p "Port${port}"
+
+    # Run zmap
+    sudo zmap -p "$port" -o "Port${port}/zmap_output.csv" -r 128 -w "$IP_LIST"
+
+    # Run zgrab2 if zmap found results
+    if [[ -s "Port${port}/zmap_output.csv" ]]; then
+        zgrab_cmd=$(get_zgrab_command "$port")
+        if [[ -n "$zgrab_cmd" ]]; then
+            cat "Port${port}/zmap_output.csv" | eval "$zgrab_cmd"
+        fi
+    fi
+done
+
+echo "Done"

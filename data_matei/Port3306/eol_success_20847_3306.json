@@ -1,0 +1,622 @@
+[
+  {
+    "ip": "84.241.177.131",
+    "server": "MariaDB",
+    "version": "10.4",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.4",
+    "is_eol": true,
+    "eol_from": "2024-06-18",
+    "status": "EOL: True, EOL Date: 2024-06-18"
+  },
+  {
+    "ip": "84.241.177.134",
+    "server": "MariaDB",
+    "version": "10.4",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.4",
+    "is_eol": true,
+    "eol_from": "2024-06-18",
+    "status": "EOL: True, EOL Date: 2024-06-18"
+  },
+  {
+    "ip": "84.241.177.149",
+    "server": "MariaDB",
+    "version": "10.4",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.4",
+    "is_eol": true,
+    "eol_from": "2024-06-18",
+    "status": "EOL: True, EOL Date: 2024-06-18"
+  },
+  {
+    "ip": "84.241.177.150",
+    "server": "MariaDB",
+    "version": "10.4",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.4",
+    "is_eol": true,
+    "eol_from": "2024-06-18",
+    "status": "EOL: True, EOL Date: 2024-06-18"
+  },
+  {
+    "ip": "84.241.177.155",
+    "server": "MariaDB",
+    "version": "10.4",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.4",
+    "is_eol": true,
+    "eol_from": "2024-06-18",
+    "status": "EOL: True, EOL Date: 2024-06-18"
+  },
+  {
+    "ip": "141.138.168.113",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.114",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.117",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.125",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.126",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.174",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.177",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.178",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.196",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.211",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.212",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.22",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.25",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.33",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.36",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.168.41",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.169.12",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "141.138.169.214",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.103",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.124",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.168",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.210",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.226",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.233",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.237",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.246",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.35",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.47",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.5",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.53",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.58",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.83",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.9",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.72.93",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.73.15",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.73.159",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.73.168",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.73.170",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.73.183",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.73.247",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.73.40",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.73.49",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.73.85",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.73.99",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.74.148",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.74.168",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.74.188",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.74.19",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.74.202",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.74.203",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.74.22",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.74.253",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "195.211.74.88",
+    "server": "MariaDB",
+    "version": "10.6",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/10.6",
+    "is_eol": false,
+    "eol_from": "2026-07-06",
+    "status": "EOL: False, EOL Date: 2026-07-06"
+  },
+  {
+    "ip": "84.241.182.191",
+    "server": "MariaDB",
+    "version": "5.5",
+    "api_name": "mariadb",
+    "original_server": "MariaDB/5.5",
+    "is_eol": true,
+    "eol_from": "2020-04-11",
+    "status": "EOL: True, EOL Date: 2020-04-11"
+  },
+  {
+    "ip": "195.60.214.188",
+    "server": "MySQL",
+    "version": "5.5",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.5.9",
+    "is_eol": true,
+    "eol_from": "2018-12-31",
+    "status": "EOL: True, EOL Date: 2018-12-31"
+  },
+  {
+    "ip": "62.165.77.143",
+    "server": "MySQL",
+    "version": "5.7",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.7.16",
+    "is_eol": true,
+    "eol_from": "2023-10-31",
+    "status": "EOL: True, EOL Date: 2023-10-31"
+  },
+  {
+    "ip": "84.241.175.117",
+    "server": "MySQL",
+    "version": "5.7",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.7.16",
+    "is_eol": true,
+    "eol_from": "2023-10-31",
+    "status": "EOL: True, EOL Date: 2023-10-31"
+  }
+]
