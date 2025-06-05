@@ -1,0 +1,322 @@
+[
+  {
+    "ip": "185.103.243.13",
+    "server": "MySQL",
+    "version": "4.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/4.1.22",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.202.129",
+    "server": "MySQL",
+    "version": "4.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/4.1.12",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.216.108",
+    "server": "MySQL",
+    "version": "5.0",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.0.77",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.216.56",
+    "server": "MySQL",
+    "version": "5.0",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.0.95",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.219.36",
+    "server": "MySQL",
+    "version": "5.0",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.0.95",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.64",
+    "server": "MySQL",
+    "version": "5.0",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.0.51",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "195.20.11.200",
+    "server": "MySQL",
+    "version": "5.0",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.0.95",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "195.20.8.252",
+    "server": "MySQL",
+    "version": "5.0",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.0.95",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.1.20",
+    "server": "MySQL",
+    "version": "5.0",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.0.91",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.6.141",
+    "server": "MySQL",
+    "version": "5.0",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.0.51",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.211.95",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.73",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.220.176",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.73",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.3.166",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.62",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.3.214",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.48",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.229",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.72",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.7",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.65",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.6.199",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.62",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.101",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.73",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.224.89.81",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.73",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.140.133",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.48",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.140.134",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.48",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.141.208",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.73",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.141.66",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.48",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.87.186.158",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.73",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "195.20.11.222",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.73",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "195.238.75.72",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.73",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.2.142",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.48",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.4.123",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.48",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.4.43",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.73",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.6.104",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.48",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.7.92",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.48",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "5.157.80.187",
+    "server": "MySQL",
+    "version": "5.1",
+    "api_name": "mysql",
+    "original_server": "MySQL/5.1.73",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]

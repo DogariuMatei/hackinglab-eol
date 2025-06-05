@@ -1,0 +1,1522 @@
+[
+  {
+    "ip": "109.237.218.212",
+    "server": "ProFTPD",
+    "version": "1.3.1",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.218.213",
+    "server": "ProFTPD",
+    "version": "1.3.1",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.1",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.218.208",
+    "server": "ProFTPD",
+    "version": "1.3.2",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.2e",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.208.201",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.209.201",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.209.203",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.237.209.205",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.1.104",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.1.196",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.1.207",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.1.252",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.1.71",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.3.166",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.3.214",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.11",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.148",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.203",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.229",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.48",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.64",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.83",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.6.129",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.6.199",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.6.69",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.217.160",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.218.73",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.178",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.184",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.219",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.231",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.232",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.31",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.33",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.54",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.55",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.89",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.220.66",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.220.75",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.200.14",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.202.100",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.202.129",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.202.163",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.202.164",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.202.165",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.202.166",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.202.230",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.202.231",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.202.232",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.203.30",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.140.133",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.140.134",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.141.66",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.87.249.42",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3e",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "193.23.143.25",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3e",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "194.247.31.39",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3e",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "195.238.75.72",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3g",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.1.149",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.1.150",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.1.155",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.1.20",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.2.142",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.2.163",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.2.207",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.2.64",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.4.113",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.4.123",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.4.43",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.4.60",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.4.93",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.6.104",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.6.12",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.6.141",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.6.18",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.6.51",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.7.153",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.7.191",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.7.198",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.7.231",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.7.92",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.240.118",
+    "server": "ProFTPD",
+    "version": "1.3.3",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.3d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.1.127",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.1.39",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.3.75",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.125",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.7",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.4.8",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.6.157",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.6.200",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.7.243",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "109.70.7.80",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.217.119",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.217.200",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.217.208",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.217.231",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.145",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.219.62",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.220.238",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.220.245",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.221.137",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.221.158",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.221.241",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.221.243",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.221.62",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.221.63",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.222.15",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.223.10",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.223.223",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.223.51",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "128.140.223.80",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.103.159.201",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.103.243.13",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.231.200.21",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.140.155",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.140.202",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.140.48",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.140.79",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.141.113",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "185.27.141.27",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "194.247.30.63",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4c",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "194.247.30.94",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "194.247.31.152",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "194.247.31.88",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "31.186.175.61",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.1.158",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.1.74",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.2.112",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.2.186",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.2.25",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.2.26",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.2.35",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.4.116",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4d",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.6.214",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.6.28",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "46.17.7.177",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "5.157.81.198",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4a",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "5.157.83.213",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "5.157.85.223",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.240.139",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.240.190",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.240.29",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.240.40",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.240.41",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.240.46",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.240.6",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.240.60",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.240.79",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.241.141",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.241.16",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.241.195",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.241.242",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.241.252",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  },
+  {
+    "ip": "62.84.241.254",
+    "server": "ProFTPD",
+    "version": "1.3.4",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.4b",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: FAILED: 404"
+  }
+]
