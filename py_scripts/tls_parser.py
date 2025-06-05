@@ -1,15 +1,27 @@
 import json
 
 
-def extract_tls_version(protocol_data):
+def extract_tls_version(protocol_data, protocol_name):
     if protocol_data.get('status') == 'success':
-        tls = protocol_data.get('result', {}).get('tls', {})
-        handshake_log = tls.get('handshake_log', {})
-        server_hello = handshake_log.get('server_hello', {})
-        supported_versions = server_hello.get('supported_versions', {})
-        tls_version = supported_versions.get('selected_version', {}).get('name', None) or \
-                      server_hello.get('version', {}).get('name', None)
-        return tls_version, server_hello.get('server_name', 'unknown')
+        if protocol_name == 'http':
+            response = protocol_data.get('result', {}).get('response', {})
+            request = response.get('request', {})
+            tls_log = request.get('tls_log', {})
+            handshake_log = tls_log.get('handshake_log', {})
+            server_hello = handshake_log.get('server_hello', {})
+            supported_versions = server_hello.get('supported_versions', {})
+            tls_version = supported_versions.get('selected_version', {}).get('name', None) or \
+                        server_hello.get('version', {}).get('name', None)
+            server_name = request.get('host', 'unknown')
+            return tls_version, server_name
+        else:
+            tls = protocol_data.get('result', {}).get('tls', {})
+            handshake_log = tls.get('handshake_log', {})
+            server_hello = handshake_log.get('server_hello', {})
+            supported_versions = server_hello.get('supported_versions', {})
+            tls_version = supported_versions.get('selected_version', {}).get('name', None) or \
+                        server_hello.get('version', {}).get('name', None)
+            return tls_version, server_hello.get('server_name', 'unknown')
     return None, None
 
 def get_clean_tls_version(version):
@@ -36,7 +48,7 @@ def extract_tls_info(json_data):
 
         for protocol in ['http', 'smtp', 'imap', 'pop3', 'amqp091']:
             protocol_data = entry.get('data', {}).get(protocol, {})
-            tls_version, server_name = extract_tls_version(protocol_data)
+            tls_version, server_name = extract_tls_version(protocol_data, protocol)
             clean_tls_version = get_clean_tls_version(tls_version)
 
             if tls_version:
@@ -79,4 +91,4 @@ def process_file(file_name, output_name):
         json.dump(tls_info, outfile, indent=2)
 
 
-process_file('AAS20857/zgrab_results/AS20857_995_results_27may.json', 'AAS20857/clean_version_ip/clean_versions_with_ip_TLS_AS20857_995.json')
+process_file('AAS20857/zgrab_results/AS20857_465_results_27may.json', 'AAS20857/clean_version_ip/tashjanesi.json')
