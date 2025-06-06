@@ -2,9 +2,12 @@
 
 set -e
 
-AS_NUMBER="20847"
-IP_LIST="20847-ips.txt"
+AS_NUMBER="31477"
+IP_LIST="31477-ips.txt"
 PORTS_FILE="auto-ports.txt"
+
+# Get the real user (not root when using sudo)
+REAL_USER=${SUDO_USER:-$USER}
 
 # Get ports from file
 get_ports() {
@@ -46,15 +49,21 @@ for port in $(get_ports); do
     mkdir -p "AS${AS_NUMBER}Port${port}"
 
     # Run zmap
-    sudo zmap -p "$port" -o "AS${AS_NUMBER}Port${port}/zmap_output.csv" -r 128 -w "$IP_LIST"
+    zmap -p "$port" -o "AS${AS_NUMBER}Port${port}/zmap_output.csv" -r 128 -w "$IP_LIST"
 
     # Run zgrab2 if zmap found results
-    if [[ -s "Port${port}/zmap_output.csv" ]]; then
+    if [[ -s "AS${AS_NUMBER}Port${port}/zmap_output.csv" ]]; then
         zgrab_cmd=$(get_zgrab_command "$port")
         if [[ -n "$zgrab_cmd" ]]; then
-            cat "Port${port}/zmap_output.csv" | eval "$zgrab_cmd"
+            cat "AS${AS_NUMBER}Port${port}/zmap_output.csv" | eval "$zgrab_cmd"
         fi
     fi
+
+    # Fix permissions for this port's directory
+    chown -R $REAL_USER:$REAL_USER "AS${AS_NUMBER}Port${port}"
 done
+
+# Fix permissions for entire directory at the end
+chown -R $REAL_USER:$REAL_USER .
 
 echo "Done"
