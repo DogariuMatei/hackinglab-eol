@@ -1,0 +1,22 @@
+[
+  {
+    "ip": "62.165.75.12",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.6 () OpenSSL/1.0.2k-fips",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "62.165.75.12",
+    "server": "OpenSSL",
+    "version": "1.0.2",
+    "api_name": "openssl",
+    "original_server": "Apache/2.4.6 () OpenSSL/1.0.2k-fips",
+    "is_eol": true,
+    "eol_from": "2019-12-31",
+    "status": "EOL: True, EOL Date: 2019-12-31"
+  }
+]

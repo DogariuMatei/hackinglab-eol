@@ -1,0 +1,102 @@
+[
+  {
+    "ip": "46.22.185.79",
+    "server": "unknown",
+    "version": "1.3",
+    "api_name": "POP3",
+    "original_server": "TLSv1.3",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "93.92.99.182",
+    "server": "unknown",
+    "version": "1.3",
+    "api_name": "POP3",
+    "original_server": "TLSv1.3",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "93.92.99.183",
+    "server": "unknown",
+    "version": "1.3",
+    "api_name": "POP3",
+    "original_server": "TLSv1.3",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "93.92.99.184",
+    "server": "unknown",
+    "version": "1.3",
+    "api_name": "POP3",
+    "original_server": "TLSv1.3",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "188.66.17.25",
+    "server": "unknown",
+    "version": "1.3",
+    "api_name": "POP3",
+    "original_server": "TLSv1.3",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "80.95.160.127",
+    "server": "unknown",
+    "version": "1.2",
+    "api_name": "POP3",
+    "original_server": "TLSv1.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "46.22.184.44",
+    "server": "unknown",
+    "version": "1.3",
+    "api_name": "POP3",
+    "original_server": "TLSv1.3",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "80.95.160.37",
+    "server": "unknown",
+    "version": "1.0",
+    "api_name": "POP3",
+    "original_server": "TLSv1.0",
+    "is_eol": true,
+    "eol_from": "2021-03-01",
+    "status": "EOL: True, EOL Date: 2021-03-01"
+  },
+  {
+    "ip": "80.95.160.25",
+    "server": "unknown",
+    "version": "1.0",
+    "api_name": "POP3",
+    "original_server": "TLSv1.0",
+    "is_eol": true,
+    "eol_from": "2021-03-01",
+    "status": "EOL: True, EOL Date: 2021-03-01"
+  },
+  {
+    "ip": "80.95.160.33",
+    "server": "unknown",
+    "version": "1.0",
+    "api_name": "POP3",
+    "original_server": "TLSv1.0",
+    "is_eol": true,
+    "eol_from": "2021-03-01",
+    "status": "EOL: True, EOL Date: 2021-03-01"
+  }
+]
