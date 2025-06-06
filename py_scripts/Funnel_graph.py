@@ -3,16 +3,16 @@ import json
 import plotly.graph_objects as go
 def main():
     # 1. This is the output file from a zmap scan
-    with open("../data_filip/AS57043/80/zmap_outputAS57043.csv", newline='', encoding='utf-8') as csvfile:
+    with open("../data_filip/AS1101/80/zmap_outputAS1101.csv", newline='', encoding='utf-8') as csvfile:
         zmap_hits = sum(1 for _ in csvfile)  # Number of lines
 
     # This one is the ip + version file
-    with open("../data_filip/AS57043/80/clean_versionsAS57043.json", encoding='utf-8') as f:
+    with open("../data_filip/AS1101/80/clean_versionsAS1101.json", encoding='utf-8') as f:
         versions_data = json.load(f)
         num_versions = len(versions_data)
 
     # This one is the success eol check file
-    with open("../data_filip/AS57043/80/server_eol_success_AS57043.json", encoding='utf-8') as f:
+    with open("../data_filip/AS1101/80/server_eol_success.json", encoding='utf-8') as f:
         meaningful_versions_data = json.load(f)
         num_meaningful_versions = len(meaningful_versions_data)
         num_eol_hosts = sum(1 for entry in meaningful_versions_data if entry.get("is_eol") is True)

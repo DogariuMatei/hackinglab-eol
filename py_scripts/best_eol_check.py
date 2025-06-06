@@ -6,7 +6,6 @@ import requests
 from urllib.parse import quote
 
 
-
 def check_and_replace_known_labels(server_name):
     mapping = {
         "Apache": "apache-http-server",
@@ -18,7 +17,14 @@ def check_and_replace_known_labels(server_name):
         "nginx": "nginx",
         "mod_python": "python",
         "mod_ssl": "openssl",
-
+        "Exim": "exim",
+        "ProFTPD": "proftpd",
+        "Redis": "redis",
+        "MongoDB": "mongodb",
+        "MySQL": "mysql",
+        "MariaDB": "mariadb",
+        "MSSQL": "mssqlserver",
+        "RabbitMQ": "rabbitmq",
     }
     return mapping.get(server_name, server_name)
 
@@ -50,6 +56,18 @@ def extract_valid_components(server_string):
                 valid_components.append((name, version))
                 continue
 
+            if api_name.lower() == "exim":
+                match = re.match(r'^(\d+\.\d+)', version)
+                if match:
+                    valid_components.append((name, match.group(1)))
+                continue
+
+            if api_name.lower() == "proftpd":
+                match = re.match(r'^(\d+\.\d+\.\d+)', version)
+                if match:
+                    valid_components.append((name, match.group(1)))
+                continue
+
             # For others, extract just the major.minor part (x.y)
             version_parts = version.split('.')
             if len(version_parts) >= 2:
@@ -57,7 +75,6 @@ def extract_valid_components(server_string):
                 valid_components.append((name, simplified_version))
 
     return valid_components
-
 
 def check_eol_api(server_name, version):
     api_url = f"https://endoflife.date/api/v1/{quote('products')}/{quote(server_name)}/releases/{quote(version)}"

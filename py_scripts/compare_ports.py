@@ -6,6 +6,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
+import plotly.graph_objects as go
+import networkx as nx
 
 def analyze_eol_from_files(folder_path):
     if not os.path.isdir(folder_path):
@@ -13,6 +15,7 @@ def analyze_eol_from_files(folder_path):
 
     ip_vulnerable_ports = defaultdict(set)
 
+    # Read data from the folder
     for filename in os.listdir(folder_path):
         if not filename.endswith(".json"):
             continue
@@ -39,7 +42,13 @@ def analyze_eol_from_files(folder_path):
     y = [vuln_count_distribution[i] for i in x]
 
     plt.figure(figsize=(10, 6))
-    plt.bar(x, y, color='salmon', edgecolor='black')
+    bars = plt.bar(x, y, color='salmon', edgecolor='black')
+
+    # Add total number on top of each bar
+    for bar, count in zip(bars, y):
+        plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height(),
+                 str(count), ha='center', va='bottom', fontsize=10)
+
     plt.xlabel("Number of Vulnerable Ports")
     plt.ylabel("Number of IPs")
     plt.title("IP Vulnerability Count across Ports")
@@ -55,13 +64,13 @@ def analyze_top_port_combinations(folder_path, top_n=10):
     ip_vulnerable_ports = defaultdict(set)
     single_port_counter = Counter()
 
-    # Read JSON files and collect vulnerable ports for each IP
+    # Read data from the folder
     for filename in os.listdir(folder_path):
         if not filename.endswith(".json"):
             continue
 
         file_path = os.path.join(folder_path, filename)
-        port_identifier = os.path.splitext(filename)[0]  # remove ".json"
+        port_identifier = os.path.splitext(filename)[0]
 
         try:
             with open(file_path, "r") as f:
@@ -75,23 +84,21 @@ def analyze_top_port_combinations(folder_path, top_n=10):
         except Exception as e:
             print(f"Failed to read {file_path}: {e}")
 
-    # Print the most common single ports
     print(f"\nTop {top_n} most common single ports:")
     for port, count in single_port_counter.most_common(top_n):
         print(f"Port {port}: {count}")
 
-    # Analyze top combinations for each group size
     max_ports = max(len(ports) for ports in ip_vulnerable_ports.values())
-    for group_size in range(1, min(max_ports + 1, 7)):  # Limit to 6 as per the requirement
+
+    for group_size in range(1, min(max_ports + 1, 7)):
         combination_counter = Counter()
 
         for ports in ip_vulnerable_ports.values():
-            if len(ports) == group_size:  # Only consider IPs with exactly `group_size` ports
-                for combo in combinations(sorted(ports), group_size):
-                    combination_counter[combo] += 1
+            if len(ports) == group_size:
+                key = tuple(sorted(ports))
+                combination_counter[key] += 1
 
-        # Get the top N combinations
-        print(f"\nTop {top_n} most common port combinations for group size {group_size}:")
+        print(f"\nTop {top_n} most common exact port sets for group size {group_size}:")
         for combo, count in combination_counter.most_common(top_n):
             print(f"{combo}: {count}")
 
@@ -101,7 +108,7 @@ def visualize_port_combinations_heatmap(folder_path, top_n=10):
 
     ip_vulnerable_ports = defaultdict(set)
 
-    # Read JSON files and collect vulnerable ports for each IP
+    # Read data from the folder
     for filename in os.listdir(folder_path):
         if not filename.endswith(".json"):
             continue
@@ -120,24 +127,27 @@ def visualize_port_combinations_heatmap(folder_path, top_n=10):
         except Exception as e:
             print(f"Failed to read {file_path}: {e}")
 
-    # Analyze top combinations for each group size
     max_ports = max(len(ports) for ports in ip_vulnerable_ports.values())
     for group_size in range(2, min(max_ports + 1, 7)):  # Limit to 6 as per the requirement
         combination_counter = Counter()
 
         for ports in ip_vulnerable_ports.values():
-            if len(ports) == group_size:  # Only consider IPs with exactly `group_size` ports
+            if len(ports) >= group_size:  # Consider IPs with at least `group_size` ports
                 for combo in combinations(sorted(ports), group_size):
                     combination_counter[combo] += 1
 
-        # Prepare data for heatmap
         if group_size == 2:  # Heatmap is most effective for 2-port combinations
             heatmap_data = defaultdict(lambda: defaultdict(int))
             for (port1, port2), count in combination_counter.items():
                 heatmap_data[port1][port2] = count
+                heatmap_data[port2][port1] = count  # Ensure symmetry
 
             # Convert to DataFrame
             df = pd.DataFrame(heatmap_data).fillna(0)
+
+            # Ensure symmetry by reindexing rows and columns in the same order
+            all_ports = sorted(df.index.union(df.columns))
+            df = df.reindex(index=all_ports, columns=all_ports, fill_value=0)
 
             # Apply logarithmic transformation
             log_df = np.log1p(df)  # log(1 + x) to handle zeros
@@ -145,7 +155,7 @@ def visualize_port_combinations_heatmap(folder_path, top_n=10):
             # Plot heatmap
             plt.figure(figsize=(12, 8))
             sns.heatmap(log_df, annot=df, fmt=".0f", cmap="YlGnBu", cbar=True)
-            plt.title(f"Heatmap of 2-Port Combinations (Group Size {group_size}) with Logarithmic Scale")
+            plt.title(f"Heatmap of 2-Port Combinations with Logarithmic Scale")
             plt.xlabel("Port 1")
             plt.ylabel("Port 2")
             plt.tight_layout()
@@ -157,6 +167,7 @@ def plot_eol_ports_by_server_type(folder_path):
 
     server_type_counter = Counter()
 
+    # Read data from the folder
     for filename in os.listdir(folder_path):
         if not filename.endswith(".json"):
             continue
@@ -186,61 +197,206 @@ def plot_eol_ports_by_server_type(folder_path):
     plt.tight_layout()
     plt.show()
 
-def plot_eol_ports_by_server_type1(folder_path):
-    if not os.path.isdir(folder_path):
-        raise ValueError(f"{folder_path} is not a valid folder.")
+def create_multi_level_sankey(folder_path):
+    ip_vulnerable_ports = defaultdict(set)
 
-    server_type_counter = Counter()
-
+    # Read data from the folder
     for filename in os.listdir(folder_path):
         if not filename.endswith(".json"):
             continue
 
         file_path = os.path.join(folder_path, filename)
+        port_identifier = os.path.splitext(filename)[0]  # Remove ".json"
+
         try:
             with open(file_path, "r") as f:
                 data = json.load(f)
 
             for entry in data:
                 if entry.get("is_eol"):
-                    server_type = entry.get("server", "Unknown")
-                    server_type_counter[server_type] += 1
+                    ip = entry.get("ip")
+                    ip_vulnerable_ports[ip].add(port_identifier)
         except Exception as e:
             print(f"Failed to read {file_path}: {e}")
 
-    # Define custom bins
-    bins = [0, 100, 500, 1000, 2000, 8000]
-    bin_labels = ["0-100", "100-500", "500-1000", "1000-2000", "2000-8000"]
+    # Prepare data for the Sankey diagram
+    max_ports = max(len(ports) for ports in ip_vulnerable_ports.values())
+    combination_counters = [Counter() for _ in range(max_ports)]
 
-    # Bin the server counts
-    server_counts = list(server_type_counter.values())
-    binned_counts = pd.cut(server_counts, bins=bins, labels=bin_labels, right=True)
+    for ports in ip_vulnerable_ports.values():
+        for group_size in range(1, len(ports) + 1):
+            for combo in combinations(sorted(ports), group_size):
+                combination_counters[group_size - 1][combo] += 1
 
-    # Aggregate counts for each bin
-    bin_totals = Counter()
-    for bin_label, count in zip(binned_counts, server_counts):
-        bin_totals[bin_label] += count
+    # Filter out combinations with fewer than 20 occurrences
+    combination_counters = [
+        {combo: count for combo, count in counter.items() if count >= 20}
+        for counter in combination_counters
+    ]
 
-    # Prepare data for plotting
-    x = list(bin_totals.keys())
-    y = list(bin_totals.values())
+    # Create nodes and links
+    nodes = []
+    node_indices = {}
+    sources = []
+    targets = []
+    values = []
 
-    # Plotting
-    plt.figure(figsize=(10, 6))
-    plt.bar(x, y, color='orange', edgecolor='black')
-    plt.xlabel("Number of EOL Ports (Binned)")
-    plt.ylabel("Number of Servers")
-    plt.title("EOL Ports by Server Type (Binned)")
-    plt.xticks(rotation=45)
-    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    for level, counter in enumerate(combination_counters):
+        for combo, count in counter.items():
+            combo_str = ", ".join(combo)
+            if combo_str not in node_indices:
+                node_indices[combo_str] = len(nodes)
+                nodes.append(combo_str)
+
+            # Link to larger combinations in the next level
+            if level < len(combination_counters) - 1:
+                for next_combo, next_count in combination_counters[level + 1].items():
+                    if set(combo).issubset(next_combo):
+                        next_combo_str = ", ".join(next_combo)
+                        if next_combo_str not in node_indices:
+                            node_indices[next_combo_str] = len(nodes)
+                            nodes.append(next_combo_str)
+
+                        sources.append(node_indices[combo_str])
+                        targets.append(node_indices[next_combo_str])
+                        values.append(next_count)
+
+    # Create Sankey diagram
+    fig = go.Figure(data=[go.Sankey(
+        node=dict(
+            pad=15,
+            thickness=20,
+            line=dict(color="black", width=0.5),
+            label=nodes
+        ),
+        link=dict(
+            source=sources,
+            target=targets,
+            value=values
+        )
+    )])
+
+    fig.update_layout(title_text="Multi-Level Sankey Diagram: Port Combinations", font_size=10)
+    fig.show()
+
+def create_port_cooccurrence_graph(folder_path, min_weight=20):
+    ip_vulnerable_ports = defaultdict(set)
+
+    # Read data from the folder
+    for filename in os.listdir(folder_path):
+        if not filename.endswith(".json"):
+            continue
+
+        file_path = os.path.join(folder_path, filename)
+        port_identifier = os.path.splitext(filename)[0]  # Remove ".json"
+
+        try:
+            with open(file_path, "r") as f:
+                data = json.load(f)
+
+            for entry in data:
+                if entry.get("is_eol"):
+                    ip = entry.get("ip")
+                    ip_vulnerable_ports[ip].add(port_identifier)
+        except Exception as e:
+            print(f"Failed to read {file_path}: {e}")
+
+    # Count co-occurrences of ports
+    cooccurrence_counter = Counter()
+    for ports in ip_vulnerable_ports.values():
+        for port1, port2 in combinations(sorted(ports), 2):
+            cooccurrence_counter[(port1, port2)] += 1
+
+    # Create a graph
+    G = nx.Graph()
+    for (port1, port2), weight in cooccurrence_counter.items():
+        if weight >= min_weight:  # Filter edges by minimum weight
+            G.add_edge(port1, port2, weight=weight)
+
+    # Draw the graph
+    pos = nx.spring_layout(G, seed=42)  # Layout for consistent visualization
+    plt.figure(figsize=(12, 8))
+
+    # Draw nodes
+    nx.draw_networkx_nodes(G, pos, node_size=700, node_color="skyblue")
+
+    # Draw edges with thickness proportional to weight
+    edges = G.edges(data=True)
+    nx.draw_networkx_edges(
+        G, pos,
+        edgelist=[(u, v) for u, v, d in edges],
+        width=[d["weight"] / 10 for u, v, d in edges],  # Scale edge thickness
+        alpha=0.7
+    )
+
+    # Draw labels
+    nx.draw_networkx_labels(G, pos, font_size=10, font_color="black")
+
+    plt.title("Network Graph: Port Co-occurrence")
+    plt.tight_layout()
+    plt.show()
+
+def visualize_total_port_cooccurrence_heatmap(folder_path):
+    if not os.path.isdir(folder_path):
+        raise ValueError(f"{folder_path} is not a valid folder.")
+
+    ip_vulnerable_ports = defaultdict(set)
+
+    # Read data from the folder
+    for filename in os.listdir(folder_path):
+        if not filename.endswith(".json"):
+            continue
+
+        file_path = os.path.join(folder_path, filename)
+        port_identifier = os.path.splitext(filename)[0]
+
+        try:
+            with open(file_path, "r") as f:
+                data = json.load(f)
+
+            for entry in data:
+                if entry.get("is_eol"):
+                    ip = entry.get("ip")
+                    ip_vulnerable_ports[ip].add(port_identifier)
+        except Exception as e:
+            print(f"Failed to read {file_path}: {e}")
+
+    cooccurrence_counter = Counter()
+
+    for ports in ip_vulnerable_ports.values():
+        for port1, port2 in combinations(sorted(ports), 2):
+            cooccurrence_counter[(port1, port2)] += 1
+            cooccurrence_counter[(port2, port1)] += 1  # ensure symmetry
+
+    heatmap_data = defaultdict(lambda: defaultdict(int))
+    for (p1, p2), count in cooccurrence_counter.items():
+        heatmap_data[p1][p2] = count
+
+    df = pd.DataFrame(heatmap_data).fillna(0)
+
+    # Ensure symmetry
+    all_ports = sorted(df.index.union(df.columns))
+    df = df.reindex(index=all_ports, columns=all_ports, fill_value=0)
+
+    # Apply log scale for visualization
+    log_df = np.log1p(df)
+
+    plt.figure(figsize=(12, 8))
+    sns.heatmap(log_df, annot=df, fmt=".0f", cmap="YlGnBu", cbar=True)
+    plt.title("Total Port Pair Co-Occurrence (Log Scale)")
+    plt.xlabel("Port")
+    plt.ylabel("Port")
     plt.tight_layout()
     plt.show()
 
 if __name__ == "__main__":
-    folder = r"D:\Uni\Y4Q4\HackingLab\hackinglab-eol\data_filip\AS57043\All_port_data"
-    analyze_eol_from_files(folder)
+    folder = r"D:\Uni\Y4Q4\HackingLab\hackinglab-eol\data_filip\combined_data"
+    #
+    # analyze_eol_from_files(folder)
     analyze_top_port_combinations(folder, top_n=10)
     visualize_port_combinations_heatmap(folder, top_n=10)
-    plot_eol_ports_by_server_type(folder)
-
+    # plot_eol_ports_by_server_type(folder)
+    # create_multi_level_sankey(folder)
+    # create_port_cooccurrence_graph(folder, min_weight=50)
+    # visualize_total_port_cooccurrence_heatmap(folder)
 

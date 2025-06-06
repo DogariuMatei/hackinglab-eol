@@ -480,16 +480,6 @@
     "status": "EOL: True, EOL Date: 2021-04-20"
   },
   {
-    "ip": "46.17.98.122",
-    "server": "nginx",
-    "version": "1.18",
-    "api_name": "nginx",
-    "original_server": "nginx/1.18.0 (Ubuntu)",
-    "is_eol": true,
-    "eol_from": "2021-04-20",
-    "status": "EOL: True, EOL Date: 2021-04-20"
-  },
-  {
     "ip": "46.17.98.171",
     "server": "nginx",
     "version": "1.18",

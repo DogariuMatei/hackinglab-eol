@@ -40,6 +40,16 @@
     "status": "API lookup failed: FAILED: 404"
   },
   {
+    "ip": "46.17.98.122",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": null,
+    "eol_from": null,
+    "status": "API lookup failed: Exception: HTTPSConnectionPool(host='endoflife.date', port=443): Max retries exceeded with url: /api/v1/products/nginx/releases/1.18 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5744258b60>: Failed to establish a new connection: [Errno 101] Network is unreachable'))"
+  },
+  {
     "ip": "146.0.74.175",
     "server": "Microsoft-IIS",
     "version": "10.0",

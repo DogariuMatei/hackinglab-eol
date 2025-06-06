@@ -43,5 +43,5 @@ for PORT in "${PORTS[@]}"; do
      | "\(.server): \(.count)"' > "$CLEAN_COUNT"
 
   # === EOL CHECK ===
-  python3 py_scripts/best_eol_check.py "$CLEAN_VERSIONS" "$PORT_DIR"
+  python3 py_scripts/best_eol_parallel.py "$CLEAN_VERSIONS" "$PORT_DIR"
 done
