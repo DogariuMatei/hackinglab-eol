@@ -1,0 +1,12 @@
+[
+  {
+    "ip": "195.60.215.26",
+    "server": "ProFTPD",
+    "version": "1.3.5",
+    "api_name": "proftpd",
+    "original_server": "ProFTPD/1.3.5b",
+    "is_eol": true,
+    "eol_from": "2020-07-20",
+    "status": "EOL: True, EOL Date: 2020-07-20"
+  }
+]

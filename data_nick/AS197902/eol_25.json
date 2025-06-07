@@ -1,0 +1,12 @@
+[
+  {
+    "ip": "37.128.149.215",
+    "server": "Exim",
+    "version": "4.91",
+    "api_name": "exim",
+    "original_server": "Exim/4.91",
+    "is_eol": true,
+    "eol_from": "2019-02-10",
+    "status": "EOL: True, EOL Date: 2019-02-10"
+  }
+]

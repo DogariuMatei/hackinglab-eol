@@ -1,0 +1,742 @@
+[
+  {
+    "ip": "178.162.147.3",
+    "server": "Exim",
+    "version": "4.80",
+    "api_name": "exim",
+    "original_server": "Exim/4.80",
+    "is_eol": true,
+    "eol_from": "2013-10-28",
+    "status": "EOL: True, EOL Date: 2013-10-28"
+  },
+  {
+    "ip": "178.162.145.164",
+    "server": "Exim",
+    "version": "4.84",
+    "api_name": "exim",
+    "original_server": "Exim/4.84_2",
+    "is_eol": true,
+    "eol_from": "2015-01-12",
+    "status": "EOL: True, EOL Date: 2015-01-12"
+  },
+  {
+    "ip": "178.162.153.201",
+    "server": "Exim",
+    "version": "4.89",
+    "api_name": "exim",
+    "original_server": "Exim/4.89",
+    "is_eol": true,
+    "eol_from": "2017-12-19",
+    "status": "EOL: True, EOL Date: 2017-12-19"
+  },
+  {
+    "ip": "178.162.153.203",
+    "server": "Exim",
+    "version": "4.89",
+    "api_name": "exim",
+    "original_server": "Exim/4.89",
+    "is_eol": true,
+    "eol_from": "2017-12-19",
+    "status": "EOL: True, EOL Date: 2017-12-19"
+  },
+  {
+    "ip": "178.162.153.213",
+    "server": "Exim",
+    "version": "4.89",
+    "api_name": "exim",
+    "original_server": "Exim/4.89",
+    "is_eol": true,
+    "eol_from": "2017-12-19",
+    "status": "EOL: True, EOL Date: 2017-12-19"
+  },
+  {
+    "ip": "178.162.136.135",
+    "server": "Exim",
+    "version": "4.90",
+    "api_name": "exim",
+    "original_server": "Exim/4.90_1",
+    "is_eol": true,
+    "eol_from": "2018-04-15",
+    "status": "EOL: True, EOL Date: 2018-04-15"
+  },
+  {
+    "ip": "178.162.131.233",
+    "server": "Exim",
+    "version": "4.92",
+    "api_name": "exim",
+    "original_server": "Exim/4.92",
+    "is_eol": true,
+    "eol_from": "2019-12-08",
+    "status": "EOL: True, EOL Date: 2019-12-08"
+  },
+  {
+    "ip": "178.162.145.165",
+    "server": "Exim",
+    "version": "4.92",
+    "api_name": "exim",
+    "original_server": "Exim/4.92",
+    "is_eol": true,
+    "eol_from": "2019-12-08",
+    "status": "EOL: True, EOL Date: 2019-12-08"
+  },
+  {
+    "ip": "178.162.145.168",
+    "server": "Exim",
+    "version": "4.92",
+    "api_name": "exim",
+    "original_server": "Exim/4.92",
+    "is_eol": true,
+    "eol_from": "2019-12-08",
+    "status": "EOL: True, EOL Date: 2019-12-08"
+  },
+  {
+    "ip": "178.162.130.174",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "178.162.131.202",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "178.162.140.141",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "178.162.147.2",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "178.162.150.123",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "178.162.150.65",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "178.162.150.66",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "178.162.150.67",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "178.162.150.68",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "178.162.150.80",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "178.162.150.83",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "185.123.60.140",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "185.123.60.146",
+    "server": "Exim",
+    "version": "4.94",
+    "api_name": "exim",
+    "original_server": "Exim/4.94.2",
+    "is_eol": true,
+    "eol_from": "2021-09-28",
+    "status": "EOL: True, EOL Date: 2021-09-28"
+  },
+  {
+    "ip": "178.162.131.187",
+    "server": "Exim",
+    "version": "4.95",
+    "api_name": "exim",
+    "original_server": "Exim/4.95",
+    "is_eol": true,
+    "eol_from": "2022-06-25",
+    "status": "EOL: True, EOL Date: 2022-06-25"
+  },
+  {
+    "ip": "178.18.27.161",
+    "server": "Exim",
+    "version": "4.95",
+    "api_name": "exim",
+    "original_server": "Exim/4.95",
+    "is_eol": true,
+    "eol_from": "2022-06-25",
+    "status": "EOL: True, EOL Date: 2022-06-25"
+  },
+  {
+    "ip": "178.162.170.158",
+    "server": "Exim",
+    "version": "4.96",
+    "api_name": "exim",
+    "original_server": "Exim/4.96.2",
+    "is_eol": true,
+    "eol_from": "2023-11-04",
+    "status": "EOL: True, EOL Date: 2023-11-04"
+  },
+  {
+    "ip": "178.162.170.174",
+    "server": "Exim",
+    "version": "4.96",
+    "api_name": "exim",
+    "original_server": "Exim/4.96.2",
+    "is_eol": true,
+    "eol_from": "2023-11-04",
+    "status": "EOL: True, EOL Date: 2023-11-04"
+  },
+  {
+    "ip": "178.18.31.190",
+    "server": "Exim",
+    "version": "4.96",
+    "api_name": "exim",
+    "original_server": "Exim/4.96-58-g4e9ed49f8",
+    "is_eol": true,
+    "eol_from": "2023-11-04",
+    "status": "EOL: True, EOL Date: 2023-11-04"
+  },
+  {
+    "ip": "178.18.31.40",
+    "server": "Exim",
+    "version": "4.96",
+    "api_name": "exim",
+    "original_server": "Exim/4.96-58-g4e9ed49f8",
+    "is_eol": true,
+    "eol_from": "2023-11-04",
+    "status": "EOL: True, EOL Date: 2023-11-04"
+  },
+  {
+    "ip": "109.70.73.55",
+    "server": "Exim",
+    "version": "4.97",
+    "api_name": "exim",
+    "original_server": "Exim/4.97.1",
+    "is_eol": true,
+    "eol_from": "2024-07-10",
+    "status": "EOL: True, EOL Date: 2024-07-10"
+  },
+  {
+    "ip": "178.162.132.138",
+    "server": "Exim",
+    "version": "4.97",
+    "api_name": "exim",
+    "original_server": "Exim/4.97.1",
+    "is_eol": true,
+    "eol_from": "2024-07-10",
+    "status": "EOL: True, EOL Date: 2024-07-10"
+  },
+  {
+    "ip": "178.162.153.217",
+    "server": "Exim",
+    "version": "4.97",
+    "api_name": "exim",
+    "original_server": "Exim/4.97.1",
+    "is_eol": true,
+    "eol_from": "2024-07-10",
+    "status": "EOL: True, EOL Date: 2024-07-10"
+  },
+  {
+    "ip": "178.162.172.193",
+    "server": "Exim",
+    "version": "4.97",
+    "api_name": "exim",
+    "original_server": "Exim/4.97.1",
+    "is_eol": true,
+    "eol_from": "2024-07-10",
+    "status": "EOL: True, EOL Date: 2024-07-10"
+  },
+  {
+    "ip": "185.108.85.199",
+    "server": "Exim",
+    "version": "4.97",
+    "api_name": "exim",
+    "original_server": "Exim/4.97.1",
+    "is_eol": true,
+    "eol_from": "2024-07-10",
+    "status": "EOL: True, EOL Date: 2024-07-10"
+  },
+  {
+    "ip": "185.108.85.21",
+    "server": "Exim",
+    "version": "4.97",
+    "api_name": "exim",
+    "original_server": "Exim/4.97.1",
+    "is_eol": true,
+    "eol_from": "2024-07-10",
+    "status": "EOL: True, EOL Date: 2024-07-10"
+  },
+  {
+    "ip": "185.108.85.26",
+    "server": "Exim",
+    "version": "4.97",
+    "api_name": "exim",
+    "original_server": "Exim/4.97.1",
+    "is_eol": true,
+    "eol_from": "2024-07-10",
+    "status": "EOL: True, EOL Date: 2024-07-10"
+  },
+  {
+    "ip": "185.122.171.156",
+    "server": "Exim",
+    "version": "4.97",
+    "api_name": "exim",
+    "original_server": "Exim/4.97",
+    "is_eol": true,
+    "eol_from": "2024-07-10",
+    "status": "EOL: True, EOL Date: 2024-07-10"
+  },
+  {
+    "ip": "178.162.131.74",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.1",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.132.139",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.132.163",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.134.140",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.135.248",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.136.200",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.136.248",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.1",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.141.239",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.1",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.151.201",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.151.226",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.156.166",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.169.10",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.169.9",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.171.233",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.175.135",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.162.176.240",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.21.80",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.21.90",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.21.91",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.21.92",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.21.93",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.21.94",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.31.120",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.31.121",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.31.122",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.31.123",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.31.124",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.31.125",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.18.31.126",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.250.16.53",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "178.250.18.53",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.108.85.176",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.1",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.123.60.113",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.123.60.119",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.123.60.125",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.123.60.129",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.123.60.142",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.123.60.145",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  }
+]

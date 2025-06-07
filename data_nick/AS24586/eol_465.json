@@ -1,0 +1,84 @@
+[
+  {
+    "ip": "80.95.160.127",
+    "server": "Exim",
+    "version": "4.97",
+    "api_name": "exim",
+    "original_server": "Exim/4.97.1",
+    "is_eol": true,
+    "eol_from": "2024-07-10",
+    "status": "EOL: True, EOL Date: 2024-07-10",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9
+      }
+    ]
+  },
+  {
+    "ip": "188.66.17.25",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "46.22.185.79",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "80.95.167.80",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "93.92.99.182",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "93.92.99.183",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  },
+  {
+    "ip": "93.92.99.184",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.2",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
+  }
+]

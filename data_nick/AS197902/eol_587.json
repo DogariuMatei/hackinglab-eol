@@ -1,0 +1,22 @@
+[
+  {
+    "ip": "185.57.8.5",
+    "server": "Exim",
+    "version": "4.96",
+    "api_name": "exim",
+    "original_server": "Exim/4.96.2",
+    "is_eol": true,
+    "eol_from": "2023-11-04",
+    "status": "EOL: True, EOL Date: 2023-11-04"
+  },
+  {
+    "ip": "185.85.18.91",
+    "server": "Exim",
+    "version": "4.98",
+    "api_name": "exim",
+    "original_server": "Exim/4.98.1",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  }
+]
