@@ -41,7 +41,53 @@ def combine_server_eol_files(base_path, folder_names, output_folder_name="busine
     except Exception as e:
         print(f"Failed to write combined file: {e}")
 
+import ipaddress
+
+def calculate_total_ips_from_file(filepath):
+    """
+    Reads a text file, calculates the total number of IP addresses from each
+    CIDR notation found, and returns the sum.
+
+    Args:
+        filepath (str): The path to the text file containing CIDR notations.
+                        Each CIDR should be on a new line.
+
+    Returns:
+        int: The grand total of IP addresses from all valid CIDR entries in the file.
+    """
+    total_ips_grand_sum = 0
+    line_number = 0
+    print(f"Processing file: {filepath}\n")
+
+    try:
+        with open(filepath, 'r') as f:
+            for line in f:
+                line_number += 1
+                cidr_notation = line.strip()  # Remove leading/trailing whitespace
+
+                if not cidr_notation:  # Skip empty lines
+                    continue
+
+                try:
+                    network = ipaddress.ip_network(cidr_notation, strict=False)
+                    total_ips_grand_sum += network.num_addresses
+                    print(f"  Line {line_number}: '{cidr_notation}' - IPs: {network.num_addresses}")
+                except ValueError:
+                    print(f"  Line {line_number}: Warning - Invalid CIDR notation '{cidr_notation}'. Skipping.")
+    except FileNotFoundError:
+        print(f"Error: The file '{filepath}' was not found.")
+        return -1
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        return -1
+
+    print(f"\n--- Calculation Complete ---")
+    print(f"Total IP addresses from all valid CIDR blocks: {total_ips_grand_sum}")
+    return total_ips_grand_sum
+
 # Example usage
 base_path = r"D:\Uni\Y4Q4\HackingLab\hackinglab-eol\data_filip"
-folder_names = ["AS15625ING", "AS15916ABN"]  # Replace with actual folder names
-combine_server_eol_files(base_path, folder_names)
+folder_names = ["AS15625ING", "AS15916"]  # Replace with actual folder names
+#combine_server_eol_files(base_path, folder_names)
+path = r"D:\Uni\Y4Q4\HackingLab\hackinglab-eol\data_filip\AS1101\IPAS1101.txt"
+print(calculate_total_ips_from_file(path))

@@ -63,7 +63,7 @@ def create_pie_chart(total_ips, responded_ips, eol_ips):
 
 # Main script
 base_path = r"D:\Uni\Y4Q4\HackingLab\hackinglab-eol\data_filip"
-folder_names = ["AS15625ING", "AS15916ABN"]  # Replace with actual folder names
+folder_names = ["AS15625ING", "AS15916"]  # Replace with actual folder names
 combined_file_path = os.path.join(base_path, "business", "combined_server_eol_success.json")
 
 # Count total IPs
