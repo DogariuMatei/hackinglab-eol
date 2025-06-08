@@ -88,47 +88,36 @@ def plot_percentage_stacked_bar_chart(port_data):
     eol_devices = np.array([port_data[port]["eol_devices"] for port in ports])
 
     # Calculate percentages
-    # Handle division by zero for total_responses if it is 0
     total_responses_safe = np.where(total_responses == 0, 1, total_responses)
-
     responses_with_versions_percent = (responses_with_versions / total_responses_safe) * 100
     meaningful_versions_percent = (meaningful_versions / total_responses_safe) * 100
     eol_devices_percent = (eol_devices / total_responses_safe) * 100
-    others_percent = 100 - responses_with_versions_percent # 'Others' are responses without versions
+    others_percent = 100 - responses_with_versions_percent
 
     # Calculate bottom positions for stacking
-    # The 'others' bar is at the bottom, so its bottom position is 0
     responses_with_versions_bottom = others_percent
     meaningful_versions_bottom = others_percent + (responses_with_versions_percent - meaningful_versions_percent)
-    eol_devices_bottom = others_percent + (responses_with_versions_percent - meaningful_versions_percent) + (meaningful_versions_percent - eol_devices_percent)
-
+    eol_devices_bottom = meaningful_versions_bottom + (meaningful_versions_percent - eol_devices_percent)
 
     plt.figure(figsize=(12, 6))
 
     # Plot the 100% stacked bar chart
-    bars_others = plt.bar(ports, others_percent, label="Responses without Versions", color="#b3cde3", edgecolor="black")
-    bars_responses_with_versions = plt.bar(ports, responses_with_versions_percent - meaningful_versions_percent, bottom=responses_with_versions_bottom, label="Responses with Versions (zgrab)", color="#8c96c6", edgecolor="black")
-    bars_meaningful_versions = plt.bar(ports, meaningful_versions_percent - eol_devices_percent, bottom=meaningful_versions_bottom, label="Meaningful Versions", color="#8856a7", edgecolor="black")
-    bars_eol_devices = plt.bar(ports, eol_devices_percent, bottom=eol_devices_bottom, label="EOL Devices", color="#810f7c", edgecolor="black")
+    plt.bar(ports, others_percent, label="Responses without Versions", color="#b3cde3", edgecolor="black")
+    plt.bar(ports, responses_with_versions_percent - meaningful_versions_percent, bottom=responses_with_versions_bottom, label="Responses with Versions (zgrab)", color="#8c96c6", edgecolor="black")
+    plt.bar(ports, meaningful_versions_percent - eol_devices_percent, bottom=meaningful_versions_bottom, label="Meaningful Versions", color="#8856a7", edgecolor="black")
+    plt.bar(ports, eol_devices_percent, bottom=eol_devices_bottom, label="EOL Devices", color="#810f7c", edgecolor="black")
 
     # Add percentage labels inside each bar segment
     for i, port in enumerate(ports):
-        # EOL Devices
         if eol_devices_percent[i] > 0:
             plt.text(i, eol_devices_bottom[i] + eol_devices_percent[i] / 2,
                      f"{eol_devices_percent[i]:.1f}%", ha="center", va="center", fontsize=9, color='white')
-
-        # Meaningful Versions
         if (meaningful_versions_percent[i] - eol_devices_percent[i]) > 0:
             plt.text(i, meaningful_versions_bottom[i] + (meaningful_versions_percent[i] - eol_devices_percent[i]) / 2,
                      f"{(meaningful_versions_percent[i] - eol_devices_percent[i]):.1f}%", ha="center", va="center", fontsize=9, color='white')
-
-        # Responses with Versions (excluding meaningful versions)
         if (responses_with_versions_percent[i] - meaningful_versions_percent[i]) > 0:
             plt.text(i, responses_with_versions_bottom[i] + (responses_with_versions_percent[i] - meaningful_versions_percent[i]) / 2,
                      f"{(responses_with_versions_percent[i] - meaningful_versions_percent[i]):.1f}%", ha="center", va="center", fontsize=9, color='white')
-
-        # Responses without Versions
         if others_percent[i] > 0:
             plt.text(i, others_percent[i] / 2,
                      f"{others_percent[i]:.1f}%", ha="center", va="center", fontsize=9, color='black')
@@ -137,10 +126,10 @@ def plot_percentage_stacked_bar_chart(port_data):
     plt.xlabel("Ports")
     plt.ylabel("Percentage (%)")
     plt.title("100% Stacked Bar Chart of Responses by Port")
-    plt.legend(fontsize=10, title_fontsize=12)
+    plt.legend(fontsize=10, title_fontsize=12, loc="center left", bbox_to_anchor=(1, 0.5))  # Move legend to the side
     plt.xticks(rotation=45, ha="right", fontsize=12)
     plt.yticks(np.arange(0, 101, 10), fontsize=12)
-    plt.ylim(0, 100) # Ensure y-axis goes from 0 to 100
+    plt.ylim(0, 100)
     plt.tight_layout()
     plt.show()
 
@@ -149,9 +138,9 @@ if __name__ == "__main__":
 
     # Read data from the folder
     port_data = read_data(folder_path)
-
-    # Plot the cumulative bar chart
-    plot_cumulative_bar_chart(port_data)
+    #
+    # # Plot the cumulative bar chart
+    # plot_cumulative_bar_chart(port_data)
 
     # Plot the percentage bar chart
     plot_percentage_stacked_bar_chart(port_data)

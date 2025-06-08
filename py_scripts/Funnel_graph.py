@@ -1,6 +1,7 @@
 import csv
 import json
 import plotly.graph_objects as go
+
 def main():
     # 1. This is the output file from a zmap scan
     with open("../data_filip/AS1101/80/zmap_outputAS1101.csv", newline='', encoding='utf-8') as csvfile:

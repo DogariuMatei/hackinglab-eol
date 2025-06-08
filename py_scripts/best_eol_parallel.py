@@ -34,6 +34,7 @@ keep_full_version = [
     "proftpd",
 ]
 
+
 def extract_valid_components(server_string):
     valid_components = []
     components = re.findall(r'(\w+(?:-\w+)?)\/(\d+(?:\.\d+)+(?:-\w+)?)', server_string)
@@ -41,6 +42,23 @@ def extract_valid_components(server_string):
         name = name.strip()
         if '.' in version:
             api_name = check_and_replace_known_labels(name)
+
+            # Special handling for OpenSSL 3.x.x
+            if api_name.lower() == "openssl" and version.startswith("3."):
+                version_parts = version.split('.')
+                simplified_version = f"{version_parts[0]}.{version_parts[1]}"
+                valid_components.append((name, simplified_version))
+                continue
+
+            # Special handling for nginx 1.x
+            if api_name.lower() == "nginx" and version.startswith("1."):
+                version_parts = version.split('.')
+                if len(version_parts) > 1:
+                    x = int(version_parts[1])
+                    if x <= 17 and x % 2 == 1:  # Check if x <= 17 and odd
+                        valid_components.append((name, "1.18"))
+                        continue
+
             if api_name.lower() in keep_full_version:
                 valid_components.append((name, version))
                 continue

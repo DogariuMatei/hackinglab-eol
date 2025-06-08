@@ -149,7 +149,7 @@ def plot_eol_ports_by_server_type_with_percentage(folder_path):
     plt.xticks(rotation=45, ha='right', fontsize=12)
     plt.xlabel("Server Type", fontsize=14, fontweight='bold')
     plt.ylabel("Number of EOL Ports", fontsize=14, fontweight='bold')
-    plt.title("EOL Ports by Server Type with Percentage of Total Versions", fontsize=16, fontweight='bold')
+    plt.title("EOL Ports by Server Type with Percentage of EOL Versions From Meaningful Versions", fontsize=16, fontweight='bold')
     plt.tight_layout()
     plt.show()
 

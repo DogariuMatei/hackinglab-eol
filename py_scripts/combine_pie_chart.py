@@ -1,5 +1,8 @@
 import os
 import json
+import csv
+import ipaddress
+import matplotlib.pyplot as plt
 
 def combine_server_eol_files(base_path, folder_names, output_folder_name="business"):
     # Create the output folder if it doesn't exist
@@ -40,8 +43,6 @@ def combine_server_eol_files(base_path, folder_names, output_folder_name="busine
         print(f"Combined file created at: {output_file_path}")
     except Exception as e:
         print(f"Failed to write combined file: {e}")
-
-import ipaddress
 
 def calculate_total_ips_from_file(filepath):
     """
@@ -85,9 +86,83 @@ def calculate_total_ips_from_file(filepath):
     print(f"Total IP addresses from all valid CIDR blocks: {total_ips_grand_sum}")
     return total_ips_grand_sum
 
+def create_combined_pie_chart(base_path, folder_names):
+    unique_responding_ips = set()
+    total_ips_count = 0
+
+    for folder_name in folder_names:
+        folder_path = os.path.join(base_path, folder_name)
+        if not os.path.isdir(folder_path):
+            print(f"Skipping {folder_path}, not a valid directory.")
+            continue
+
+        # Collect unique responding IPs from zmap_output<initialFolderName>.csv
+        for port_folder in os.listdir(folder_path):
+            port_folder_path = os.path.join(folder_path, port_folder)
+            if not os.path.isdir(port_folder_path):
+                continue
+
+            csv_file_path = os.path.join(port_folder_path, f"zmap_output{folder_name}.csv")
+            if os.path.isfile(csv_file_path):
+                try:
+                    with open(csv_file_path, "r") as f:
+                        reader = csv.reader(f)
+                        next(reader)  # Skip header
+                        for row in reader:
+                            if row:  # Ensure the row is not empty
+                                unique_responding_ips.add(row[0].strip())
+                except Exception as e:
+                    print(f"Failed to read {csv_file_path}: {e}")
+
+        # Count total IPs from IP<initialFolderName>.txt
+        cidr_file_path = os.path.join(folder_path, f"IP{folder_name}.txt")
+        try:
+            with open(cidr_file_path, "r") as f:
+                for line in f:
+                    cidr_notation = line.strip()
+                    if not cidr_notation:
+                        continue
+                    try:
+                        network = ipaddress.ip_network(cidr_notation, strict=False)
+                        total_ips_count += network.num_addresses
+                    except ValueError:
+                        print(f"Warning: Invalid CIDR notation '{cidr_notation}'. Skipping.")
+        except FileNotFoundError:
+            print(f"Error: The file '{cidr_file_path}' was not found.")
+            continue
+        except Exception as e:
+            print(f"An unexpected error occurred: {e}")
+            continue
+
+    # Calculate non-responding IPs
+    responding_ips_count = len(unique_responding_ips)
+    non_responding_ips_count = total_ips_count - responding_ips_count
+
+    # Create a combined pie chart
+    labels = ["Responding IPs", "Non-Responding IPs"]
+    sizes = [responding_ips_count, non_responding_ips_count]
+    colors = ["#4a90e2", "#8856a7"]  # Updated blue color for better contrast
+    explode = (0.1, 0)  # Slightly explode the first slice
+
+    plt.figure(figsize=(10, 10))
+    plt.pie(
+        sizes,
+        labels=labels,
+        autopct="%1.1f%%",
+        startangle=140,
+        colors=colors,
+        explode=explode,
+        textprops={'fontsize': 14, 'fontweight': 'bold'}
+    )
+    plt.title("IP Response Distribution of Hosting ASs", fontsize=18, fontweight="bold")
+    plt.tight_layout()
+    plt.show()
+
+
 # Example usage
 base_path = r"D:\Uni\Y4Q4\HackingLab\hackinglab-eol\data_filip"
-folder_names = ["AS15625ING", "AS15916"]  # Replace with actual folder names
+folder_names = ["AS29063", "AS57043", "AS20857"]
 #combine_server_eol_files(base_path, folder_names)
-path = r"D:\Uni\Y4Q4\HackingLab\hackinglab-eol\data_filip\AS1101\IPAS1101.txt"
-print(calculate_total_ips_from_file(path))
+create_combined_pie_chart(base_path, folder_names)
+# path = r"D:\Uni\Y4Q4\HackingLab\hackinglab-eol\data_filip\AS20857\IPAS20857.txt"
+# print(calculate_total_ips_from_file(path))
