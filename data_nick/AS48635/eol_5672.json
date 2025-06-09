@@ -1,0 +1,90 @@
+[
+  {
+    "ip": "109.72.93.239",
+    "server": "RabbitMQ",
+    "version": "3.13",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.13.7",
+    "is_eol": true,
+    "eol_from": "2024-09-17",
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
+  },
+  {
+    "ip": "62.221.253.169",
+    "server": "RabbitMQ",
+    "version": "3.13",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.13.7",
+    "is_eol": true,
+    "eol_from": "2024-09-17",
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
+  },
+  {
+    "ip": "62.221.254.37",
+    "server": "RabbitMQ",
+    "version": "3.13",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.13.7",
+    "is_eol": true,
+    "eol_from": "2024-09-17",
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
+  },
+  {
+    "ip": "185.56.147.74",
+    "server": "RabbitMQ",
+    "version": "3.6",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.6.4",
+    "is_eol": true,
+    "eol_from": "2018-05-31",
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
+  },
+  {
+    "ip": "31.25.98.191",
+    "server": "RabbitMQ",
+    "version": "3.8",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.8.9",
+    "is_eol": true,
+    "eol_from": "2022-07-31",
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
+  },
+  {
+    "ip": "185.87.184.158",
+    "server": "RabbitMQ",
+    "version": "3.9",
+    "api_name": "rabbitmq",
+    "original_server": "RabbitMQ/3.9.11",
+    "is_eol": true,
+    "eol_from": "2023-01-31",
+    "status": "EOL: True, EOL Date: 2023-01-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-31008",
+        "exploitability_score": 3.9
+      }
+    ]
+  }
+]
