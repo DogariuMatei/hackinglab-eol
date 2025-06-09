@@ -7,7 +7,77 @@
     "original_server": "Redis/5.0.3",
     "is_eol": true,
     "eol_from": "2022-04-27",
-    "status": "EOL: True, EOL Date: 2022-04-27"
+    "status": "EOL: True, EOL Date: 2022-04-27",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-28856",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2023-45145",
+        "exploitability_score": 1.0
+      },
+      {
+        "cve_id": "CVE-2022-3647",
+        "exploitability_score": null
+      },
+      {
+        "cve_id": "CVE-2021-41099",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-32627",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-32626",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32675",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2022-36021",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2021-32628",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-32687",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-32762",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2022-24834",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2022-24736",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2022-24735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2023-25155",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2021-31294",
+        "exploitability_score": 2.2
+      },
+      {
+        "cve_id": "CVE-2021-32672",
+        "exploitability_score": 8.0
+      }
+    ]
   },
   {
     "ip": "141.138.141.234",
@@ -17,7 +87,81 @@
     "original_server": "Redis/6.0.16",
     "is_eol": true,
     "eol_from": "2022-05-31",
-    "status": "EOL: True, EOL Date: 2022-05-31"
+    "status": "EOL: True, EOL Date: 2022-05-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-28856",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2023-45145",
+        "exploitability_score": 1.0
+      },
+      {
+        "cve_id": "CVE-2022-3647",
+        "exploitability_score": null
+      },
+      {
+        "cve_id": "CVE-2022-36021",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2023-25155",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2022-24834",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2022-35977",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2022-24736",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2022-24735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2021-32627",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-41099",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-32628",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-32687",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-31294",
+        "exploitability_score": 2.2
+      },
+      {
+        "cve_id": "CVE-2021-32762",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32672",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32626",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32675",
+        "exploitability_score": 10.0
+      }
+    ]
   },
   {
     "ip": "149.210.215.177",
@@ -27,7 +171,81 @@
     "original_server": "Redis/6.0.16",
     "is_eol": true,
     "eol_from": "2022-05-31",
-    "status": "EOL: True, EOL Date: 2022-05-31"
+    "status": "EOL: True, EOL Date: 2022-05-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-28856",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2023-45145",
+        "exploitability_score": 1.0
+      },
+      {
+        "cve_id": "CVE-2022-3647",
+        "exploitability_score": null
+      },
+      {
+        "cve_id": "CVE-2022-36021",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2023-25155",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2022-24834",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2022-35977",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2022-24736",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2022-24735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2021-32627",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-41099",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-32628",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-32687",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-31294",
+        "exploitability_score": 2.2
+      },
+      {
+        "cve_id": "CVE-2021-32762",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32672",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32626",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32675",
+        "exploitability_score": 10.0
+      }
+    ]
   },
   {
     "ip": "37.97.150.20",
@@ -37,7 +255,81 @@
     "original_server": "Redis/6.0.10",
     "is_eol": true,
     "eol_from": "2022-05-31",
-    "status": "EOL: True, EOL Date: 2022-05-31"
+    "status": "EOL: True, EOL Date: 2022-05-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-28856",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2023-45145",
+        "exploitability_score": 1.0
+      },
+      {
+        "cve_id": "CVE-2022-3647",
+        "exploitability_score": null
+      },
+      {
+        "cve_id": "CVE-2022-36021",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2023-25155",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2022-24834",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2022-35977",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2022-24736",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2022-24735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2021-32627",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-41099",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-32628",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-32687",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-31294",
+        "exploitability_score": 2.2
+      },
+      {
+        "cve_id": "CVE-2021-32762",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32672",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32626",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32675",
+        "exploitability_score": 10.0
+      }
+    ]
   },
   {
     "ip": "85.10.147.145",
@@ -47,7 +339,81 @@
     "original_server": "Redis/6.0.16",
     "is_eol": true,
     "eol_from": "2022-05-31",
-    "status": "EOL: True, EOL Date: 2022-05-31"
+    "status": "EOL: True, EOL Date: 2022-05-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-28856",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2023-45145",
+        "exploitability_score": 1.0
+      },
+      {
+        "cve_id": "CVE-2022-3647",
+        "exploitability_score": null
+      },
+      {
+        "cve_id": "CVE-2022-36021",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2023-25155",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2022-24834",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2022-35977",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2022-24736",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2022-24735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2021-32627",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-41099",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-32628",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-32687",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2021-31294",
+        "exploitability_score": 2.2
+      },
+      {
+        "cve_id": "CVE-2021-32762",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32672",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32626",
+        "exploitability_score": 8.0
+      },
+      {
+        "cve_id": "CVE-2021-32675",
+        "exploitability_score": 10.0
+      }
+    ]
   },
   {
     "ip": "85.10.145.155",
@@ -57,7 +423,69 @@
     "original_server": "Redis/7.0.11",
     "is_eol": true,
     "eol_from": "2024-07-29",
-    "status": "EOL: True, EOL Date: 2024-07-29"
+    "status": "EOL: True, EOL Date: 2024-07-29",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-3647",
+        "exploitability_score": null
+      },
+      {
+        "cve_id": "CVE-2022-36021",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2023-25155",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2022-24834",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2023-36824",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2022-35951",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2022-35977",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2023-22458",
+        "exploitability_score": 1.8
+      },
+      {
+        "cve_id": "CVE-2023-28856",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2023-45145",
+        "exploitability_score": 1.0
+      },
+      {
+        "cve_id": "CVE-2022-33105",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2022-24735",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2022-31144",
+        "exploitability_score": 2.8
+      },
+      {
+        "cve_id": "CVE-2022-24736",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2023-41053",
+        "exploitability_score": 1.8
+      }
+    ]
   },
   {
     "ip": "37.97.176.173",
@@ -67,7 +495,21 @@
     "original_server": "Redis/7.2.4",
     "is_eol": false,
     "eol_from": "2026-02-28",
-    "status": "EOL: False, EOL Date: 2026-02-28"
+    "status": "EOL: False, EOL Date: 2026-02-28",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-45145",
+        "exploitability_score": 1.0
+      },
+      {
+        "cve_id": "CVE-2023-41056",
+        "exploitability_score": 2.2
+      },
+      {
+        "cve_id": "CVE-2023-41053",
+        "exploitability_score": 1.8
+      }
+    ]
   },
   {
     "ip": "37.97.231.152",
@@ -77,7 +519,21 @@
     "original_server": "Redis/7.2.2",
     "is_eol": false,
     "eol_from": "2026-02-28",
-    "status": "EOL: False, EOL Date: 2026-02-28"
+    "status": "EOL: False, EOL Date: 2026-02-28",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-45145",
+        "exploitability_score": 1.0
+      },
+      {
+        "cve_id": "CVE-2023-41056",
+        "exploitability_score": 2.2
+      },
+      {
+        "cve_id": "CVE-2023-41053",
+        "exploitability_score": 1.8
+      }
+    ]
   },
   {
     "ip": "136.144.142.109",
@@ -87,7 +543,8 @@
     "original_server": "Redis/7.4.0",
     "is_eol": false,
     "eol_from": "2026-11-30",
-    "status": "EOL: False, EOL Date: 2026-11-30"
+    "status": "EOL: False, EOL Date: 2026-11-30",
+    "cves": []
   },
   {
     "ip": "136.144.254.234",
@@ -97,7 +554,8 @@
     "original_server": "Redis/7.4.0",
     "is_eol": false,
     "eol_from": "2026-11-30",
-    "status": "EOL: False, EOL Date: 2026-11-30"
+    "status": "EOL: False, EOL Date: 2026-11-30",
+    "cves": []
   },
   {
     "ip": "37.97.131.224",
@@ -107,7 +565,8 @@
     "original_server": "Redis/7.4.2",
     "is_eol": false,
     "eol_from": "2026-11-30",
-    "status": "EOL: False, EOL Date: 2026-11-30"
+    "status": "EOL: False, EOL Date: 2026-11-30",
+    "cves": []
   },
   {
     "ip": "37.97.136.4",
@@ -117,7 +576,8 @@
     "original_server": "Redis/7.4.1",
     "is_eol": false,
     "eol_from": "2026-11-30",
-    "status": "EOL: False, EOL Date: 2026-11-30"
+    "status": "EOL: False, EOL Date: 2026-11-30",
+    "cves": []
   },
   {
     "ip": "37.97.226.116",
@@ -127,7 +587,8 @@
     "original_server": "Redis/7.4.2",
     "is_eol": false,
     "eol_from": "2026-11-30",
-    "status": "EOL: False, EOL Date: 2026-11-30"
+    "status": "EOL: False, EOL Date: 2026-11-30",
+    "cves": []
   },
   {
     "ip": "136.144.129.34",
@@ -137,6 +598,7 @@
     "original_server": "Redis/8.0.1",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   }
 ]

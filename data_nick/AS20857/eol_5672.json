@@ -7,7 +7,13 @@
     "original_server": "RabbitMQ/3.10.8",
     "is_eol": true,
     "eol_from": "2022-09-28",
-    "status": "EOL: True, EOL Date: 2022-09-28"
+    "status": "EOL: True, EOL Date: 2022-09-28",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-31008",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "136.144.239.30",
@@ -17,7 +23,13 @@
     "original_server": "RabbitMQ/3.10.7",
     "is_eol": true,
     "eol_from": "2022-09-28",
-    "status": "EOL: True, EOL Date: 2022-09-28"
+    "status": "EOL: True, EOL Date: 2022-09-28",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-31008",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "136.144.169.44",
@@ -27,7 +39,8 @@
     "original_server": "RabbitMQ/3.11.10",
     "is_eol": true,
     "eol_from": "2023-06-01",
-    "status": "EOL: True, EOL Date: 2023-06-01"
+    "status": "EOL: True, EOL Date: 2023-06-01",
+    "cves": []
   },
   {
     "ip": "136.144.173.70",
@@ -37,7 +50,8 @@
     "original_server": "RabbitMQ/3.11.7",
     "is_eol": true,
     "eol_from": "2023-06-01",
-    "status": "EOL: True, EOL Date: 2023-06-01"
+    "status": "EOL: True, EOL Date: 2023-06-01",
+    "cves": []
   },
   {
     "ip": "136.144.178.251",
@@ -47,7 +61,8 @@
     "original_server": "RabbitMQ/3.11.15",
     "is_eol": true,
     "eol_from": "2023-06-01",
-    "status": "EOL: True, EOL Date: 2023-06-01"
+    "status": "EOL: True, EOL Date: 2023-06-01",
+    "cves": []
   },
   {
     "ip": "149.210.181.88",
@@ -57,7 +72,8 @@
     "original_server": "RabbitMQ/3.11.8",
     "is_eol": true,
     "eol_from": "2023-06-01",
-    "status": "EOL: True, EOL Date: 2023-06-01"
+    "status": "EOL: True, EOL Date: 2023-06-01",
+    "cves": []
   },
   {
     "ip": "84.247.12.49",
@@ -67,7 +83,8 @@
     "original_server": "RabbitMQ/3.11.7",
     "is_eol": true,
     "eol_from": "2023-06-01",
-    "status": "EOL: True, EOL Date: 2023-06-01"
+    "status": "EOL: True, EOL Date: 2023-06-01",
+    "cves": []
   },
   {
     "ip": "85.10.138.66",
@@ -77,7 +94,8 @@
     "original_server": "RabbitMQ/3.11.4",
     "is_eol": true,
     "eol_from": "2023-06-01",
-    "status": "EOL: True, EOL Date: 2023-06-01"
+    "status": "EOL: True, EOL Date: 2023-06-01",
+    "cves": []
   },
   {
     "ip": "93.119.11.137",
@@ -87,7 +105,8 @@
     "original_server": "RabbitMQ/3.11.1",
     "is_eol": true,
     "eol_from": "2023-06-01",
-    "status": "EOL: True, EOL Date: 2023-06-01"
+    "status": "EOL: True, EOL Date: 2023-06-01",
+    "cves": []
   },
   {
     "ip": "93.119.5.218",
@@ -97,7 +116,8 @@
     "original_server": "RabbitMQ/3.11.16",
     "is_eol": true,
     "eol_from": "2023-06-01",
-    "status": "EOL: True, EOL Date: 2023-06-01"
+    "status": "EOL: True, EOL Date: 2023-06-01",
+    "cves": []
   },
   {
     "ip": "149.210.140.85",
@@ -107,7 +127,8 @@
     "original_server": "RabbitMQ/3.12.12",
     "is_eol": true,
     "eol_from": "2024-02-21",
-    "status": "EOL: True, EOL Date: 2024-02-21"
+    "status": "EOL: True, EOL Date: 2024-02-21",
+    "cves": []
   },
   {
     "ip": "185.10.48.30",
@@ -117,7 +138,8 @@
     "original_server": "RabbitMQ/3.12.8",
     "is_eol": true,
     "eol_from": "2024-02-21",
-    "status": "EOL: True, EOL Date: 2024-02-21"
+    "status": "EOL: True, EOL Date: 2024-02-21",
+    "cves": []
   },
   {
     "ip": "185.10.50.53",
@@ -127,7 +149,8 @@
     "original_server": "RabbitMQ/3.12.2",
     "is_eol": true,
     "eol_from": "2024-02-21",
-    "status": "EOL: True, EOL Date: 2024-02-21"
+    "status": "EOL: True, EOL Date: 2024-02-21",
+    "cves": []
   },
   {
     "ip": "37.97.129.51",
@@ -137,7 +160,8 @@
     "original_server": "RabbitMQ/3.12.10",
     "is_eol": true,
     "eol_from": "2024-02-21",
-    "status": "EOL: True, EOL Date: 2024-02-21"
+    "status": "EOL: True, EOL Date: 2024-02-21",
+    "cves": []
   },
   {
     "ip": "84.247.8.54",
@@ -147,7 +171,8 @@
     "original_server": "RabbitMQ/3.12.2",
     "is_eol": true,
     "eol_from": "2024-02-21",
-    "status": "EOL: True, EOL Date: 2024-02-21"
+    "status": "EOL: True, EOL Date: 2024-02-21",
+    "cves": []
   },
   {
     "ip": "85.10.129.151",
@@ -157,7 +182,8 @@
     "original_server": "RabbitMQ/3.12.9",
     "is_eol": true,
     "eol_from": "2024-02-21",
-    "status": "EOL: True, EOL Date: 2024-02-21"
+    "status": "EOL: True, EOL Date: 2024-02-21",
+    "cves": []
   },
   {
     "ip": "85.10.151.151",
@@ -167,7 +193,8 @@
     "original_server": "RabbitMQ/3.12.12",
     "is_eol": true,
     "eol_from": "2024-02-21",
-    "status": "EOL: True, EOL Date: 2024-02-21"
+    "status": "EOL: True, EOL Date: 2024-02-21",
+    "cves": []
   },
   {
     "ip": "85.10.155.115",
@@ -177,7 +204,8 @@
     "original_server": "RabbitMQ/3.12.9",
     "is_eol": true,
     "eol_from": "2024-02-21",
-    "status": "EOL: True, EOL Date: 2024-02-21"
+    "status": "EOL: True, EOL Date: 2024-02-21",
+    "cves": []
   },
   {
     "ip": "89.41.170.94",
@@ -187,7 +215,8 @@
     "original_server": "RabbitMQ/3.12.2",
     "is_eol": true,
     "eol_from": "2024-02-21",
-    "status": "EOL: True, EOL Date: 2024-02-21"
+    "status": "EOL: True, EOL Date: 2024-02-21",
+    "cves": []
   },
   {
     "ip": "93.119.12.230",
@@ -197,7 +226,8 @@
     "original_server": "RabbitMQ/3.12.13",
     "is_eol": true,
     "eol_from": "2024-02-21",
-    "status": "EOL: True, EOL Date: 2024-02-21"
+    "status": "EOL: True, EOL Date: 2024-02-21",
+    "cves": []
   },
   {
     "ip": "136.144.245.3",
@@ -207,7 +237,8 @@
     "original_server": "RabbitMQ/3.13.7",
     "is_eol": true,
     "eol_from": "2024-09-17",
-    "status": "EOL: True, EOL Date: 2024-09-17"
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
   },
   {
     "ip": "136.144.249.174",
@@ -217,7 +248,8 @@
     "original_server": "RabbitMQ/3.13.7",
     "is_eol": true,
     "eol_from": "2024-09-17",
-    "status": "EOL: True, EOL Date: 2024-09-17"
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
   },
   {
     "ip": "149.210.150.217",
@@ -227,7 +259,8 @@
     "original_server": "RabbitMQ/3.13.4",
     "is_eol": true,
     "eol_from": "2024-09-17",
-    "status": "EOL: True, EOL Date: 2024-09-17"
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
   },
   {
     "ip": "149.210.194.203",
@@ -237,7 +270,8 @@
     "original_server": "RabbitMQ/3.13.7",
     "is_eol": true,
     "eol_from": "2024-09-17",
-    "status": "EOL: True, EOL Date: 2024-09-17"
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
   },
   {
     "ip": "149.210.215.142",
@@ -247,7 +281,8 @@
     "original_server": "RabbitMQ/3.13.7",
     "is_eol": true,
     "eol_from": "2024-09-17",
-    "status": "EOL: True, EOL Date: 2024-09-17"
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
   },
   {
     "ip": "37.97.166.47",
@@ -257,7 +292,8 @@
     "original_server": "RabbitMQ/3.13.7",
     "is_eol": true,
     "eol_from": "2024-09-17",
-    "status": "EOL: True, EOL Date: 2024-09-17"
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
   },
   {
     "ip": "85.10.149.68",
@@ -267,7 +303,8 @@
     "original_server": "RabbitMQ/3.13.7",
     "is_eol": true,
     "eol_from": "2024-09-17",
-    "status": "EOL: True, EOL Date: 2024-09-17"
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
   },
   {
     "ip": "85.10.150.243",
@@ -277,7 +314,8 @@
     "original_server": "RabbitMQ/3.13.7",
     "is_eol": true,
     "eol_from": "2024-09-17",
-    "status": "EOL: True, EOL Date: 2024-09-17"
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
   },
   {
     "ip": "86.105.246.38",
@@ -287,7 +325,8 @@
     "original_server": "RabbitMQ/3.13.4",
     "is_eol": true,
     "eol_from": "2024-09-17",
-    "status": "EOL: True, EOL Date: 2024-09-17"
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
   },
   {
     "ip": "93.119.14.226",
@@ -297,7 +336,8 @@
     "original_server": "RabbitMQ/3.13.7",
     "is_eol": true,
     "eol_from": "2024-09-17",
-    "status": "EOL: True, EOL Date: 2024-09-17"
+    "status": "EOL: True, EOL Date: 2024-09-17",
+    "cves": []
   },
   {
     "ip": "37.34.61.121",
@@ -307,7 +347,21 @@
     "original_server": "RabbitMQ/3.2.4",
     "is_eol": true,
     "eol_from": "2014-10-31",
-    "status": "EOL: True, EOL Date: 2014-10-31"
+    "status": "EOL: True, EOL Date: 2014-10-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2014-9650",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-9877",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-9649",
+        "exploitability_score": 8.6
+      }
+    ]
   },
   {
     "ip": "141.138.140.80",
@@ -317,7 +371,21 @@
     "original_server": "RabbitMQ/3.3.5",
     "is_eol": true,
     "eol_from": "2015-03-31",
-    "status": "EOL: True, EOL Date: 2015-03-31"
+    "status": "EOL: True, EOL Date: 2015-03-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2014-9650",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2016-9877",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2014-9649",
+        "exploitability_score": 8.6
+      }
+    ]
   },
   {
     "ip": "37.97.171.68",
@@ -327,7 +395,25 @@
     "original_server": "RabbitMQ/3.5.7",
     "is_eol": true,
     "eol_from": "2016-10-31",
-    "status": "EOL: True, EOL Date: 2016-10-31"
+    "status": "EOL: True, EOL Date: 2016-10-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2016-9877",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-4966",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2017-4967",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2017-4965",
+        "exploitability_score": 8.6
+      }
+    ]
   },
   {
     "ip": "37.97.220.88",
@@ -337,7 +423,25 @@
     "original_server": "RabbitMQ/3.5.7",
     "is_eol": true,
     "eol_from": "2016-10-31",
-    "status": "EOL: True, EOL Date: 2016-10-31"
+    "status": "EOL: True, EOL Date: 2016-10-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2016-9877",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-4966",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2017-4967",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2017-4965",
+        "exploitability_score": 8.6
+      }
+    ]
   },
   {
     "ip": "37.97.224.226",
@@ -347,7 +451,25 @@
     "original_server": "RabbitMQ/3.5.6",
     "is_eol": true,
     "eol_from": "2016-10-31",
-    "status": "EOL: True, EOL Date: 2016-10-31"
+    "status": "EOL: True, EOL Date: 2016-10-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2016-9877",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2017-4966",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2017-4967",
+        "exploitability_score": 8.6
+      },
+      {
+        "cve_id": "CVE-2017-4965",
+        "exploitability_score": 8.6
+      }
+    ]
   },
   {
     "ip": "136.144.141.219",
@@ -357,7 +479,8 @@
     "original_server": "RabbitMQ/3.6.15",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "136.144.170.237",
@@ -367,7 +490,8 @@
     "original_server": "RabbitMQ/3.6.10",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "136.144.172.49",
@@ -377,7 +501,8 @@
     "original_server": "RabbitMQ/3.6.10",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "136.144.204.93",
@@ -387,7 +512,8 @@
     "original_server": "RabbitMQ/3.6.15",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "136.144.207.139",
@@ -397,7 +523,8 @@
     "original_server": "RabbitMQ/3.6.10",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "141.138.138.147",
@@ -407,7 +534,8 @@
     "original_server": "RabbitMQ/3.6.10",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "149.210.131.25",
@@ -417,7 +545,8 @@
     "original_server": "RabbitMQ/3.6.9",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "149.210.139.49",
@@ -427,7 +556,8 @@
     "original_server": "RabbitMQ/3.6.1",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "149.210.156.8",
@@ -437,7 +567,8 @@
     "original_server": "RabbitMQ/3.6.15",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "149.210.169.153",
@@ -447,7 +578,8 @@
     "original_server": "RabbitMQ/3.6.15",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "149.210.200.30",
@@ -457,7 +589,8 @@
     "original_server": "RabbitMQ/3.6.10",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "37.97.159.22",
@@ -467,7 +600,8 @@
     "original_server": "RabbitMQ/3.6.10",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "37.97.160.38",
@@ -477,7 +611,8 @@
     "original_server": "RabbitMQ/3.6.15",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "37.97.188.202",
@@ -487,7 +622,8 @@
     "original_server": "RabbitMQ/3.6.14",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "37.97.227.246",
@@ -497,7 +633,8 @@
     "original_server": "RabbitMQ/3.6.6",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "37.97.250.163",
@@ -507,7 +644,8 @@
     "original_server": "RabbitMQ/3.6.10",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "80.69.93.222",
@@ -517,7 +655,8 @@
     "original_server": "RabbitMQ/3.6.14",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "86.105.247.53",
@@ -527,7 +666,8 @@
     "original_server": "RabbitMQ/3.6.14",
     "is_eol": true,
     "eol_from": "2018-05-31",
-    "status": "EOL: True, EOL Date: 2018-05-31"
+    "status": "EOL: True, EOL Date: 2018-05-31",
+    "cves": []
   },
   {
     "ip": "136.144.234.122",
@@ -537,7 +677,13 @@
     "original_server": "RabbitMQ/3.7.8",
     "is_eol": true,
     "eol_from": "2020-09-30",
-    "status": "EOL: True, EOL Date: 2020-09-30"
+    "status": "EOL: True, EOL Date: 2020-09-30",
+    "cves": [
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      }
+    ]
   },
   {
     "ip": "136.144.242.107",
@@ -547,7 +693,13 @@
     "original_server": "RabbitMQ/3.7.8",
     "is_eol": true,
     "eol_from": "2020-09-30",
-    "status": "EOL: True, EOL Date: 2020-09-30"
+    "status": "EOL: True, EOL Date: 2020-09-30",
+    "cves": [
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      }
+    ]
   },
   {
     "ip": "149.210.234.104",
@@ -557,7 +709,13 @@
     "original_server": "RabbitMQ/3.7.8",
     "is_eol": true,
     "eol_from": "2020-09-30",
-    "status": "EOL: True, EOL Date: 2020-09-30"
+    "status": "EOL: True, EOL Date: 2020-09-30",
+    "cves": [
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      }
+    ]
   },
   {
     "ip": "37.97.176.71",
@@ -567,7 +725,13 @@
     "original_server": "RabbitMQ/3.7.28",
     "is_eol": true,
     "eol_from": "2020-09-30",
-    "status": "EOL: True, EOL Date: 2020-09-30"
+    "status": "EOL: True, EOL Date: 2020-09-30",
+    "cves": [
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      }
+    ]
   },
   {
     "ip": "37.97.198.77",
@@ -577,7 +741,13 @@
     "original_server": "RabbitMQ/3.7.17",
     "is_eol": true,
     "eol_from": "2020-09-30",
-    "status": "EOL: True, EOL Date: 2020-09-30"
+    "status": "EOL: True, EOL Date: 2020-09-30",
+    "cves": [
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      }
+    ]
   },
   {
     "ip": "136.144.155.113",
@@ -587,7 +757,25 @@
     "original_server": "RabbitMQ/3.8.8",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "136.144.174.19",
@@ -597,7 +785,25 @@
     "original_server": "RabbitMQ/3.8.8",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "136.144.175.44",
@@ -607,7 +813,25 @@
     "original_server": "RabbitMQ/3.8.2",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "136.144.231.225",
@@ -617,7 +841,25 @@
     "original_server": "RabbitMQ/3.8.14",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "136.144.245.10",
@@ -627,7 +869,25 @@
     "original_server": "RabbitMQ/3.8.22",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "136.144.245.138",
@@ -637,7 +897,25 @@
     "original_server": "RabbitMQ/3.8.9",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "136.144.247.78",
@@ -647,7 +925,25 @@
     "original_server": "RabbitMQ/3.8.22",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "149.210.176.190",
@@ -657,7 +953,25 @@
     "original_server": "RabbitMQ/3.8.8",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "149.210.180.43",
@@ -667,7 +981,25 @@
     "original_server": "RabbitMQ/3.8.9",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "37.97.165.112",
@@ -677,7 +1009,25 @@
     "original_server": "RabbitMQ/3.8.14",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "37.97.202.187",
@@ -687,7 +1037,25 @@
     "original_server": "RabbitMQ/3.8.34",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "37.97.226.233",
@@ -697,7 +1065,25 @@
     "original_server": "RabbitMQ/3.8.2",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "84.247.8.131",
@@ -707,7 +1093,25 @@
     "original_server": "RabbitMQ/3.8.3",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "85.10.151.28",
@@ -717,7 +1121,25 @@
     "original_server": "RabbitMQ/3.8.3",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "95.170.74.54",
@@ -727,7 +1149,25 @@
     "original_server": "RabbitMQ/3.8.27",
     "is_eol": true,
     "eol_from": "2022-07-31",
-    "status": "EOL: True, EOL Date: 2022-07-31"
+    "status": "EOL: True, EOL Date: 2022-07-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-22117",
+        "exploitability_score": 3.9
+      },
+      {
+        "cve_id": "CVE-2019-11287",
+        "exploitability_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2019-11291",
+        "exploitability_score": 6.8
+      },
+      {
+        "cve_id": "CVE-2020-5419",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "149.210.200.205",
@@ -737,7 +1177,13 @@
     "original_server": "RabbitMQ/3.9.27",
     "is_eol": true,
     "eol_from": "2023-01-31",
-    "status": "EOL: True, EOL Date: 2023-01-31"
+    "status": "EOL: True, EOL Date: 2023-01-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-31008",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "85.10.144.207",
@@ -747,7 +1193,13 @@
     "original_server": "RabbitMQ/3.9.27",
     "is_eol": true,
     "eol_from": "2023-01-31",
-    "status": "EOL: True, EOL Date: 2023-01-31"
+    "status": "EOL: True, EOL Date: 2023-01-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-31008",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "85.10.153.62",
@@ -757,7 +1209,13 @@
     "original_server": "RabbitMQ/3.9.27",
     "is_eol": true,
     "eol_from": "2023-01-31",
-    "status": "EOL: True, EOL Date: 2023-01-31"
+    "status": "EOL: True, EOL Date: 2023-01-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-31008",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "93.119.4.180",
@@ -767,7 +1225,13 @@
     "original_server": "RabbitMQ/3.9.27",
     "is_eol": true,
     "eol_from": "2023-01-31",
-    "status": "EOL: True, EOL Date: 2023-01-31"
+    "status": "EOL: True, EOL Date: 2023-01-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-31008",
+        "exploitability_score": 3.9
+      }
+    ]
   },
   {
     "ip": "136.144.129.43",
@@ -777,7 +1241,8 @@
     "original_server": "RabbitMQ/4.0.5",
     "is_eol": true,
     "eol_from": "2025-04-15",
-    "status": "EOL: True, EOL Date: 2025-04-15"
+    "status": "EOL: True, EOL Date: 2025-04-15",
+    "cves": []
   },
   {
     "ip": "136.144.254.234",
@@ -787,7 +1252,8 @@
     "original_server": "RabbitMQ/4.0.5",
     "is_eol": true,
     "eol_from": "2025-04-15",
-    "status": "EOL: True, EOL Date: 2025-04-15"
+    "status": "EOL: True, EOL Date: 2025-04-15",
+    "cves": []
   },
   {
     "ip": "149.210.194.137",
@@ -797,7 +1263,8 @@
     "original_server": "RabbitMQ/4.0.7",
     "is_eol": true,
     "eol_from": "2025-04-15",
-    "status": "EOL: True, EOL Date: 2025-04-15"
+    "status": "EOL: True, EOL Date: 2025-04-15",
+    "cves": []
   },
   {
     "ip": "85.10.139.228",
@@ -807,7 +1274,8 @@
     "original_server": "RabbitMQ/4.0.5",
     "is_eol": true,
     "eol_from": "2025-04-15",
-    "status": "EOL: True, EOL Date: 2025-04-15"
+    "status": "EOL: True, EOL Date: 2025-04-15",
+    "cves": []
   },
   {
     "ip": "89.41.170.11",
@@ -817,7 +1285,8 @@
     "original_server": "RabbitMQ/4.0.5",
     "is_eol": true,
     "eol_from": "2025-04-15",
-    "status": "EOL: True, EOL Date: 2025-04-15"
+    "status": "EOL: True, EOL Date: 2025-04-15",
+    "cves": []
   },
   {
     "ip": "95.170.85.237",
@@ -827,7 +1296,8 @@
     "original_server": "RabbitMQ/4.0.9",
     "is_eol": true,
     "eol_from": "2025-04-15",
-    "status": "EOL: True, EOL Date: 2025-04-15"
+    "status": "EOL: True, EOL Date: 2025-04-15",
+    "cves": []
   },
   {
     "ip": "149.210.243.179",
@@ -837,7 +1307,8 @@
     "original_server": "RabbitMQ/4.1.0",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "85.10.139.44",
@@ -847,7 +1318,8 @@
     "original_server": "RabbitMQ/4.1.0",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "85.10.148.105",
@@ -857,7 +1329,8 @@
     "original_server": "RabbitMQ/4.1.0",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "85.10.154.218",
@@ -867,6 +1340,7 @@
     "original_server": "RabbitMQ/4.1.0",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   }
 ]
