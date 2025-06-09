@@ -1,0 +1,2 @@
+total ips: 50k
+pretty good security, many zgrab results, very little versions
