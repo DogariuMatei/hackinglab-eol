@@ -1,0 +1,142 @@
+[
+  {
+    "ip": "149.210.191.208",
+    "server": "Redis",
+    "version": "5.0",
+    "api_name": "redis",
+    "original_server": "Redis/5.0.3",
+    "is_eol": true,
+    "eol_from": "2022-04-27",
+    "status": "EOL: True, EOL Date: 2022-04-27"
+  },
+  {
+    "ip": "141.138.141.234",
+    "server": "Redis",
+    "version": "6.0",
+    "api_name": "redis",
+    "original_server": "Redis/6.0.16",
+    "is_eol": true,
+    "eol_from": "2022-05-31",
+    "status": "EOL: True, EOL Date: 2022-05-31"
+  },
+  {
+    "ip": "149.210.215.177",
+    "server": "Redis",
+    "version": "6.0",
+    "api_name": "redis",
+    "original_server": "Redis/6.0.16",
+    "is_eol": true,
+    "eol_from": "2022-05-31",
+    "status": "EOL: True, EOL Date: 2022-05-31"
+  },
+  {
+    "ip": "37.97.150.20",
+    "server": "Redis",
+    "version": "6.0",
+    "api_name": "redis",
+    "original_server": "Redis/6.0.10",
+    "is_eol": true,
+    "eol_from": "2022-05-31",
+    "status": "EOL: True, EOL Date: 2022-05-31"
+  },
+  {
+    "ip": "85.10.147.145",
+    "server": "Redis",
+    "version": "6.0",
+    "api_name": "redis",
+    "original_server": "Redis/6.0.16",
+    "is_eol": true,
+    "eol_from": "2022-05-31",
+    "status": "EOL: True, EOL Date: 2022-05-31"
+  },
+  {
+    "ip": "85.10.145.155",
+    "server": "Redis",
+    "version": "7.0",
+    "api_name": "redis",
+    "original_server": "Redis/7.0.11",
+    "is_eol": true,
+    "eol_from": "2024-07-29",
+    "status": "EOL: True, EOL Date: 2024-07-29"
+  },
+  {
+    "ip": "37.97.176.173",
+    "server": "Redis",
+    "version": "7.2",
+    "api_name": "redis",
+    "original_server": "Redis/7.2.4",
+    "is_eol": false,
+    "eol_from": "2026-02-28",
+    "status": "EOL: False, EOL Date: 2026-02-28"
+  },
+  {
+    "ip": "37.97.231.152",
+    "server": "Redis",
+    "version": "7.2",
+    "api_name": "redis",
+    "original_server": "Redis/7.2.2",
+    "is_eol": false,
+    "eol_from": "2026-02-28",
+    "status": "EOL: False, EOL Date: 2026-02-28"
+  },
+  {
+    "ip": "136.144.142.109",
+    "server": "Redis",
+    "version": "7.4",
+    "api_name": "redis",
+    "original_server": "Redis/7.4.0",
+    "is_eol": false,
+    "eol_from": "2026-11-30",
+    "status": "EOL: False, EOL Date: 2026-11-30"
+  },
+  {
+    "ip": "136.144.254.234",
+    "server": "Redis",
+    "version": "7.4",
+    "api_name": "redis",
+    "original_server": "Redis/7.4.0",
+    "is_eol": false,
+    "eol_from": "2026-11-30",
+    "status": "EOL: False, EOL Date: 2026-11-30"
+  },
+  {
+    "ip": "37.97.131.224",
+    "server": "Redis",
+    "version": "7.4",
+    "api_name": "redis",
+    "original_server": "Redis/7.4.2",
+    "is_eol": false,
+    "eol_from": "2026-11-30",
+    "status": "EOL: False, EOL Date: 2026-11-30"
+  },
+  {
+    "ip": "37.97.136.4",
+    "server": "Redis",
+    "version": "7.4",
+    "api_name": "redis",
+    "original_server": "Redis/7.4.1",
+    "is_eol": false,
+    "eol_from": "2026-11-30",
+    "status": "EOL: False, EOL Date: 2026-11-30"
+  },
+  {
+    "ip": "37.97.226.116",
+    "server": "Redis",
+    "version": "7.4",
+    "api_name": "redis",
+    "original_server": "Redis/7.4.2",
+    "is_eol": false,
+    "eol_from": "2026-11-30",
+    "status": "EOL: False, EOL Date: 2026-11-30"
+  },
+  {
+    "ip": "136.144.129.34",
+    "server": "Redis",
+    "version": "8.0",
+    "api_name": "redis",
+    "original_server": "Redis/8.0.1",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "ip": "195.60.212.98",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.62 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "195.60.215.80",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.10 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "62.165.74.122",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.62 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "62.165.76.169",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.52 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "62.165.80.176",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.59 (codeit) OpenSSL/3.0.13+quic",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "80.65.96.36",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.18 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "84.241.128.241",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.6.29",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "84.241.130.137",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.41 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "84.241.142.167",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "84.241.175.140",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.37 (centos) OpenSSL/1.1.1k",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "84.241.190.101",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.13 mod_fcgid/2.3.10-dev",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "195.60.214.18",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "195.60.214.21",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "84.241.174.41",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "84.241.184.175",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "84.241.187.19",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "84.241.191.155",
+    "server": "nginx",
+    "version": "1.20",
+    "api_name": "nginx",
+    "original_server": "nginx/1.20.1",
+    "is_eol": true,
+    "eol_from": "2022-05-24",
+    "status": "EOL: True, EOL Date: 2022-05-24"
+  },
+  {
+    "ip": "84.241.159.4",
+    "server": "nginx",
+    "version": "1.22",
+    "api_name": "nginx",
+    "original_server": "nginx/1.22.1",
+    "is_eol": true,
+    "eol_from": "2023-04-11",
+    "status": "EOL: True, EOL Date: 2023-04-11"
+  },
+  {
+    "ip": "84.241.187.190",
+    "server": "nginx",
+    "version": "1.26",
+    "api_name": "nginx",
+    "original_server": "nginx/1.26.1",
+    "is_eol": true,
+    "eol_from": "2025-04-23",
+    "status": "EOL: True, EOL Date: 2025-04-23"
+  },
+  {
+    "ip": "84.241.128.241",
+    "server": "OpenSSL",
+    "version": "1.0.1",
+    "api_name": "openssl",
+    "original_server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.6.29",
+    "is_eol": true,
+    "eol_from": "2016-12-31",
+    "status": "EOL: True, EOL Date: 2016-12-31"
+  },
+  {
+    "ip": "84.241.142.167",
+    "server": "OpenSSL",
+    "version": "1.0.1",
+    "api_name": "openssl",
+    "original_server": "Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12",
+    "is_eol": true,
+    "eol_from": "2016-12-31",
+    "status": "EOL: True, EOL Date: 2016-12-31"
+  },
+  {
+    "ip": "84.241.175.140",
+    "server": "OpenSSL",
+    "version": "1.1.1",
+    "api_name": "openssl",
+    "original_server": "Apache/2.4.37 (centos) OpenSSL/1.1.1k",
+    "is_eol": true,
+    "eol_from": "2023-09-11",
+    "status": "EOL: True, EOL Date: 2023-09-11"
+  },
+  {
+    "ip": "84.241.128.241",
+    "server": "PHP",
+    "version": "5.6",
+    "api_name": "php",
+    "original_server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.6.29",
+    "is_eol": true,
+    "eol_from": "2018-12-31",
+    "status": "EOL: True, EOL Date: 2018-12-31"
+  },
+  {
+    "ip": "84.241.142.167",
+    "server": "PHP",
+    "version": "5.6",
+    "api_name": "php",
+    "original_server": "Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12",
+    "is_eol": true,
+    "eol_from": "2018-12-31",
+    "status": "EOL: True, EOL Date: 2018-12-31"
+  },
+  {
+    "ip": "84.241.190.101",
+    "server": "PHP",
+    "version": "8.2",
+    "api_name": "php",
+    "original_server": "Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.13 mod_fcgid/2.3.10-dev",
+    "is_eol": false,
+    "eol_from": "2026-12-31",
+    "status": "EOL: False, EOL Date: 2026-12-31"
+  }
+]

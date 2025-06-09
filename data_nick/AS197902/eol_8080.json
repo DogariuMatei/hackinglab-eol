@@ -1,0 +1,102 @@
+[
+  {
+    "ip": "185.57.8.73",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.62 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.85.19.141",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.62 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.95.13.125",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.29 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.95.13.138",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.38 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.95.13.155",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.63 (Unix)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.95.13.218",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.62 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.95.14.177",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.25 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.95.14.230",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.25 (Debian)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/AS60781"
+  },
+  {
+    "ip": "185.95.14.61",
+    "server": "nginx",
+    "version": "1.14",
+    "api_name": "nginx",
+    "original_server": "nginx/1.14.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2019-04-23",
+    "status": "EOL: True, EOL Date: 2019-04-23"
+  },
+  {
+    "ip": "185.95.14.226",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  }
+]
