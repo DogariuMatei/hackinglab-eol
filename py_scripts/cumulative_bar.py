@@ -111,16 +111,16 @@ def plot_percentage_stacked_bar_chart(port_data):
     for i, port in enumerate(ports):
         if eol_devices_percent[i] > 0:
             plt.text(i, eol_devices_bottom[i] + eol_devices_percent[i] / 2,
-                     f"{eol_devices_percent[i]:.1f}%", ha="center", va="center", fontsize=9, color='white')
+                     f"{eol_devices_percent[i]:.1f}%", ha="center", va="center", fontsize=9, fontweight="bold", color='white')
         if (meaningful_versions_percent[i] - eol_devices_percent[i]) > 0:
             plt.text(i, meaningful_versions_bottom[i] + (meaningful_versions_percent[i] - eol_devices_percent[i]) / 2,
-                     f"{(meaningful_versions_percent[i] - eol_devices_percent[i]):.1f}%", ha="center", va="center", fontsize=9, color='white')
+                     f"{(meaningful_versions_percent[i] - eol_devices_percent[i]):.1f}%", ha="center", va="center", fontsize=9, fontweight="bold", color='white')
         if (responses_with_versions_percent[i] - meaningful_versions_percent[i]) > 0:
             plt.text(i, responses_with_versions_bottom[i] + (responses_with_versions_percent[i] - meaningful_versions_percent[i]) / 2,
-                     f"{(responses_with_versions_percent[i] - meaningful_versions_percent[i]):.1f}%", ha="center", va="center", fontsize=9, color='white')
+                     f"{(responses_with_versions_percent[i] - meaningful_versions_percent[i]):.1f}%", ha="center", va="center", fontsize=9, fontweight="bold", color='white')
         if others_percent[i] > 0:
             plt.text(i, others_percent[i] / 2,
-                     f"{others_percent[i]:.1f}%", ha="center", va="center", fontsize=9, color='black')
+                     f"{others_percent[i]:.1f}%", ha="center", va="center", fontsize=9, fontweight="bold", color='black')
 
     # Add labels and legend
     plt.xlabel("Ports")

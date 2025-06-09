@@ -134,6 +134,7 @@ def create_combined_pie_chart(base_path, folder_names):
             print(f"An unexpected error occurred: {e}")
             continue
 
+    print(f"Total IPs: {total_ips_count}") # Added print for total_ips_count
     # Calculate non-responding IPs
     responding_ips_count = len(unique_responding_ips)
     non_responding_ips_count = total_ips_count - responding_ips_count
@@ -141,27 +142,35 @@ def create_combined_pie_chart(base_path, folder_names):
     # Create a combined pie chart
     labels = ["Responding IPs", "Non-Responding IPs"]
     sizes = [responding_ips_count, non_responding_ips_count]
-    colors = ["#4a90e2", "#8856a7"]  # Updated blue color for better contrast
+    colors = ["#8c96c6", "#810f7c"]  # Updated blue color for better contrast
     explode = (0.1, 0)  # Slightly explode the first slice
 
-    plt.figure(figsize=(10, 10))
-    plt.pie(
+    fig, ax = plt.subplots(figsize=(10, 10))
+
+    # Add wedgeprops for borders and autopct with a custom function for text color
+    wedges, texts, autotexts = ax.pie(
         sizes,
         labels=labels,
         autopct="%1.1f%%",
         startangle=140,
         colors=colors,
         explode=explode,
-        textprops={'fontsize': 14, 'fontweight': 'bold'}
+        textprops={'fontsize': 14, 'fontweight': 'bold'},
+        wedgeprops={"edgecolor": "black", 'linewidth': 1} # Added border
     )
-    plt.title("IP Response Distribution of Hosting ASs", fontsize=18, fontweight="bold")
+
+    # Set the color of the percentage text for the second slice (dark purple) to white
+    if len(autotexts) > 1:
+        autotexts[1].set_color('white')
+        autotexts[0].set_color('white')
+
+    ax.set_title("IP Response Distribution of ISP ASs", fontsize=18, fontweight="bold")
     plt.tight_layout()
     plt.show()
 
-
 # Example usage
 base_path = r"D:\Uni\Y4Q4\HackingLab\hackinglab-eol\data_filip"
-folder_names = ["AS29063", "AS57043", "AS20857"]
+folder_names = ["AS41960", "AS15670"]
 #combine_server_eol_files(base_path, folder_names)
 create_combined_pie_chart(base_path, folder_names)
 # path = r"D:\Uni\Y4Q4\HackingLab\hackinglab-eol\data_filip\AS20857\IPAS20857.txt"
