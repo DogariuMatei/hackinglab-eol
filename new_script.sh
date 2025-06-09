@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # === CONFIGURATION ===
-SUFFIX="AS15916"
-PORTS=("80" "443") # List of ports 3 http, Redis, postgre, mariadb mysql, mongo  "443" "8080" "6379" "5432" "3306" "27017"
-RATE="128"
+SUFFIX="AS48037"
+PORTS=("80" "443" "8080" "21" "25" "456" "1433" "5671" "5672" "6379" "5432" "3306" "27017") # List of ports 3 http, Redis, postgre, mariadb mysql, mongo  "443" "8080" "6379" "5432" "3306" "27017"
+RATE="1024"
 
 # === PATH SETUP ===
 BASE_DIR="data_filip/${SUFFIX}"
