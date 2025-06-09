@@ -1,0 +1,262 @@
+[
+  {
+    "ip": "185.130.226.158",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.41 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "146.0.74.117",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "156.67.63.130",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "156.67.63.78",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "156.67.63.98",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "176.222.53.237",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "185.233.184.65",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "185.233.184.94",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "185.244.48.85",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "185.70.185.83",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "185.70.186.210",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "195.226.194.192",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "45.12.255.234",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "66.151.33.196",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "66.248.204.201",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "66.248.205.54",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "79.133.180.92",
+    "server": "nginx",
+    "version": "1.18",
+    "api_name": "nginx",
+    "original_server": "nginx/1.18.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2021-04-20",
+    "status": "EOL: True, EOL Date: 2021-04-20"
+  },
+  {
+    "ip": "185.130.225.91",
+    "server": "nginx",
+    "version": "1.24",
+    "api_name": "nginx",
+    "original_server": "nginx/1.24.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2024-04-23",
+    "status": "EOL: True, EOL Date: 2024-04-23"
+  },
+  {
+    "ip": "193.109.69.49",
+    "server": "nginx",
+    "version": "1.24",
+    "api_name": "nginx",
+    "original_server": "nginx/1.24.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2024-04-23",
+    "status": "EOL: True, EOL Date: 2024-04-23"
+  },
+  {
+    "ip": "43.245.225.75",
+    "server": "nginx",
+    "version": "1.24",
+    "api_name": "nginx",
+    "original_server": "nginx/1.24.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2024-04-23",
+    "status": "EOL: True, EOL Date: 2024-04-23"
+  },
+  {
+    "ip": "77.83.85.163",
+    "server": "nginx",
+    "version": "1.24",
+    "api_name": "nginx",
+    "original_server": "nginx/1.24.0 (Ubuntu)",
+    "is_eol": true,
+    "eol_from": "2024-04-23",
+    "status": "EOL: True, EOL Date: 2024-04-23"
+  },
+  {
+    "ip": "176.222.54.204",
+    "server": "nginx",
+    "version": "1.25",
+    "api_name": "nginx",
+    "original_server": "nginx/1.25.4",
+    "is_eol": true,
+    "eol_from": "2024-05-29",
+    "status": "EOL: True, EOL Date: 2024-05-29"
+  },
+  {
+    "ip": "79.133.180.124",
+    "server": "nginx",
+    "version": "1.25",
+    "api_name": "nginx",
+    "original_server": "nginx/1.25.5",
+    "is_eol": true,
+    "eol_from": "2024-05-29",
+    "status": "EOL: True, EOL Date: 2024-05-29"
+  },
+  {
+    "ip": "45.12.255.135",
+    "server": "nginx",
+    "version": "1.27",
+    "api_name": "nginx",
+    "original_server": "nginx/1.27.5",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "66.151.43.229",
+    "server": "nginx",
+    "version": "1.27",
+    "api_name": "nginx",
+    "original_server": "nginx/1.27.1",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "195.162.68.187",
+    "server": "nginx",
+    "version": "1.28",
+    "api_name": "nginx",
+    "original_server": "nginx/1.28.0",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  }
+]

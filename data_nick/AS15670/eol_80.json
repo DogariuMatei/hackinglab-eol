@@ -1,0 +1,22 @@
+[
+  {
+    "ip": "62.177.249.138",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.58 (Ubuntu)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  },
+  {
+    "ip": "62.177.153.23",
+    "server": "nginx",
+    "version": "1.20",
+    "api_name": "nginx",
+    "original_server": "nginx/1.20.1",
+    "is_eol": true,
+    "eol_from": "2022-05-24",
+    "status": "EOL: True, EOL Date: 2022-05-24"
+  }
+]

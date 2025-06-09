@@ -1,0 +1,12 @@
+[
+  {
+    "ip": "5.183.135.155",
+    "server": "Python",
+    "version": "3.11",
+    "api_name": "python",
+    "original_server": "Python/3.11 aiohttp/3.8.6",
+    "is_eol": false,
+    "eol_from": "2027-10-31",
+    "status": "EOL: False, EOL Date: 2027-10-31"
+  }
+]

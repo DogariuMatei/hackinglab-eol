@@ -1,0 +1,12 @@
+[
+  {
+    "ip": "193.109.72.76",
+    "server": "Apache",
+    "version": "2.4",
+    "api_name": "apache-http-server",
+    "original_server": "Apache/2.4.37 (Red Hat Enterprise Linux)",
+    "is_eol": false,
+    "eol_from": null,
+    "status": "EOL: False, EOL Date: N/A"
+  }
+]
