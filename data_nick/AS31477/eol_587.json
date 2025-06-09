@@ -7,7 +7,149 @@
     "original_server": "Exim/4.92.2",
     "is_eol": true,
     "eol_from": "2019-12-08",
-    "status": "EOL: True, EOL Date: 2019-12-08"
+    "status": "EOL: True, EOL Date: 2019-12-08",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-27216",
+        "exploitability_score": 3.4,
+        "impact_score": 9.2
+      },
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2020-28007",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28013",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28010",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28015",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28012",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28026",
+        "exploitability_score": 8.6,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28021",
+        "exploitability_score": 8.0,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28022",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2020-28008",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28011",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28018",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2020-12783",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2022-37451",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-28017",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-8015",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28025",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28014",
+        "exploitability_score": 3.9,
+        "impact_score": 7.8
+      },
+      {
+        "cve_id": "CVE-2020-28009",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28016",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28023",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28024",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2019-16928",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2021-38371",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28019",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2022-37452",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      }
+    ]
   },
   {
     "ip": "89.188.15.20",
@@ -17,7 +159,149 @@
     "original_server": "Exim/4.92.2",
     "is_eol": true,
     "eol_from": "2019-12-08",
-    "status": "EOL: True, EOL Date: 2019-12-08"
+    "status": "EOL: True, EOL Date: 2019-12-08",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-27216",
+        "exploitability_score": 3.4,
+        "impact_score": 9.2
+      },
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2020-28007",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28013",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28010",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28015",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28012",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28026",
+        "exploitability_score": 8.6,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28021",
+        "exploitability_score": 8.0,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28022",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2020-28008",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28011",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28018",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2020-12783",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2022-37451",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-28017",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-8015",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28025",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28014",
+        "exploitability_score": 3.9,
+        "impact_score": 7.8
+      },
+      {
+        "cve_id": "CVE-2020-28009",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28016",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28023",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28024",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2019-16928",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2021-38371",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28019",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2022-37452",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      }
+    ]
   },
   {
     "ip": "89.188.15.33",
@@ -27,7 +311,149 @@
     "original_server": "Exim/4.92.2",
     "is_eol": true,
     "eol_from": "2019-12-08",
-    "status": "EOL: True, EOL Date: 2019-12-08"
+    "status": "EOL: True, EOL Date: 2019-12-08",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-27216",
+        "exploitability_score": 3.4,
+        "impact_score": 9.2
+      },
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2020-28007",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28013",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28010",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28015",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28012",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28026",
+        "exploitability_score": 8.6,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28021",
+        "exploitability_score": 8.0,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28022",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2020-28008",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28011",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28018",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2020-12783",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2022-37451",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-28017",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-8015",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28025",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28014",
+        "exploitability_score": 3.9,
+        "impact_score": 7.8
+      },
+      {
+        "cve_id": "CVE-2020-28009",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28016",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28023",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28024",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2019-16928",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2021-38371",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28019",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2022-37452",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      }
+    ]
   },
   {
     "ip": "89.188.15.35",
@@ -37,7 +463,149 @@
     "original_server": "Exim/4.92.2",
     "is_eol": true,
     "eol_from": "2019-12-08",
-    "status": "EOL: True, EOL Date: 2019-12-08"
+    "status": "EOL: True, EOL Date: 2019-12-08",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-27216",
+        "exploitability_score": 3.4,
+        "impact_score": 9.2
+      },
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2020-28007",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28013",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28010",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28015",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28012",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28026",
+        "exploitability_score": 8.6,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28021",
+        "exploitability_score": 8.0,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28022",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2020-28008",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28011",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28018",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2020-12783",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2022-37451",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-28017",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-8015",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28025",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28014",
+        "exploitability_score": 3.9,
+        "impact_score": 7.8
+      },
+      {
+        "cve_id": "CVE-2020-28009",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28016",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28023",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28024",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2019-16928",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2021-38371",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28019",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2022-37452",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      }
+    ]
   },
   {
     "ip": "89.188.15.36",
@@ -47,7 +615,149 @@
     "original_server": "Exim/4.92.2",
     "is_eol": true,
     "eol_from": "2019-12-08",
-    "status": "EOL: True, EOL Date: 2019-12-08"
+    "status": "EOL: True, EOL Date: 2019-12-08",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-27216",
+        "exploitability_score": 3.4,
+        "impact_score": 9.2
+      },
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2020-28007",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28013",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28010",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28015",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28012",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28026",
+        "exploitability_score": 8.6,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28021",
+        "exploitability_score": 8.0,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28022",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2020-28008",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28011",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28018",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2020-12783",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2022-37451",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-28017",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-8015",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28025",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28014",
+        "exploitability_score": 3.9,
+        "impact_score": 7.8
+      },
+      {
+        "cve_id": "CVE-2020-28009",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28016",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28023",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28024",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2019-16928",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2021-38371",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28019",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2022-37452",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      }
+    ]
   },
   {
     "ip": "89.188.15.37",
@@ -57,7 +767,149 @@
     "original_server": "Exim/4.92.2",
     "is_eol": true,
     "eol_from": "2019-12-08",
-    "status": "EOL: True, EOL Date: 2019-12-08"
+    "status": "EOL: True, EOL Date: 2019-12-08",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-27216",
+        "exploitability_score": 3.4,
+        "impact_score": 9.2
+      },
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2020-28007",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28013",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28010",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28015",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28012",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28026",
+        "exploitability_score": 8.6,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28021",
+        "exploitability_score": 8.0,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28022",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2020-28008",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28011",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28018",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2020-12783",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2022-37451",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-28017",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-8015",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28025",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28014",
+        "exploitability_score": 3.9,
+        "impact_score": 7.8
+      },
+      {
+        "cve_id": "CVE-2020-28009",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28016",
+        "exploitability_score": 3.9,
+        "impact_score": 10.0
+      },
+      {
+        "cve_id": "CVE-2020-28023",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28024",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2019-16928",
+        "exploitability_score": 10.0,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2021-38371",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2020-28019",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2022-37452",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      }
+    ]
   },
   {
     "ip": "89.188.18.109",
@@ -67,7 +919,34 @@
     "original_server": "Exim/4.94.2",
     "is_eol": true,
     "eol_from": "2021-09-28",
-    "status": "EOL: True, EOL Date: 2021-09-28"
+    "status": "EOL: True, EOL Date: 2021-09-28",
+    "cves": [
+      {
+        "cve_id": "CVE-2021-38371",
+        "exploitability_score": 10.0,
+        "impact_score": 2.9
+      },
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2022-37451",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2022-37452",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      }
+    ]
   },
   {
     "ip": "89.188.8.220",
@@ -77,7 +956,29 @@
     "original_server": "Exim/4.95",
     "is_eol": true,
     "eol_from": "2022-06-25",
-    "status": "EOL: True, EOL Date: 2022-06-25"
+    "status": "EOL: True, EOL Date: 2022-06-25",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2022-37451",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2022-3620",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      }
+    ]
   },
   {
     "ip": "89.188.8.235",
@@ -87,7 +988,29 @@
     "original_server": "Exim/4.95",
     "is_eol": true,
     "eol_from": "2022-06-25",
-    "status": "EOL: True, EOL Date: 2022-06-25"
+    "status": "EOL: True, EOL Date: 2022-06-25",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2022-37451",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2022-3620",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      }
+    ]
   },
   {
     "ip": "89.188.8.194",
@@ -97,7 +1020,24 @@
     "original_server": "Exim/4.96",
     "is_eol": true,
     "eol_from": "2023-11-04",
-    "status": "EOL: True, EOL Date: 2023-11-04"
+    "status": "EOL: True, EOL Date: 2023-11-04",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2022-3620",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      }
+    ]
   },
   {
     "ip": "89.188.8.199",
@@ -107,7 +1047,24 @@
     "original_server": "Exim/4.96",
     "is_eol": true,
     "eol_from": "2023-11-04",
-    "status": "EOL: True, EOL Date: 2023-11-04"
+    "status": "EOL: True, EOL Date: 2023-11-04",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2022-3620",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      }
+    ]
   },
   {
     "ip": "89.188.8.206",
@@ -117,7 +1074,24 @@
     "original_server": "Exim/4.96",
     "is_eol": true,
     "eol_from": "2023-11-04",
-    "status": "EOL: True, EOL Date: 2023-11-04"
+    "status": "EOL: True, EOL Date: 2023-11-04",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2022-3620",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      }
+    ]
   },
   {
     "ip": "89.188.28.18",
@@ -127,7 +1101,8 @@
     "original_server": "Exim/4.98.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "89.188.9.165",
@@ -137,6 +1112,7 @@
     "original_server": "Exim/4.98.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   }
 ]

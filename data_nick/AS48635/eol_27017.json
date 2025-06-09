@@ -11,35 +11,33 @@
     "cves": [
       {
         "cve_id": "CVE-2024-6375",
-        "exploitability_score": 3.9
+        "exploitability_score": 3.9,
+        "impact_score": 2.5
       },
       {
         "cve_id": "CVE-2024-8305",
-        "exploitability_score": 2.8
+        "exploitability_score": 2.8,
+        "impact_score": 3.6
       },
       {
         "cve_id": "CVE-2014-8180",
-        "exploitability_score": 3.9
+        "exploitability_score": 3.9,
+        "impact_score": 2.9
       },
       {
         "cve_id": "CVE-2024-1351",
-        "exploitability_score": 3.9
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
       },
       {
         "cve_id": "CVE-2024-7553",
-        "exploitability_score": 1.8
-      },
-      {
-        "cve_id": "CVE-2023-1409",
-        "exploitability_score": 3.9
-      },
-      {
-        "cve_id": "CVE-2024-8207",
-        "exploitability_score": 0.8
+        "exploitability_score": 1.8,
+        "impact_score": 5.9
       },
       {
         "cve_id": "CVE-2024-6384",
-        "exploitability_score": 1.6
+        "exploitability_score": 1.6,
+        "impact_score": 3.6
       }
     ]
   },
@@ -55,7 +53,8 @@
     "cves": [
       {
         "cve_id": "CVE-2014-8180",
-        "exploitability_score": 3.9
+        "exploitability_score": 3.9,
+        "impact_score": 2.9
       }
     ]
   }

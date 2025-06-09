@@ -7,7 +7,24 @@
     "original_server": "Exim/4.96.2",
     "is_eol": true,
     "eol_from": "2023-11-04",
-    "status": "EOL: True, EOL Date: 2023-11-04"
+    "status": "EOL: True, EOL Date: 2023-11-04",
+    "cves": [
+      {
+        "cve_id": "CVE-2023-51766",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2022-3620",
+        "exploitability_score": 3.9,
+        "impact_score": 5.9
+      },
+      {
+        "cve_id": "CVE-2022-3559",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      }
+    ]
   },
   {
     "ip": "185.85.18.91",
@@ -17,6 +34,7 @@
     "original_server": "Exim/4.98.1",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/AS60781"
+    "status": "EOL: False, EOL Date: N/AS60781",
+    "cves": []
   }
 ]

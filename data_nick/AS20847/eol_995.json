@@ -7,7 +7,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.243",
@@ -17,7 +18,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.5.155",
@@ -27,7 +29,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.169.209",
@@ -37,7 +40,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.2.87",
@@ -47,7 +51,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.34",
@@ -57,7 +62,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "185.144.225.205",
@@ -67,7 +73,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.169.208",
@@ -77,7 +84,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.37",
@@ -87,7 +95,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.6.8",
@@ -97,7 +106,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.6.89",
@@ -107,7 +117,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.69",
@@ -117,7 +128,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.64",
@@ -127,7 +139,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.60.213.164",
@@ -137,7 +150,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.253",
@@ -147,7 +161,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.21",
@@ -157,7 +172,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.166",
@@ -167,7 +183,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.140",
@@ -177,7 +194,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.159",
@@ -187,7 +205,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.44",
@@ -197,7 +216,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.2.75",
@@ -207,7 +227,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.4.193",
@@ -217,7 +238,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.2.88",
@@ -227,7 +249,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.6.227",
@@ -237,7 +260,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.60.212.82",
@@ -247,7 +271,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.4.237",
@@ -257,7 +282,8 @@
     "original_server": "TLSv1.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.133",
@@ -267,7 +293,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.1.47",
@@ -277,7 +304,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.1.171",
@@ -287,7 +315,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.122",
@@ -297,7 +326,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.41",
@@ -307,7 +337,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.130",
@@ -317,7 +348,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.244",
@@ -327,7 +359,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.102",
@@ -337,7 +370,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.13",
@@ -347,7 +381,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "84.241.188.35",
@@ -357,7 +392,8 @@
     "original_server": "TLSv1.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.7.127",
@@ -367,7 +403,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.5.96",
@@ -377,7 +414,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.60.214.12",
@@ -387,7 +425,8 @@
     "original_server": "TLSv1.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.18",
@@ -397,7 +436,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.134",
@@ -407,7 +447,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.23",
@@ -417,7 +458,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.173",
@@ -427,7 +469,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.94",
@@ -437,7 +480,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.7.136",
@@ -447,7 +491,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.116",
@@ -457,7 +502,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "62.165.70.249",
@@ -467,7 +513,8 @@
     "original_server": "TLSv1.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.7.94",
@@ -477,7 +524,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.102",
@@ -487,7 +535,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.4.85",
@@ -497,7 +546,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.169.243",
@@ -507,7 +557,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.39",
@@ -517,7 +568,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.164",
@@ -527,7 +579,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.19",
@@ -537,7 +590,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.169.205",
@@ -547,7 +601,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.3.196",
@@ -557,7 +612,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.60.213.166",
@@ -567,7 +623,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.60.214.189",
@@ -577,7 +634,8 @@
     "original_server": "TLSv1.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.18",
@@ -587,7 +645,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.169.12",
@@ -597,7 +656,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.89",
@@ -607,7 +667,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.6.78",
@@ -617,7 +678,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.60.212.74",
@@ -627,7 +689,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.1.26",
@@ -637,7 +700,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.6.51",
@@ -647,7 +711,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.2.223",
@@ -657,7 +722,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.168",
@@ -667,7 +733,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.169.183",
@@ -677,7 +744,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "84.241.180.139",
@@ -687,7 +755,8 @@
     "original_server": "TLSv1.0",
     "is_eol": true,
     "eol_from": "2021-03-01",
-    "status": "EOL: True, EOL Date: 2021-03-01"
+    "status": "EOL: True, EOL Date: 2021-03-01",
+    "cves": []
   },
   {
     "ip": "62.165.74.107",
@@ -697,7 +766,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.5",
@@ -707,7 +777,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.0.235",
@@ -717,7 +788,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.190",
@@ -727,7 +799,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "62.165.74.106",
@@ -737,7 +810,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.8",
@@ -747,7 +821,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.122",
@@ -757,7 +832,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.5.245",
@@ -767,7 +843,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.5.125",
@@ -777,7 +854,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.92",
@@ -787,7 +865,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.60.213.101",
@@ -797,7 +876,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.201",
@@ -807,7 +887,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.6.32",
@@ -817,7 +898,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.3.38",
@@ -827,7 +909,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "185.144.225.94",
@@ -837,7 +920,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.35",
@@ -847,7 +931,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.53",
@@ -857,7 +942,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.2.49",
@@ -867,7 +953,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.119",
@@ -877,7 +964,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "84.241.157.51",
@@ -887,7 +975,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.4.202",
@@ -897,7 +986,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.141",
@@ -907,7 +997,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.166",
@@ -917,7 +1008,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "84.241.177.142",
@@ -927,7 +1019,8 @@
     "original_server": "TLSv1.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.7.134",
@@ -937,7 +1030,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.78",
@@ -947,7 +1041,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.6.139",
@@ -957,7 +1052,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "185.144.224.189",
@@ -967,7 +1063,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.83",
@@ -977,7 +1074,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.189",
@@ -987,7 +1085,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.234",
@@ -997,7 +1096,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "185.144.225.22",
@@ -1007,7 +1107,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.1.170",
@@ -1017,7 +1118,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "84.241.177.140",
@@ -1027,7 +1129,8 @@
     "original_server": "TLSv1.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.0.114",
@@ -1037,7 +1140,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.169.231",
@@ -1047,7 +1151,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.169.212",
@@ -1057,7 +1162,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.188",
@@ -1067,7 +1173,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.78",
@@ -1077,7 +1184,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "185.144.225.83",
@@ -1087,7 +1195,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.127",
@@ -1097,7 +1206,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.137",
@@ -1107,7 +1217,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.95",
@@ -1117,7 +1228,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.4.171",
@@ -1127,7 +1239,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.196",
@@ -1137,7 +1250,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.139",
@@ -1147,7 +1261,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.73.100",
@@ -1157,7 +1272,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.3.17",
@@ -1167,7 +1283,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.7.135",
@@ -1177,7 +1294,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.7.96",
@@ -1187,7 +1305,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.3.115",
@@ -1197,7 +1316,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "84.241.177.147",
@@ -1207,7 +1327,8 @@
     "original_server": "TLSv1.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.3.40",
@@ -1217,7 +1338,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.169.218",
@@ -1227,7 +1349,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.169.214",
@@ -1237,7 +1360,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "84.241.177.157",
@@ -1247,7 +1371,8 @@
     "original_server": "TLSv1.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.131",
@@ -1257,7 +1382,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.7.232",
@@ -1267,7 +1393,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.1.140",
@@ -1277,7 +1404,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "84.241.180.130",
@@ -1287,7 +1415,8 @@
     "original_server": "TLSv1.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "84.241.180.161",
@@ -1297,7 +1426,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.36",
@@ -1307,7 +1437,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.169.215",
@@ -1317,7 +1448,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.4.80",
@@ -1327,7 +1459,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.133",
@@ -1337,7 +1470,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.54",
@@ -1347,7 +1481,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.58",
@@ -1357,7 +1492,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.194",
@@ -1367,7 +1503,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.1.59",
@@ -1377,7 +1514,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.125",
@@ -1387,7 +1525,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.240",
@@ -1397,7 +1536,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.0.160",
@@ -1407,7 +1547,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.7.211",
@@ -1417,7 +1558,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.124",
@@ -1427,7 +1569,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.4.42",
@@ -1437,7 +1580,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.7.71",
@@ -1447,7 +1591,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.168",
@@ -1457,7 +1602,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.171",
@@ -1467,7 +1613,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.120",
@@ -1477,7 +1624,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "31.7.4.195",
@@ -1487,7 +1635,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "62.165.70.246",
@@ -1497,7 +1646,8 @@
     "original_server": "TLSv1.2",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.74.119",
@@ -1507,7 +1657,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.113",
@@ -1517,7 +1668,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.169.246",
@@ -1527,7 +1679,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "195.211.72.131",
@@ -1537,7 +1690,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "141.138.168.16",
@@ -1547,7 +1701,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "84.241.175.117",
@@ -1557,7 +1712,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "84.241.175.26",
@@ -1567,7 +1723,8 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   },
   {
     "ip": "62.165.77.143",
@@ -1577,6 +1734,7 @@
     "original_server": "TLSv1.3",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   }
 ]

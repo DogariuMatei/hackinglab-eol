@@ -7,6 +7,7 @@
     "original_server": "Apache/2.4.62 (Unix)",
     "is_eol": false,
     "eol_from": null,
-    "status": "EOL: False, EOL Date: N/A"
+    "status": "EOL: False, EOL Date: N/A",
+    "cves": []
   }
 ]

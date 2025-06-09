@@ -55,19 +55,8 @@
     "cves": [
       {
         "cve_id": "CVE-2021-22117",
-        "exploitability_score": 3.9
-      },
-      {
-        "cve_id": "CVE-2019-11287",
-        "exploitability_score": 10.0
-      },
-      {
-        "cve_id": "CVE-2019-11291",
-        "exploitability_score": 6.8
-      },
-      {
-        "cve_id": "CVE-2020-5419",
-        "exploitability_score": 3.9
+        "exploitability_score": 3.9,
+        "impact_score": 6.4
       }
     ]
   },
@@ -83,7 +72,8 @@
     "cves": [
       {
         "cve_id": "CVE-2022-31008",
-        "exploitability_score": 3.9
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
       }
     ]
   }

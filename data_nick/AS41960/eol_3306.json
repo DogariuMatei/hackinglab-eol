@@ -7,6 +7,73 @@
     "original_server": "Python/3.11 aiohttp/3.8.6",
     "is_eol": false,
     "eol_from": "2027-10-31",
-    "status": "EOL: False, EOL Date: 2027-10-31"
+    "status": "EOL: False, EOL Date: 2027-10-31",
+    "cves": [
+      {
+        "cve_id": "CVE-2022-26488",
+        "exploitability_score": 3.4,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2022-45061",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2020-10735",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2007-4559",
+        "exploitability_score": 8.6,
+        "impact_score": 6.4
+      },
+      {
+        "cve_id": "CVE-2023-24329",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2021-28861",
+        "exploitability_score": 2.8,
+        "impact_score": 4.0
+      },
+      {
+        "cve_id": "CVE-2023-27043",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      },
+      {
+        "cve_id": "CVE-2024-6232",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2024-7592",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2023-36632",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2023-41105",
+        "exploitability_score": 3.9,
+        "impact_score": 3.6
+      },
+      {
+        "cve_id": "CVE-2024-9287",
+        "exploitability_score": 1.8,
+        "impact_score": 5.9
+      },
+      {
+        "cve_id": "CVE-2023-40217",
+        "exploitability_score": 3.9,
+        "impact_score": 1.4
+      }
+    ]
   }
 ]

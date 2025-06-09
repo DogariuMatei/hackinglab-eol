@@ -8,12 +8,7 @@
     "is_eol": true,
     "eol_from": "2024-07-10",
     "status": "EOL: True, EOL Date: 2024-07-10",
-    "cves": [
-      {
-        "cve_id": "CVE-2023-51766",
-        "exploitability_score": 3.9
-      }
-    ]
+    "cves": []
   },
   {
     "ip": "188.66.17.25",
