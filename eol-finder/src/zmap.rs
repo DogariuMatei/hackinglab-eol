@@ -1,17 +1,14 @@
-use default_net::get_default_gateway;
 use log::info;
-use nix::sys::prctl::set_pdeathsig;
-use nix::sys::signal::Signal;
 use regex::Regex;
 use std::{
     error::Error,
     fs,
     io::{BufRead, BufReader},
-    os::unix::process::CommandExt,
     path::Path,
-    process::{Child, Command, Stdio},
-    sync::{Arc, Mutex},
+    process::{Command, Stdio},
 };
+
+use crate::CHILD_PROCESSES;
 
 pub struct Zmap {
     cache_dir: String,
@@ -23,7 +20,10 @@ impl Zmap {
     pub fn new() -> Self {
         Zmap {
             cache_dir: "./cache/zmap".to_string(),
-            gateway_mac: get_default_gateway().unwrap().mac_addr.to_string(),
+            gateway_mac: default_net::get_default_gateway()
+                .unwrap()
+                .mac_addr
+                .to_string(),
             rate: 128,
         }
     }
@@ -34,8 +34,6 @@ impl Zmap {
         port: u16,
     ) -> Result<String, Box<dyn Error + Send + Sync>> {
         info!("Scanning with zmap on port {}", port);
-
-        let child_process: Arc<Mutex<Option<Child>>> = Arc::new(Mutex::new(None));
 
         let output_file = Path::new(file)
             .file_name()
@@ -64,31 +62,18 @@ impl Zmap {
             &self.gateway_mac,
             "-o",
             &output_file_with_dir,
+            // "-N",
+            // "10", // TEMP, remove
         ]);
         cmd.stderr(Stdio::piped());
 
-        unsafe {
-            cmd.pre_exec(|| {
-                set_pdeathsig(Signal::SIGTERM).expect("Failed to set pdeathsig");
-                Ok(())
-            });
-        }
-
-        let zmap_cmd = cmd.spawn()?;
+        let mut child = cmd.spawn()?;
+        let stderr = child.stderr.take().expect("Failed to take stderr");
 
         {
-            let mut lock = child_process.lock().unwrap();
-            *lock = Some(zmap_cmd);
+            let mut children = CHILD_PROCESSES.lock().unwrap();
+            children.push(child);
         }
-
-        let stderr = child_process
-            .lock()
-            .unwrap()
-            .as_mut()
-            .expect("Child process missing")
-            .stderr
-            .take()
-            .expect("Failed to take stderr");
 
         let reader = BufReader::new(stderr);
         let hitrate_re = Regex::new(r"hitrate:\s*([\d.]+%)")?;
@@ -99,24 +84,24 @@ impl Zmap {
 
         for line in reader.lines() {
             let line = line?;
-            println!("{}", line);
+            info!("[zmap] {}", line);
 
             if let Some(caps) = hitrate_re.captures(&line) {
                 hitrate = caps[1].to_string();
-                if let Some(caps) = send_re.captures(&line) {
-                    send_reqs = caps[1].to_string();
-                }
+            }
+            if let Some(caps) = send_re.captures(&line) {
+                send_reqs = caps[1].to_string();
             }
         }
 
-        if let Some(mut child) = child_process.lock().unwrap().take() {
+        if let Some(mut child) = CHILD_PROCESSES.lock().unwrap().pop() {
             let _ = child.wait();
         }
 
         let info_file = output_file.replace(".txt", ".info");
         fs::write(
-            &format!("{}/{}", self.cache_dir, info_file),
-            &format!("{} out of {}", hitrate, send_reqs),
+            format!("{}/{}", self.cache_dir, info_file),
+            format!("{} out of {}", hitrate, send_reqs),
         )?;
 
         Ok(output_file_with_dir)

@@ -57,4 +57,4 @@ def process_file(file_name, output_name):
         json.dump(proftpd_info, outfile, indent=2)
 
 
-process_file('AAS20857/zgrab_results/AS20857_21_results_27may.json', 'AAS20857/clean_version_ip/clean_versions_with_ip_AS20857_21.json')
+# process_file('AAS20857/zgrab_results/AS20857_21_results_27may.json', 'AAS20857/clean_version_ip/clean_versions_with_ip_AS20857_21.json')

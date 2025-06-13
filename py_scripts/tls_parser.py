@@ -91,4 +91,4 @@ def process_file(file_name, output_name):
         json.dump(tls_info, outfile, indent=2)
 
 
-process_file('AAS20857/zgrab_results/AS20857_465_results_27may.json', 'AAS20857/clean_version_ip/tashjanesi.json')
+# process_file('AAS20857/zgrab_results/AS20857_465_results_27may.json', 'AAS20857/clean_version_ip/tashjanesi.json')

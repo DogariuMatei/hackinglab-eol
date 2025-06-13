@@ -58,6 +58,6 @@ def process_file(file_name, output_name):
 
 
 # Process each file individually
-process_file('AAS20857/zgrab_results/AS20857_25_results_27may.json', 'AAS20857/clean_version_ip/clean_versions_with_ip_AS20857_25.json')
-process_file('AAS20857/zgrab_results/AS20857_587_results_27may.json', 'AAS20857/clean_version_ip/clean_versions_with_ip_AS20857_587.json')
-process_file('AAS20857/zgrab_results/AS20857_465_results_27may.json', 'AAS20857/clean_version_ip/clean_versions_with_ip_AS20857_465.json')
+# process_file('AAS20857/zgrab_results/AS20857_25_results_27may.json', 'AAS20857/clean_version_ip/clean_versions_with_ip_AS20857_25.json')
+# process_file('AAS20857/zgrab_results/AS20857_587_results_27may.json', 'AAS20857/clean_version_ip/clean_versions_with_ip_AS20857_587.json')
+# process_file('AAS20857/zgrab_results/AS20857_465_results_27may.json', 'AAS20857/clean_version_ip/clean_versions_with_ip_AS20857_465.json')

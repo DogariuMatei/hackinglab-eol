@@ -1,18 +1,15 @@
-use nix::sys::prctl::set_pdeathsig;
-use nix::sys::signal::Signal;
 use std::{
     collections::HashMap,
     error::Error,
     fs::{self, File},
     io::{BufRead, BufReader, Write},
-    os::unix::process::CommandExt,
     path::Path,
-    process::{Child, Command, Stdio},
-    sync::{Arc, Mutex},
+    process::{Command, Stdio},
 };
 
 use log::info;
-use serde_json::Value;
+
+use crate::CHILD_PROCESSES;
 
 pub trait VersionScanner {
     fn scan_versions(
@@ -24,13 +21,24 @@ pub trait VersionScanner {
 pub struct ZGrab2 {
     cache_dir: String,
     command: Vec<String>,
+    senders: u16,
+    port: u16,
 }
 
 impl ZGrab2 {
-    pub fn with_command<S: Into<String>>(command: Vec<S>) -> Self {
+    pub fn with_command<I, S>(command: I, port: u16) -> Self
+    where
+        I: IntoIterator<Item = S>,
+        S: AsRef<str>,
+    {
         ZGrab2 {
             cache_dir: "./cache/version-scanner/zgrab2".to_string(),
-            command: command.into_iter().map(Into::into).collect(),
+            command: command
+                .into_iter()
+                .map(|s| s.as_ref().to_string())
+                .collect(),
+            senders: 20,
+            port: port,
         }
     }
 }
@@ -47,35 +55,49 @@ impl VersionScanner for ZGrab2 {
             .ok_or("Invalid input file name")?
             .to_string_lossy();
         let output_path = format!("{}/{}.txt", self.cache_dir, file_stem);
-        let summary_path = format!("{}/{}.data", self.cache_dir, file_stem);
 
-        if Path::new(&summary_path).exists() {
+        if Path::new(&output_path).exists() {
             info!("Using cached zgrab2 output");
-            return load_summary_from_file(&summary_path);
+            return Ok(HashMap::new());
         }
 
-        let child_process: Arc<Mutex<Option<Child>>> = Arc::new(Mutex::new(None));
-
         let mut args = self.command.clone();
+        args.insert(0, "--senders".to_string());
+        args.insert(1, self.senders.to_string());
         args.push("--output-file".to_string());
         args.push(output_path.to_string());
+        args.push("--port".to_string());
+        args.push(self.port.to_string());
+        args.push("-t".to_string());
+        args.push("5".to_string());
 
         let mut cmd = Command::new("zgrab2");
         cmd.args(args);
         cmd.stdin(Stdio::piped());
-        cmd.stdout(Stdio::piped());
-
-        unsafe {
-            cmd.pre_exec(|| {
-                set_pdeathsig(Signal::SIGTERM).expect("Failed to set pdeathsig");
-                Ok(())
-            });
-        }
+        cmd.stderr(Stdio::piped());
 
         let mut child = cmd.spawn()?;
+        let stderr = child.stderr.take().expect("Failed to take stderr");
+        {
+            let mut processes = CHILD_PROCESSES.lock().unwrap();
+            processes.push(child);
+        }
+
+        std::thread::spawn(move || {
+            let reader = BufReader::new(stderr);
+            for line in reader.lines() {
+                let line = line.unwrap();
+                info!("[zgrab2] {}", line);
+            }
+        });
 
         {
-            let stdin = child.stdin.as_mut().ok_or("Failed to open stdin")?;
+            let mut processes = CHILD_PROCESSES.lock().unwrap();
+            let mut stdin = processes
+                .last_mut()
+                .and_then(|c| c.stdin.take())
+                .ok_or("Failed to access child stdin")?;
+
             let input_file = File::open(ips_file)?;
             let reader = BufReader::new(input_file);
             for line in reader.lines() {
@@ -83,75 +105,12 @@ impl VersionScanner for ZGrab2 {
             }
         }
 
-        {
-            let mut lock = child_process.lock().unwrap();
-            *lock = Some(child);
-        }
-        if let Some(mut child) = child_process.lock().unwrap().take() {
+        if let Some(mut child) = CHILD_PROCESSES.lock().unwrap().pop() {
             let _ = child.wait()?;
         }
 
-        let result = parse_versions_from_file(&output_path)?;
-        save_summary_to_file(&summary_path, &result)?;
-        Ok(result)
+        Ok(HashMap::new())
     }
-}
-
-fn parse_versions_from_file(
-    path: &str,
-) -> Result<HashMap<String, u32>, Box<dyn Error + Send + Sync>> {
-    let file = File::open(path)?;
-    let reader = BufReader::new(file);
-    let mut version_map = HashMap::new();
-
-    for line in reader.lines() {
-        let line = line?;
-        let json: Value = match serde_json::from_str(&line) {
-            Ok(val) => val,
-            Err(_) => continue,
-        };
-
-        let server_opt = json
-            .pointer("/data/http/result/response/headers/server")
-            .and_then(|v| v.get(0))
-            .and_then(Value::as_str);
-
-        if let Some(server) = server_opt {
-            *version_map.entry(server.to_string()).or_insert(0) += 1;
-        }
-    }
-
-    Ok(version_map)
-}
-
-fn save_summary_to_file(
-    path: &str,
-    summary: &HashMap<String, u32>,
-) -> Result<(), Box<dyn Error + Send + Sync>> {
-    let mut file = File::create(path)?;
-    for (server, count) in summary {
-        writeln!(file, "{}: {}", server, count)?;
-    }
-    Ok(())
-}
-
-fn load_summary_from_file(
-    path: &str,
-) -> Result<HashMap<String, u32>, Box<dyn Error + Send + Sync>> {
-    let file = File::open(path)?;
-    let reader = BufReader::new(file);
-    let mut map = HashMap::new();
-
-    for line in reader.lines() {
-        let line = line?;
-        if let Some((server, count)) = line.split_once(": ") {
-            if let Ok(count) = count.trim().parse::<u32>() {
-                map.insert(server.to_string(), count);
-            }
-        }
-    }
-
-    Ok(map)
 }
 
 pub struct HttpVersionScanner {
@@ -161,13 +120,9 @@ pub struct HttpVersionScanner {
 impl HttpVersionScanner {
     pub fn new(port: u16, use_https: bool) -> Self {
         let mut command = vec![
-            "--senders".to_string(),
-            "5".to_string(), // amount of senders (defaults to 1000)
             "http".to_string(),
             "--user-agent".to_string(),
             "Mozilla/5.0".to_string(),
-            "--port".to_string(),
-            port.to_string(),
         ];
 
         if use_https {
@@ -175,7 +130,7 @@ impl HttpVersionScanner {
         }
 
         HttpVersionScanner {
-            inner_scanner: ZGrab2::with_command(command),
+            inner_scanner: ZGrab2::with_command(command, port),
         }
     }
 }

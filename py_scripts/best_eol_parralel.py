@@ -4,6 +4,7 @@ import requests
 from urllib.parse import quote
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
+import os
 
 def check_and_replace_known_labels(server_name):
     mapping = {
@@ -119,7 +120,8 @@ def process_json_file(file_path):
         future_to_task = {}  # for postprocessing
         # Submit all jobs first
         for task in tasks:
-            f = executor.submit(check_eol_api, task["api_name"], task["version"])
+            f = executor.submit(check_eol_from_cached_data, task["api_name"], task["version"])
+            # f = executor.submit(check_eol_api, task["api_name"], task["version"])
             future_to_task[f] = task
 
         # Use tqdm for progress bar
@@ -156,22 +158,71 @@ def process_json_file(file_path):
 
     return successful_results, failed_results
 
-def main():
-    # Input file path
-    file_path = 'AAS20857/clean_version_ip/mssql_versions_AS20857_3june.json'
+EOL_CACHE_DIR = "./cache/eol"
 
-    successful_results, failed_results = process_json_file(file_path)
+def get_cache_path(product):
+    return os.path.join(EOL_CACHE_DIR, f"{product}.json")
 
-    success_file = "AAS20857/EOL_results/clean_results_3june_mssql_success.json"
+# TODO: use https://endoflife.date/api/{product}.json"
+
+product_cache = {}
+
+def load_product_data(product):
+    """Load product data from cache or fetch if not cached."""
+    product = product.lower()
+    if product in product_cache:
+        return product_cache[product]
+
+    os.makedirs(EOL_CACHE_DIR, exist_ok=True)
+    cache_path = get_cache_path(product)
+
+    if os.path.exists(cache_path):
+        with open(cache_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            print(data)
+    else:
+        url = f"https://endoflife.date/api/v1/products/{quote(product)}"
+        # url = f"https://endoflife.date/api/{quote(product)}.json"
+        try:
+            response = requests.get(url, timeout=5)
+            response.raise_for_status()
+            data = response.json()
+            with open(cache_path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2)
+        except Exception as e:
+            return []
+
+    product_cache[product] = data
+    return data
+
+def check_eol_from_cached_data(server_name, version):
+    if load_product_data(server_name) == []:
+        return { "sucess": False }
+    product_data = (load_product_data(server_name)).get("result", {}).get("releases", [])
+    for release in product_data:
+        if release.get("name") == version:
+            return {
+                "isEol": release.get("isEol"),
+                "eolFrom": release.get("eolFrom"),
+                "success": True,
+                "url": f"https://endoflife.date/{quote(server_name)}"
+            }
+
+    return {
+        "success": False,
+        "error": f"Version {version} not found in product data",
+        "url": f"https://endoflife.date/api/{quote(server_name)}.json"
+    }
+
+
+def process_file(file_name, success_file, failure_file):
+    successful_results, failed_results = process_json_file(file_name)
+
     with open(success_file, 'w', encoding='utf-8') as f:
         json.dump(successful_results, f, indent=2)
 
-    failure_file = "AAS20857/EOL_results/clean_results_3june_mssql_failure.json"
     with open(failure_file, 'w', encoding='utf-8') as f:
         json.dump(failed_results, f, indent=2)
 
     print(f"\nSuccessful EOL checks: {len(successful_results)}")
     print(f"Failed EOL checks: {len(failed_results)} unique server name/version pairs")
-
-if __name__ == "__main__":
-    main()

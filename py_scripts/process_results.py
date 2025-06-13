@@ -2,11 +2,7 @@ import json
 import os
 
 
-def process_json_file():
-    # Hardcoded file names
-    input_file = "http_8080_results.json"
-    output_file = "clean_versions_with_ip_domains_8080.json"
-
+def process_json_file(input_file, output_file):
     # Check if file exists
     if not os.path.exists(input_file):
         print(f"Error: File {input_file} not found")
@@ -60,7 +56,3 @@ def process_json_file():
     print(f"Successfully processed {len(result)} entries with server headers out of {processed} total entries")
     print(f"Encountered {error_count} errors during processing")
     print(f"Output saved to {output_file}")
-
-
-if __name__ == "__main__":
-    process_json_file()

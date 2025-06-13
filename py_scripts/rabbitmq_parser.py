@@ -44,10 +44,3 @@ def process_file(file_name, output_name):
 
     with open(output_name, 'w', encoding='utf-8') as outfile:
         json.dump(rabbitmq_info, outfile, indent=2)
-
-
-# Example usage
-process_file(
-    './cache/version-scanner/zgrab2/AS60781-5671.txt',
-    'out.json'
-)
