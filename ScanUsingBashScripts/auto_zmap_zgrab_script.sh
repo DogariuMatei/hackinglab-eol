@@ -2,8 +2,11 @@
 
 set -e
 
+# Step 1: Copy-Paste IPv4 range of your AS (https://hackertarget.com/as-ip-lookup/)
+# Step 2: Change variable AS_NUMBER to the AS you're scanning now
+# DO NOT CHANGE PORTS_FILE
 AS_NUMBER="31477"
-IP_LIST="31477-ips.txt"
+IP_LIST="${AS_NUMBER}-ips.txt"
 PORTS_FILE="auto-ports.txt"
 
 # Get the real user (not root when using sudo)

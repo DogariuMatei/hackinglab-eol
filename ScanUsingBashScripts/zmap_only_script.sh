@@ -1,10 +1,12 @@
 #!/bin/bash
 
-# Simple zmap-only scanner
 set -e
 
+# Step 1: Copy-Paste IPv4 range of your AS (https://hackertarget.com/as-ip-lookup/) (if its NOT already created - from the auto script)
+# Step 2: Change variable AS_NUMBER to the AS you're scanning now
+# DO NOT CHANGE PORTS_FILE
 AS_NUMBER="20847"
-IP_LIST="20847-ips.txt"
+IP_LIST="${AS_NUMBER}-ips.txt"
 PORTS_FILE="manual-ports.txt"
 
 get_ports() {
