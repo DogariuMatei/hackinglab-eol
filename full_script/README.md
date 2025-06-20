@@ -21,6 +21,7 @@ Scan custom IP list:
 ```bash
 python src/main.py --custom-ips ips.txt
 ```
+We also provide a script that can generate a list of IPs within the Netherlands for some of the most popular domains. Refer to [other/domain_scanning](other/domain_scanning/README.md).
 
 ### Command Line Options
 
