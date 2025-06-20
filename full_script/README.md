@@ -153,7 +153,15 @@ Build and run using Docker:
 docker build -t network-scanner .
 
 # Run scan
-docker run -v $(pwd)/results:/app/results network-scanner --asn AS15169
+docker run \
+    -v "$(pwd)/results:/scanner/results" \
+    -v "$(pwd)/cache:/scanner/cache" \
+    -v "$(pwd)/logs:/scanner/logs" \
+    --net=host \
+    --cap-add=NET_RAW \
+    --cap-add=NET_ADMIN \
+    network-scanner \
+    --asn AS60781
 ```
 
 ## Troubleshooting
