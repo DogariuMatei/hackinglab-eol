@@ -7,6 +7,15 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
 def check_and_replace_known_labels(server_name):
+    """
+    Maps known server names to standardized API-compatible names.
+
+    Args:
+        server_name (str): The original server name string.
+
+    Returns:
+        str: A mapped or original server name.
+    """
     mapping = {
         "Apache": "apache-http-server",
         "PHP": "php",
@@ -34,6 +43,15 @@ keep_full_version = [
 ]
 
 def extract_valid_components(server_string):
+    """
+    Extracts valid software components and versions from a server string.
+
+    Args:
+        server_string (str): The raw server string.
+
+    Returns:
+        list[tuple[str, str]]: A list of (component name, version) tuples.
+    """
     valid_components = []
     components = re.findall(r'(\w+(?:-\w+)?)\/(\d+(?:\.\d+)+(?:-\w+)?)', server_string)
     for name, version in components:
@@ -66,6 +84,15 @@ def extract_valid_components(server_string):
     return valid_components
 
 def process_json_file(file_path):
+    """
+    Processes a JSON file to extract server components and fetch their EOL status.
+
+    Args:
+        file_path (str): Path to the input JSON file.
+
+    Returns:
+        tuple: (successful_results, failed_results) containing processed server data.
+    """
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -137,12 +164,29 @@ def process_json_file(file_path):
 EOL_CACHE_DIR = "./cache/eol"
 
 def get_cache_path(product):
+    """
+    Returns the cache file path for a given product.
+
+    Args:
+        product (str): Product name.
+
+    Returns:
+        str: Full path to the cache file.
+    """
     return os.path.join(EOL_CACHE_DIR, f"{product}.json")
 
 product_cache = {}
 
 def load_product_data(product):
-    """Load product data from cache or fetch if not cached."""
+    """
+    Loads product EOL data from cache or fetches it from the API.
+
+    Args:
+        product (str): Product name.
+
+    Returns:
+        dict or list: Parsed JSON data from the API or cache.
+    """
     product = product.lower()
     if product in product_cache:
         return product_cache[product]
@@ -155,7 +199,6 @@ def load_product_data(product):
             data = json.load(f)
     else:
         url = f"https://endoflife.date/api/v1/products/{quote(product)}"
-        # url = f"https://endoflife.date/api/{quote(product)}.json"
         try:
             response = requests.get(url, timeout=5)
             response.raise_for_status()
@@ -169,6 +212,16 @@ def load_product_data(product):
     return data
 
 def check_eol_from_cached_data(server_name, version):
+    """
+    Checks if a given server version is EOL using cached or fetched data.
+
+    Args:
+        server_name (str): Name of the software.
+        version (str): Version to check.
+
+    Returns:
+        dict: Result of the EOL check with keys like 'isEol', 'eolFrom', 'success', 'error'.
+    """
     if load_product_data(server_name) == []:
         return { "sucess": False }
     product_data = (load_product_data(server_name)).get("result", {}).get("releases", [])
@@ -188,11 +241,19 @@ def check_eol_from_cached_data(server_name, version):
     }
 
 def process_file(file_name, success_file, failure_file):
+    """
+    Processes an input file and writes successful and failed results to separate JSON files.
+
+    Args:
+        file_name (str): Input JSON file with IPs and server strings.
+        success_file (str): Output file path for successful results.
+        failure_file (str): Output file path for failed lookups.
+    """
     successful_results, failed_results = process_json_file(file_name)
     print(success_file)
     print(successful_results)
     with open(success_file, 'w', encoding='utf-8') as f:
-            json.dump(successful_results, f, indent=4)
+        json.dump(successful_results, f, indent=4)
 
     with open(failure_file, 'w', encoding='utf-8') as f:
         json.dump(failed_results, f, indent=4)

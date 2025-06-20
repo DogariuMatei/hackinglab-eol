@@ -21,6 +21,12 @@ logger = logging.getLogger(__name__)
 
 
 def build_scanner_map() -> Dict[int, List[VersionScanner]]:
+    """
+    Builds a map of port numbers to their corresponding version scanners.
+
+    Returns:
+        Dict[int, List[VersionScanner]]: A dictionary mapping ports to scanner lists.
+    """
     scanner_map: Dict[int, List[VersionScanner]] = {}
 
     scanner_map[80] = [ZGrab2(["http", "--user-agent", "Mozilla/5.0"], 80, http_version_extractor)]
@@ -74,8 +80,15 @@ def setup_logging():
     file_handler.setFormatter(file_formatter)
     root.addHandler(file_handler)
 
+
 def setup_cleanup():
+    """
+    Registers signal handlers for cleaning up child processes on termination.
+    """
     def cleanup_child_processes():
+        """
+        Terminates all registered child processes gracefully.
+        """
         logger.info("Cleaning up child processes...")
         with CHILD_PROCESSES_LOCK:
             for proc in CHILD_PROCESSES:
@@ -90,6 +103,13 @@ def setup_cleanup():
                     proc.kill()
 
     def signal_handler(sig, frame):
+        """
+        Signal handler to perform cleanup and exit.
+
+        Args:
+            sig (int): Signal number.
+            frame: Stack frame (ignored).
+        """
         logger.info(f"Received signal {sig}, exiting...")
         cleanup_child_processes()
         sys.exit(0)
@@ -97,6 +117,7 @@ def setup_cleanup():
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
     signal.signal(signal.SIGHUP, signal_handler)
+
 
 def parse_args():
     """
@@ -127,6 +148,8 @@ def parse_args():
 async def main():
     """
     Main entry point of the script.
+    Sets up logging and signal handlers, parses arguments, scans ports,
+    checks EOL status, looks for CVEs, and verifies TLS versions.
     """
     setup_logging()
     setup_cleanup()

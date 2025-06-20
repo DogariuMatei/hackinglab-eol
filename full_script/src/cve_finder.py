@@ -7,6 +7,7 @@ import requests
 import re
 
 class CVE:
+    """Represents a CVE with its ID, exploitability score, and impact score."""
     def __init__(self, cve_id: str, exploitability_score: str, impact_score: str):
         self.cve_id = cve_id
         self.exploitability_score = exploitability_score
@@ -16,35 +17,42 @@ class CVE:
         return f"CVE(cve_id={self.cve_id}, exploitability_score={self.exploitability_score}, impact_score={self.impact_score})"
 
 class Version:
+    """Represents a parsed software version as a list of parts."""
     def __init__(self, parts):
         self.parts = parts
 
     @staticmethod
     def parse(version_str: str):
+        """Parses a version string into a Version object with numeric parts."""
         return Version([int(p) if p.isdigit() else 0 for p in version_str.split('.')])
 
 def version_to_int(version: Version) -> int:
+    """Converts a Version object into a comparable integer."""
     parts = version.parts[:3] + [0] * (3 - len(version.parts))
     return parts[0] * 1000000 + parts[1] * 1000 + parts[2]
 
 def extract_product(cpe: str) -> str | None:
+    """Extracts the product name from a CPE string."""
     parts = cpe.split(":")
     if len(parts) > 4:
         return parts[4].lower()
     return None
 
 def extract_version(cpe: str) -> str | None:
+    """Extracts the version from a CPE string if it's not a wildcard."""
     parts = cpe.split(":")
     if len(parts) > 5 and parts[5] != "*":
         return parts[5]
     return None
 
 class CVEIndex:
+    """An index that maps product names to interval trees of version ranges and CVEs."""
     def __init__(self):
         self.data = defaultdict(IntervalTree)
 
     @staticmethod
     def build_from_json_file(path: Path):
+        """Builds a CVEIndex from a given JSON file path."""
         with open(path, "r", encoding="utf-8") as f:
             parsed = json.load(f)
 
@@ -102,6 +110,7 @@ class CVEIndex:
         return index
 
     def find_cves(self, product: str, version: str):
+        """Finds CVEs for a given product name and version string."""
         product = product.lower()
         version_num = version_to_int(Version.parse(version))
         tree = self.data.get(product)
@@ -117,6 +126,7 @@ class CVEIndex:
         return results
 
 def fetch_and_cache_json(dir, vendor: str, product: str) -> Path:
+    """Fetches CVE data from the API or returns the cached version if it exists."""
     url = f"https://cve.circl.lu/api/search/{vendor}/{product}"
     cache_file = dir / f"{vendor}_{product}.json"
 
@@ -135,10 +145,12 @@ def fetch_and_cache_json(dir, vendor: str, product: str) -> Path:
     return cache_file
 
 class CVEIndexManager:
+    """Manages multiple CVEIndex instances for different products."""
     def __init__(self):
         self.indexes = {}
 
     def load_all_from_folder(self, folder: Path):
+        """Loads all CVEIndex files from the given folder."""
         for file in folder.glob("*.json"):
             product_name = "_".join(file.stem.split("_")[1:])
             print(f"Loading {file.name} for product: {product_name}")
@@ -149,6 +161,7 @@ class CVEIndexManager:
                 print(f"Failed to load {file}: {e}")
 
     def download_missing_indexes(self, folder: Path):
+        """Downloads CVE indexes for a list of vendor/product pairs if missing."""
         vendor_products = [
             ("php", "php"),
             ("openssl", "openssl"),
@@ -169,6 +182,7 @@ class CVEIndexManager:
             fetch_and_cache_json(folder, vendor, product)
 
     def find_cves(self, product: str, version: str) -> list:
+        """Finds CVEs for a product and version using the appropriate index."""
         product = product.lower()
         index = self.indexes.get(product)
         if not index:
@@ -177,6 +191,7 @@ class CVEIndexManager:
         return index.find_cves(product, version)
 
 def get_product_mapping(server_name):
+    """Maps server names to standardized product names used in CVE data."""
     mapping = {
         "apache": "http_server",
         "rabbitmq": "rabbitmq_server",
@@ -196,11 +211,13 @@ def get_product_mapping(server_name):
     return mapping.get(server_name, server_name)
 
 def parse_versions(original_server):
+    """Parses version strings from an original server header."""
     version_pattern = re.findall(r'([A-Za-z\-]+)/([\d\.]+)', original_server)
     versions = {name: version for name, version in version_pattern}
     return versions
 
 def get_product_version(entry, server_name):
+    """Gets the version string for a given server entry and product name."""
     original_server = entry.get("original_server", "").lower()
 
     version_pattern = re.findall(r'([A-Za-z\-]+)/([\d\.]+)', original_server)
@@ -214,6 +231,7 @@ manager.download_missing_indexes(folder)
 manager.load_all_from_folder(folder)
 
 def process_file(input, output):
+    """Processes an input JSON file with server entries and writes CVE-enriched output."""
     input_path = Path(input)
     with open(input_path, "r") as f:
         entries = json.load(f)

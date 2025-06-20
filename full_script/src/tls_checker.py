@@ -1,6 +1,16 @@
 import json
 
 def extract_tls_version(protocol_data, protocol_name):
+    """
+    Extracts the TLS version and server name from the protocol data.
+
+    Args:
+        protocol_data (dict): The data for a specific protocol.
+        protocol_name (str): The name of the protocol (e.g., 'http', 'smtp').
+
+    Returns:
+        tuple: (tls_version (str or None), server_name (str))
+    """
     if protocol_data.get('status') == 'success':
         if protocol_name == 'http':
             response = protocol_data.get('result', {}).get('response', {})
@@ -24,19 +34,44 @@ def extract_tls_version(protocol_data, protocol_name):
     return None, None
 
 def get_clean_tls_version(version):
+    """
+    Cleans and standardizes the TLS version string.
+
+    Args:
+        version (str): The raw TLS version string.
+
+    Returns:
+        str: The cleaned version string (e.g., '1.2').
+    """
     if not version:
         return version
     cleaned = version.replace("v", " ").replace("V", " ").strip().split(" ")
     return cleaned[1]
 
-
 def is_eol_tls(version):
+    """
+    Determines whether the given TLS version is end-of-life (EOL).
+
+    Args:
+        version (str): The TLS version string.
+
+    Returns:
+        tuple: (is_eol (bool), eol_date (str or None))
+    """
     if version in ['1.0', '1.1']:
         return True, '2021-03-01'
     return False, None
 
-
 def extract_tls_info(json_data):
+    """
+    Extracts TLS-related information from a list of JSON entries.
+
+    Args:
+        json_data (list): List of dictionaries parsed from JSON lines.
+
+    Returns:
+        list: List of dictionaries containing processed TLS information.
+    """
     results = []
 
     for entry in json_data:
@@ -68,8 +103,14 @@ def extract_tls_info(json_data):
 
     return results
 
-
 def process_file(file_name, output_name):
+    """
+    Processes a newline-delimited JSON file and writes extracted TLS info to an output file.
+
+    Args:
+        file_name (str): Path to the input JSON file.
+        output_name (str): Path to the output JSON file to write results.
+    """
     with open(file_name, 'r', encoding='utf-8') as file:
         json_data = []
 
