@@ -1,4 +1,6 @@
 # Network Security Scanner
+This tool scans IP ranges (either by ASN or custom list), identifies open services on common ports, and extracts version info to check for end-of-life software and related CVEs.
+
 ## Installation
 ### Python Dependencies
 

@@ -20,7 +20,6 @@ import tls_checker
 logger = logging.getLogger(__name__)
 
 
-
 def build_scanner_map() -> Dict[int, List[VersionScanner]]:
     scanner_map: Dict[int, List[VersionScanner]] = {}
 
@@ -28,7 +27,7 @@ def build_scanner_map() -> Dict[int, List[VersionScanner]]:
     scanner_map[8080] = [ZGrab2(["http", "--user-agent", "Mozilla/5.0"], 8080, http_version_extractor)]
     scanner_map[443] = [ZGrab2(["http", "--user-agent", "Mozilla/5.0", "--use-https"], 443, http_version_extractor)]
 
-    # scanner_map[25] = [ZGrab2.with_config(["smtp"], 25, smtp_version_extractor)]
+    scanner_map[25] = [ZGrab2(["smtp"], 25, smtp_version_extractor)]
     scanner_map[587] = [ZGrab2(["smtp"], 587, smtp_version_extractor)]
     scanner_map[465] = [ZGrab2(["smtp", "--smtps"], 465, smtp_version_extractor)]
 
