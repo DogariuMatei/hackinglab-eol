@@ -76,7 +76,10 @@ class HackerTargetAPI(AsnLookup):
             response.raise_for_status()
 
         lines = response.text.strip().splitlines()
-        ip_prefixes = lines[1:]  # Skip the header
+        ip_prefixes = [line for line in lines[1:] if ':' not in line]
+        if ip_prefixes[0] and ip_prefixes[0].startswith("No"):
+            logger.error(f"Unable to find ip prefixes for {asn}, 'https://api.hackertarget.com/aslookup/?q={asn}'")
+            exit(-1)
         logger.info(f"Found {len(ip_prefixes)} IP prefixes")
         return ip_prefixes
 

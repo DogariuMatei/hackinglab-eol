@@ -98,7 +98,6 @@ def setup_cleanup():
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
     signal.signal(signal.SIGHUP, signal_handler)
-    signal.signal(signal.SIGTSTP, signal_handler)
 
 def parse_args():
     """
