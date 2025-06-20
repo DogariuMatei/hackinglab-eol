@@ -1,0 +1,112 @@
+[
+  {
+    "ip": "185.12.12.7",
+    "server": "MSSQL",
+    "version": "11.0",
+    "api_name": "mssqlserver",
+    "original_server": "MSSQL/11.0.2100",
+    "is_eol": true,
+    "eol_from": "2014-01-14",
+    "status": "EOL: True, EOL Date: 2014-01-14",
+    "cves": []
+  },
+  {
+    "ip": "46.249.41.45",
+    "server": "MSSQL",
+    "version": "11.0",
+    "api_name": "mssqlserver",
+    "original_server": "MSSQL/11.0.2100",
+    "is_eol": true,
+    "eol_from": "2014-01-14",
+    "status": "EOL: True, EOL Date: 2014-01-14",
+    "cves": []
+  },
+  {
+    "ip": "5.255.74.33",
+    "server": "MSSQL",
+    "version": "11.0",
+    "api_name": "mssqlserver",
+    "original_server": "MSSQL/11.0.2100",
+    "is_eol": true,
+    "eol_from": "2014-01-14",
+    "status": "EOL: True, EOL Date: 2014-01-14",
+    "cves": []
+  },
+  {
+    "ip": "93.158.213.221",
+    "server": "MSSQL",
+    "version": "13.0",
+    "api_name": "mssqlserver",
+    "original_server": "MSSQL/13.0.6300",
+    "is_eol": true,
+    "eol_from": "2018-01-09",
+    "status": "EOL: True, EOL Date: 2018-01-09",
+    "cves": []
+  },
+  {
+    "ip": "185.172.56.4",
+    "server": "MSSQL",
+    "version": "15.0",
+    "api_name": "mssqlserver",
+    "original_server": "MSSQL/15.0.2000",
+    "is_eol": false,
+    "eol_from": "2030-01-08",
+    "status": "EOL: False, EOL Date: 2030-01-08",
+    "cves": []
+  },
+  {
+    "ip": "185.254.172.114",
+    "server": "MSSQL",
+    "version": "15.0",
+    "api_name": "mssqlserver",
+    "original_server": "MSSQL/15.0.2000",
+    "is_eol": false,
+    "eol_from": "2030-01-08",
+    "status": "EOL: False, EOL Date: 2030-01-08",
+    "cves": []
+  },
+  {
+    "ip": "93.158.218.249",
+    "server": "MSSQL",
+    "version": "15.0",
+    "api_name": "mssqlserver",
+    "original_server": "MSSQL/15.0.2125",
+    "is_eol": false,
+    "eol_from": "2030-01-08",
+    "status": "EOL: False, EOL Date: 2030-01-08",
+    "cves": []
+  },
+  {
+    "ip": "5.255.78.4",
+    "server": "MSSQL",
+    "version": "16.0",
+    "api_name": "mssqlserver",
+    "original_server": "MSSQL/16.0.1135",
+    "is_eol": false,
+    "eol_from": "2033-01-11",
+    "status": "EOL: False, EOL Date: 2033-01-11",
+    "cves": []
+  },
+  {
+    "ip": "91.219.62.186",
+    "server": "MSSQL",
+    "version": "16.0",
+    "api_name": "mssqlserver",
+    "original_server": "MSSQL/16.0.4185",
+    "is_eol": false,
+    "eol_from": "2033-01-11",
+    "status": "EOL: False, EOL Date: 2033-01-11",
+    "cves": []
+  },
+  {
+    "ip": "93.158.211.112",
+    "server": "MSSQL",
+    "version": "16.0",
+    "api_name": "mssqlserver",
+    "original_server": "MSSQL/16.0.4175",
+    "is_eol": false,
+    "eol_from": "2033-01-11",
+    "status": "EOL: False, EOL Date: 2033-01-11",
+    "cves": []
+  }
+]
